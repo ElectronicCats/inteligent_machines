@@ -8,7 +8,7 @@ export const ThemeProvider = (props) => {
     setTheme('dark' === theme ? 'light' : 'dark');
   };
   useEffect(() => {
-    const getTheme = localStorage.getItem('wolftrax_theme');
+    const getTheme = localStorage.getItem('site_theme');
     getTheme === 'dark' ? setTheme('dark') : setTheme('light');
   }, []);
 
