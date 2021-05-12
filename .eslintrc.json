@@ -11,7 +11,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": ["plugin:react/recommended", "plugin:prettier/recommended", "prettier/react"],
+  "extends": ["react-app","plugin:react/recommended", "plugin:prettier/recommended"],
   "plugins": ["react-hooks", "prettier"],
   // add your custom rules here
   "rules": {
