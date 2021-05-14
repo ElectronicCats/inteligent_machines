@@ -1,31 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import { GlobalStyle } from './styles/GlobalStyles';
-import {
-  AppContainer,
-  AppHeader,
-  AppLogo,
-  AppTitle,
-  AppIntro,
-} from './components/UI';
-import { useTheme } from './contexts/theme-context';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
-  const { theme } = useTheme();
+import { routes } from './pages/routes';
+
+export const App = (props) => {
   return (
-    <>
-      <GlobalStyle theme={theme} />
-      <AppContainer>
-        <AppHeader>
-          <AppLogo src={logo} alt='logo' />
-          <AppTitle>Welcome to React</AppTitle>
-        </AppHeader>
-        <AppIntro>
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </AppIntro>
-      </AppContainer>
-    </>
+    <Router>
+      <Switch>
+        {routes.map((route) => (
+          <Route
+            key={route.path}
+            path={route.path}
+            exact
+            component={route.component}
+          />
+        ))}
+      </Switch>
+    </Router>
   );
-}
-
-export default App;
+};
