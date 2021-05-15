@@ -1,5 +1,10 @@
 import React from 'react';
+import { AppLayout } from '../../components/AppLayout';
 
 export const Courses = () => {
-  return <h2>Cursos</h2>;
+  return (
+    <AppLayout>
+      <h2>Cursos</h2>
+    </AppLayout>
+  );
 };

@@ -8,16 +8,11 @@ export const MainLayout = styled.main`
   background-color: var(--main-bg-color);
   color: var(--main-fnt-color);
   display: grid;
-  grid-template-columns: var(--side-bar-width) 1fr;
-  grid-template-areas: 'nav main';
-
-  @media (max-width: 950px) {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr var(--side-bar-width);
-    grid-template-areas:
-      'main'
-      'nav';
-  }
+  grid-template-columns: 1fr;
+  grid-template-rows: var(--nav-bar-width) 1fr;
+  grid-template-areas:
+    'nav'
+    'main';
 `;
 
 export const WrapperContent = styled.section`

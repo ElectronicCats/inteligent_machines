@@ -15,7 +15,8 @@ export const GlobalStyle = createGlobalStyle`
         ? 'var(--highligth-green)'
         : 'var(--highligth-darkgreen)'};
     --shadow: 0 4px 8px var(--highligth);
-    --default-font: 'Josefin Sans'
+    --default-font: 'Josefin Sans';
+    --nav-bar-width: 75px;
   }
   html {
         box-sizing: border-box;
