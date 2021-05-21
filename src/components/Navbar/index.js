@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 
 import { routes } from '../../pages/routes';
 import {
@@ -6,9 +6,18 @@ import {
   HeaderLogo,
   HeaderLinks,
   StyledLink,
+  IconLink,
 } from '../UI/Header';
+import { IconFaceBgColor, IconYoutubeBgColor } from '../UI/Icons';
+
+import { useOnClickOutside } from '../../hooks/useOutSideClick';
+import { Menu } from '../Menu';
+import { Burger } from '../Burger';
 
 export const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  const node = useRef();
+  useOnClickOutside(node, () => setOpen(false));
   return (
     <HeaderContainer>
       <HeaderLogo
@@ -24,12 +33,16 @@ export const Navbar = () => {
               {route.name}
             </StyledLink>
           ))}
-        <a href='link' target='_black'>
-          FaceBoock
-        </a>
-        <a href='link' target='_black'>
-          Youtube
-        </a>
+        <IconLink href='link' target='_black'>
+          <IconFaceBgColor />
+        </IconLink>
+        <IconLink href='link' target='_black'>
+          <IconYoutubeBgColor />
+        </IconLink>
+        <div ref={node}>
+          <Burger open={open} setOpen={setOpen} />
+          <Menu open={open} setOpen={setOpen} />
+        </div>
       </HeaderLinks>
     </HeaderContainer>
   );

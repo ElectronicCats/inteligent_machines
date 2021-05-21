@@ -17,6 +17,8 @@ export const GlobalStyle = createGlobalStyle`
     --shadow: 0 4px 8px var(--highligth);
     --default-font: 'Josefin Sans';
     --nav-bar-width: 110px;
+    --mobile: '576px';
+    --font-size: '15px';
   }
   html {
         box-sizing: border-box;
