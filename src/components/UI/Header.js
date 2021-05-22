@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { device } from '../../styles/queries';
 
 export const HeaderContainer = styled.nav`
@@ -37,7 +37,10 @@ export const HeaderLinks = styled.div`
   }
 `;
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled(NavLink)`
+  &.${({ activeClassName }) => activeClassName} {
+    background: red;
+  }
   padding: 10px 5px;
   color: var(--main-fnt-color);
   font-weight: bold;

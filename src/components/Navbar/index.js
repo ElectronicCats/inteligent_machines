@@ -29,7 +29,13 @@ export const Navbar = () => {
           // ignoring the default path & home
           .filter((route) => route.path !== '*' && route.path !== '/')
           .map((route) => (
-            <StyledLink data-link='nav-link' key={route.path} to={route.path}>
+            <StyledLink
+              data-link='nav-link'
+              key={route.path}
+              to={route.path}
+              exact
+              activeClassName='current'
+            >
               {route.name}
             </StyledLink>
           ))}
