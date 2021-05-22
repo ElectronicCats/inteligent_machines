@@ -1,4 +1,6 @@
 import React, { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
+
 import logo from '../../assets/logo_desk.png';
 import { routes } from '../../pages/routes';
 import {
@@ -20,7 +22,9 @@ export const Navbar = () => {
   useOnClickOutside(node, () => setOpen(false));
   return (
     <HeaderContainer>
-      <HeaderLogo src={logo} alt='Logo' />
+      <Link to='/'>
+        <HeaderLogo src={logo} alt='Logo' />
+      </Link>
       <HeaderLinks>
         {routes
           // ignoring the default path & home
