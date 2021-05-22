@@ -9,10 +9,12 @@ export const MainLayout = styled.main`
   color: var(--main-fnt-color);
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: var(--nav-bar-width) 1fr;
+  grid-template-rows: var(--nav-bar-width) 1fr 100px 157px;
   grid-template-areas:
     'nav'
-    'main';
+    'main'
+    'footnav'
+    'footer';
 `;
 
 export const WrapperContent = styled.section`
@@ -21,4 +23,10 @@ export const WrapperContent = styled.section`
 `;
 export const WrapperNav = styled.header`
   grid-area: nav;
+`;
+export const WrapperFoot = styled.footer`
+  grid-area: footer;
+`;
+export const WrapperFootNav = styled.section`
+  grid-area: footnav;
 `;
