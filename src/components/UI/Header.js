@@ -25,6 +25,8 @@ export const HeaderLinks = styled.div`
   @media ${device.laptop} {
     display: flex;
     height: 100%;
+    align-items: center;
+    justify-content: center;
   }
   grid-area: links;
   align-self: center;
