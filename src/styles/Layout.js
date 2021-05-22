@@ -5,6 +5,7 @@ export const MainLayout = styled.main`
   margin: 0;
   padding: 0;
   height: 100vh;
+  width: 100vw;
   background-color: var(--main-bg-color);
   color: var(--main-fnt-color);
   display: grid;
@@ -19,7 +20,9 @@ export const MainLayout = styled.main`
 
 export const WrapperContent = styled.section`
   grid-area: main;
-  padding: 5px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 `;
 export const WrapperNav = styled.header`
   grid-area: nav;
