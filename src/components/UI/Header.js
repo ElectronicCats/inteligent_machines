@@ -23,24 +23,34 @@ export const HeaderLinks = styled.div`
     display: none;
   }
   @media ${device.laptop} {
-    display: block;
+    display: flex;
+    height: 100%;
   }
   grid-area: links;
   align-self: center;
   justify-self: center;
 
-  a[data-link='nav-link']:nth-child(2n) {
-    border-left-style: solid;
-    border-left-color: var(--highligth);
-    border-right-style: solid;
-    border-right-color: var(--highligth);
+  a[data-link='nav-link']::after {
+    content: ' ';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    font-size: 6rem;
+    background-color: var(--highligth);
   }
 `;
 
 export const StyledLink = styled(NavLink)`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   &.${({ activeClassName }) => activeClassName} {
-    background: red;
+    background: linear-gradient(var(--gradient));
+    color: var(--main-bg-color);
   }
+  height: 100%;
   padding: 10px 5px;
   color: var(--main-fnt-color);
   font-weight: bold;

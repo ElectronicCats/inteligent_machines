@@ -8,16 +8,17 @@ export const GlobalStyle = createGlobalStyle`
       props.theme === 'dark' ? '#ffffff' : '#1e1f20'};
     --color-darkgray: #181818;
     --color-gray: #252627;
-    --highligth-green: #67e813;
-    --highligth-darkgreen: #1dbf5e;
+    --highligth-darkblue: rgba(1,124,186,1);
+    --highligth-blue: rgba(0,224,171,1);
     --highligth: ${(props) =>
       props.theme === 'dark'
-        ? 'var(--highligth-green)'
-        : 'var(--highligth-darkgreen)'};
+        ? 'var(--highligth-blue)'
+        : 'var(--highligth-darkblue)'};
     --shadow: 0 4px 8px var(--highligth);
     --default-font: 'Josefin Sans';
     --nav-bar-width: 110px;
     --font-size: '15px';
+    --gradient: 90deg, rgba(1,124,186,1) 0%, rgba(0,224,171,1) 100%;
   }
   html {
         box-sizing: border-box;
