@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-
+import logo from '../../assets/logo_desk.png';
 import { routes } from '../../pages/routes';
 import {
   HeaderContainer,
@@ -20,10 +20,7 @@ export const Navbar = () => {
   useOnClickOutside(node, () => setOpen(false));
   return (
     <HeaderContainer>
-      <HeaderLogo
-        src='https://avatars.githubusercontent.com/u/5388080?v=4'
-        alt='Logo'
-      />
+      <HeaderLogo src={logo} alt='Logo' />
       <HeaderLinks>
         {routes
           // ignoring the default path & home
