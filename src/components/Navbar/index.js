@@ -39,11 +39,11 @@ export const Navbar = () => {
         <IconLink href='link' target='_black'>
           <IconYoutubeBgColor />
         </IconLink>
-        <div ref={node}>
-          <Burger open={open} setOpen={setOpen} />
-          <Menu open={open} setOpen={setOpen} />
-        </div>
       </HeaderLinks>
+      <div ref={node}>
+        <Burger open={open} setOpen={setOpen} />
+        <Menu open={open} setOpen={setOpen} />
+      </div>
     </HeaderContainer>
   );
 };

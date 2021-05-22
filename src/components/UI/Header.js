@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { device } from '../../styles/queries';
 
 export const HeaderContainer = styled.nav`
   display: grid;
@@ -18,6 +19,12 @@ export const HeaderLogo = styled.img`
 `;
 
 export const HeaderLinks = styled.div`
+  @media ${device.mobileS} {
+    display: none;
+  }
+  @media ${device.laptop} {
+    display: block;
+  }
   grid-area: links;
   align-self: center;
   justify-self: center;
@@ -48,6 +55,15 @@ export const IconLink = styled.a`
 `;
 
 export const StyledBurger = styled.button`
+  @media ${device.mobileS} {
+    display: auto;
+  }
+  @media ${device.laptop} {
+    display: none;
+  }
+  position: absolute;
+  top: 5%;
+  right: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -85,4 +101,20 @@ export const StyledBurger = styled.button`
       transform: ${({ open }) => (open ? 'rotate(-45deg)' : 'rotate(0)')};
     }
   }
+`;
+
+export const StyledMenu = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--main-bg-color);
+  height: 200px;
+  width: 100vw;
+  text-align: left;
+  border: solid red 1px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  transform: ${({ open }) => (open ? 'translateY(100%)' : 'translateY(0)')};
+  transition: transform 0.3s ease-in-out;
 `;

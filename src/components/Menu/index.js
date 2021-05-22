@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledMenu } from '../UI';
+import { StyledMenu } from '../UI/Header';
 import { bool } from 'prop-types';
 
 export const Menu = ({ open }) => {
