@@ -8,6 +8,8 @@ export const GlobalStyle = createGlobalStyle`
       props.theme === 'dark' ? '#ffffff' : '#1e1f20'};
     --color-darkgray: #181818;
     --color-gray: #252627;
+    --color-pink: #da247e;
+    --color-orange: #fbac3d;
     --highligth-darkblue: rgba(1,124,186,1);
     --highligth-blue: rgba(0,224,171,1);
     --highligth: ${(props) =>
