@@ -3,11 +3,18 @@ import { CardGrids } from '../UI/Cards';
 import { ContalinerList } from '../UI/Content';
 
 import { string, arrayOf } from 'prop-types';
+import styled from 'styled-components';
 
+export const Title = styled.h3`
+  font-size: 4em;
+  margin: auto;
+  font-weight: bold;
+  color: ${({ color }) => (color ? color : 'var(--highligth)')};
+`;
 export const ExplainCard = ({ title, color, bullets, descriptions }) => {
   return (
     <CardGrids>
-      <h3>{title}</h3>
+      <Title color={color}>{title}</Title>
       <div>
         {descriptions}
         <ContalinerList color={color}>
