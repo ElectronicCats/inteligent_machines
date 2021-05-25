@@ -19,3 +19,17 @@ export const ContainerTitle = styled.h2`
   font-size: 2rem;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 8%);
 `;
+
+export const ContalinerList = styled.ul`
+  width: 100%;
+  list-style-position: outside;
+  & > li {
+    padding: 0 5px;
+    margin: 10px 0;
+    &::marker {
+      content: '•';
+      font-size: 1.5em;
+      color: ${({ color }) => (color ? color : 'var(--highligth)')};
+    }
+  }
+`;
