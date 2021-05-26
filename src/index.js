@@ -4,6 +4,8 @@ import { ThemeProvider } from './contexts/theme-context';
 import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 
+console.log(process.env.REACT_APP_VERSION);
+
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
