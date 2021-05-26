@@ -1,3 +1,6 @@
+![CI](https://github.com/wolftrax5/inteligent_machines/workflows/CI/badge.svg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
