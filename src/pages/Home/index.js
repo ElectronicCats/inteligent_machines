@@ -5,6 +5,7 @@ import { Container, ContainerTitle } from '../../components/UI/Content';
 import { ClassCard } from '../../components/ClassCard';
 import { ExplainCard } from '../../components/ExplainCard';
 import { BlueContainer } from '../../components/BlueContainer';
+import { DownLoadButton } from '../../components/Buttons';
 
 export const Home = () => {
   return (
@@ -34,7 +35,30 @@ export const Home = () => {
         </Container>
 
         <BlueContainer>
-          <h2>Hello</h2>
+          <DownLoadButton
+            pathToFile='/assets/logo_desk.png'
+            downloadName='lodo_inteligent'
+            bgColor='#fbac3d'
+            label='Nombre del archivo a descargar'
+          />
+          <DownLoadButton
+            pathToFile='/assets/logo_desk.png'
+            downloadName='lodo_inteligent'
+            bgColor='#da247e'
+            label='Nombre del archivo a descargar'
+          />
+          <DownLoadButton
+            pathToFile='/assets/logo_desk.png'
+            downloadName='lodo_inteligent'
+            bgColor='#00FF95'
+            label='Nombre del archivo a descargar'
+          />
+          <DownLoadButton
+            pathToFile='/assets/logo_desk.png'
+            downloadName='lodo_inteligent'
+            bgColor='#0071b5'
+            label='Nombre del archivo a descargar'
+          />
         </BlueContainer>
       </section>
     </AppLayout>
