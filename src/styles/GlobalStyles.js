@@ -4,15 +4,15 @@ export const GlobalStyle = createGlobalStyle`
 :root {
     --main-bg-color: ${(props) =>
       props.theme === 'dark' ? '#1e1f20' : '#ffffff'};
-    --color-dark-blue: #07005c;
+    --color-dark-blue: #22244f;
     --main-fnt-color: ${(props) =>
       props.theme === 'dark' ? '#ffffff' : 'var(--color-dark-blue)'};
     --color-darkgray: #181818;
     --color-gray: #252627;
-    --color-pink: #da247e;
-    --color-orange: #fbac3d;
-    --highligth-darkblue: rgba(1,124,186,1);
-    --highligth-blue: rgba(0,224,171,1);
+    --color-pink: #e72479;
+    --color-orange: #f9b03c;
+    --highligth-darkblue: #0071b5;
+    --highligth-blue: #00FF95;
     --highligth: ${(props) =>
       props.theme === 'dark'
         ? 'var(--highligth-blue)'
@@ -21,8 +21,8 @@ export const GlobalStyle = createGlobalStyle`
     --default-font: 'Josefin Sans';
     --nav-bar-width: 110px;
     --font-size: '15px';
-    --gradient: 90deg, rgba(1,124,186,1) 0%, rgba(0,224,171,1) 100%;
-    --gradient-dark: 90deg, rgba(1,124,186,1) 0%, rgba(7,0,90,1) 100%;
+    --gradient: 90deg, #0071b5 0%, #00FF95 100%;
+    --gradient-dark: 90deg, #0071b5 0%, #22244f 100%;
   }
   html {
         box-sizing: border-box;
