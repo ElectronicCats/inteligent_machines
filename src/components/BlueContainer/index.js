@@ -10,6 +10,7 @@ export const BlueBackground = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(${bluback});
+  color: #fff;
 `;
 export const BlueContainer = ({ children }) => {
   return (
