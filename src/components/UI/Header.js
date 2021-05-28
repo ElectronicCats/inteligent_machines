@@ -14,8 +14,8 @@ export const HeaderLogo = styled.img`
   align-self: center;
   justify-self: center;
 
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 `;
 
 export const HeaderLinks = styled.div`
