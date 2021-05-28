@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     --nav-bar-width: 110px;
     --font-size: '15px';
     --gradient: 90deg, rgba(1,124,186,1) 0%, rgba(0,224,171,1) 100%;
+    --gradient-dark: 90deg, rgba(1,124,186,1) 0%, rgba(7,0,90,1) 100%;
   }
   html {
         box-sizing: border-box;
