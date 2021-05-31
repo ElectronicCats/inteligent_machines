@@ -5,7 +5,7 @@ import { device } from '../../styles/queries';
 export const HeaderContainer = styled.nav`
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 100px;
   grid-template-areas: 'logo links';
 `;
 
@@ -14,8 +14,9 @@ export const HeaderLogo = styled.img`
   align-self: center;
   justify-self: center;
 
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 120px;
+  margin: 0 10px;
 `;
 
 export const HeaderLinks = styled.div`
