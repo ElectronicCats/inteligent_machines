@@ -17,15 +17,19 @@ export const DownloadBtn = styled.a`
 
   span {
     color: whitesmoke;
-    mix-blend-mode: difference;
   }
   div {
     height: 2rem;
     text-align: center;
-    background-color: whitesmoke;
-    mix-blend-mode: difference;
     width: 2rem;
     border-radius: 50%;
     font-size: 1.5rem;
+    .external {
+      background-color: whitesmoke;
+      mix-blend-mode: difference;
+    }
+    .internal {
+      background-color: whitesmoke;
+    }
   }
 `;

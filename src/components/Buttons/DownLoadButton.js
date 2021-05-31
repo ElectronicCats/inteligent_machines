@@ -12,8 +12,10 @@ export const DownLoadButton = ({
   return (
     <DownloadBtn bgColor={bgColor} href={pathToFile} download={downloadName}>
       <span>{label}</span>
-      <div>
-        <IconDownload />
+      <div className='external'>
+        <div className='internal'>
+          <IconDownload />
+        </div>
       </div>
     </DownloadBtn>
   );
