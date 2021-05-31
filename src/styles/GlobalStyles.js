@@ -18,15 +18,16 @@ export const GlobalStyle = createGlobalStyle`
         ? 'var(--highligth-blue)'
         : 'var(--highligth-darkblue)'};
     --shadow: 0 4px 8px var(--highligth);
-    --default-font: 'Josefin Sans';
+    --default-font: 'Acumin';
+    --headers-font: 'Gotham';
     --nav-bar-width: 110px;
     --font-size: '15px';
     --gradient: 90deg, #0071b5 0%, #00FF95 100%;
     --gradient-dark: 90deg, #0071b5 0%, #22244f 100%;
   }
+
   html {
         box-sizing: border-box;
-        font-family: var(--default-font), sans-serif;
         color: var(--black);
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -56,6 +57,27 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
       }
+      body,
+      div,
+      header,
+      section,
+      article,
+      aside,
+      nav,
+      ul,
+      ol,
+      li,
+      p {
+        font-family: var(--default-font), sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: var(--headers-font), sans-serif;
+      }
       ul {
         list-style: none;
       }
@@ -71,14 +93,6 @@ export const GlobalStyle = createGlobalStyle`
       }
       a {
         text-decoration: none;
-      }
-      .icon-wolftrax {
-        & > path {
-          fill: var(--main-fnt-color);
-        }
-        &:hover > path {
-          fill: var(--highligth);
-        }
       }
 `;
 
