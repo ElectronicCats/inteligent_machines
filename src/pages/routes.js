@@ -3,6 +3,7 @@ import { Courses } from './Courses';
 import { Cvmap } from './Cvmap';
 import { Workshops } from './Workshops';
 import { NotFound } from './NotFound';
+import { Demo } from './Demo';
 
 export const routes = [
   {
@@ -24,6 +25,10 @@ export const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+  },
+  {
+    path: '/demo',
+    component: Demo,
   },
   {
     path: '*',

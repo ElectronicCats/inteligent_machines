@@ -28,7 +28,10 @@ export const Navbar = () => {
       <HeaderLinks>
         {routes
           // ignoring the default path & home
-          .filter((route) => route.path !== '*' && route.path !== '/')
+          .filter(
+            (route) =>
+              route.path !== '*' && route.path !== '/' && route.path !== '/demo'
+          )
           .map((route) => (
             <StyledLink
               data-link='nav-link'

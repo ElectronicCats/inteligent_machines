@@ -4,13 +4,15 @@ import { AppLayout } from '../../components/AppLayout';
 import { Container, ContainerTitle } from '../../components/UI/Content';
 import { ClassCard } from '../../components/ClassCard';
 import { ExplainCard } from '../../components/ExplainCard';
+import { BlueContainer } from '../../components/BlueContainer';
+import { DownLoadButton } from '../../components/Buttons';
 
-export const Home = () => {
+export const Demo = () => {
   return (
     <AppLayout>
       <section>
         <Container>
-          <ContainerTitle>Home</ContainerTitle>
+          <ContainerTitle>Demo</ContainerTitle>
           <ClassCard title='Plataforma -Edge impulse-' imgsrc={logo} />
           <ExplainCard
             title='Actividades'
@@ -31,6 +33,33 @@ export const Home = () => {
             ]}
           />
         </Container>
+
+        <BlueContainer>
+          <DownLoadButton
+            pathToFile='/assets/logo_desk.png'
+            downloadName='lodo_inteligent'
+            bgColor='#fbac3d'
+            label='Nombre del archivo a descargar'
+          />
+          <DownLoadButton
+            pathToFile='/assets/logo_desk.png'
+            downloadName='lodo_inteligent'
+            bgColor='#da247e'
+            label='Nombre del archivo a descargar'
+          />
+          <DownLoadButton
+            pathToFile='/assets/logo_desk.png'
+            downloadName='lodo_inteligent'
+            bgColor='#00FF95'
+            label='Nombre del archivo a descargar'
+          />
+          <DownLoadButton
+            pathToFile='/assets/logo_desk.png'
+            downloadName='lodo_inteligent'
+            bgColor='#0071b5'
+            label='Nombre del archivo a descargar'
+          />
+        </BlueContainer>
       </section>
     </AppLayout>
   );
