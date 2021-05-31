@@ -8,7 +8,13 @@ import {
   WrapperFootNav,
   WrapperFoot,
 } from '../../styles/Layout';
+
 import { Navbar } from '../Navbar';
+import { CardGrids } from '../UI/Cards';
+import { Container } from '../UI/Content';
+import EC_logo from '../../assets/logos/logo-EC.svg';
+import KY_logo from '../../assets/logos/logo-kybernus.svg';
+import AR_logo from '../../assets/logos/logo-edu-arduino.svg';
 
 export const AppLayout = ({ children }) => {
   return (
@@ -19,10 +25,16 @@ export const AppLayout = ({ children }) => {
         </WrapperNav>
         <WrapperContent>{children}</WrapperContent>
         <WrapperFootNav>
-          <nav>Nav footer</nav>
+          <nav></nav>
         </WrapperFootNav>
         <WrapperFoot>
-          <p>My Foother</p>
+          <Container>
+            <CardGrids align='end'>
+              <img src={EC_logo} alt='Electronic cats' />
+              <img src={KY_logo} alt='Kybernus' />
+              <img src={AR_logo} alt='Arduino education' />
+            </CardGrids>
+          </Container>
         </WrapperFoot>
       </>
     </MainLayout>

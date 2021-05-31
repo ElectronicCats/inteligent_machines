@@ -4,6 +4,7 @@ export const CardGrids = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem 3rem;
+  align-items: ${({ align }) => (align ? align : 'initial')};
 `;
 export const Card = styled.div`
   width: 300px;
