@@ -30,7 +30,9 @@ export const Navbar = () => {
           // ignoring the default path & home
           .filter(
             (route) =>
-              route.path !== '*' && route.path !== '/' && route.path !== '/demo'
+              route.path === '/curso' ||
+              route.path === '/talleristas' ||
+              route.path === '/mapa-curicular'
           )
           .map((route) => (
             <StyledLink
