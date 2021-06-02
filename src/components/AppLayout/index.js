@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 import {
   MainLayout,
@@ -11,6 +12,7 @@ import {
 
 import { Navbar } from '../Navbar';
 import { Partners } from '../Partners';
+import { routes } from '../../pages/routes';
 
 export const AppLayout = ({ children }) => {
   return (
@@ -21,7 +23,26 @@ export const AppLayout = ({ children }) => {
         </WrapperNav>
         <WrapperContent>{children}</WrapperContent>
         <WrapperFootNav>
-          <nav></nav>
+          <nav>
+            {routes
+              // ignoring the default path & home
+              .filter(
+                (route) =>
+                  route.path !== '/' &&
+                  route.path !== '*' &&
+                  route.path !== 'demo'
+              )
+              .map((route) => (
+                <Link
+                  key={route.path}
+                  to={route.path}
+                  exact
+                  activeClassName='current'
+                >
+                  {route.name}
+                </Link>
+              ))}
+          </nav>
         </WrapperFootNav>
         <WrapperFoot>
           <Partners />

@@ -4,8 +4,26 @@ import { Cvmap } from './Cvmap';
 import { Workshops } from './Workshops';
 import { NotFound } from './NotFound';
 import { Demo } from './Demo';
+import { About } from './About';
+import { StartGuide } from './StartGuide';
+import { EdgeImpulse } from './EdgeImpulse';
 
 export const routes = [
+  {
+    path: '/nosotors',
+    name: 'Nosotros',
+    component: About,
+  },
+  {
+    path: '/guia_de_arranque',
+    name: 'Guia de Arranque',
+    component: StartGuide,
+  },
+  {
+    path: '/edge_impulse',
+    name: 'Edge Impulse',
+    component: EdgeImpulse,
+  },
   {
     path: '/curso',
     name: 'Cursos',
