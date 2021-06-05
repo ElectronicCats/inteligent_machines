@@ -127,7 +127,6 @@ export const StyledMenu = styled.div`
   height: 200px;
   width: 100vw;
   text-align: left;
-  border: solid red 1px;
   position: absolute;
   bottom: 100%;
   right: 0;
