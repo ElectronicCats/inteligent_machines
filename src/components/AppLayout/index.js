@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
 
 import {
   MainLayout,
@@ -12,7 +13,23 @@ import {
 
 import { Navbar } from '../Navbar';
 import { Partners } from '../Partners';
-import { routes } from '../../pages/routes';
+import { FootNav } from '../Navbar/FootNav';
+
+export const StyledFooterLink = styled(NavLink)`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 10px 5px;
+  margin: 0 5px;
+
+  &.${({ activeClassName }) => activeClassName} {
+    color: var(--color-blue);
+  }
+  color: var(--main-fnt-color);
+  font-weight: 100;
+  font-size: 1.2rem;
+`;
 
 export const AppLayout = ({ children }) => {
   return (
@@ -23,26 +40,7 @@ export const AppLayout = ({ children }) => {
         </WrapperNav>
         <WrapperContent>{children}</WrapperContent>
         <WrapperFootNav>
-          <nav>
-            {routes
-              // ignoring the default path & home
-              .filter(
-                (route) =>
-                  route.path !== '/' &&
-                  route.path !== '*' &&
-                  route.path !== 'demo'
-              )
-              .map((route) => (
-                <Link
-                  key={route.path}
-                  to={route.path}
-                  exact
-                  activeClassName='current'
-                >
-                  {route.name}
-                </Link>
-              ))}
-          </nav>
+          <FootNav />
         </WrapperFootNav>
         <WrapperFoot>
           <Partners />
