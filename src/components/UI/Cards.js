@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 export const CardGrids = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(${({ cardSize }) => (cardSize ? cardSize : '300px')}, 1fr)
+  );
   gap: 2rem 3rem;
   align-items: ${({ align }) => (align ? align : 'initial')};
 `;
