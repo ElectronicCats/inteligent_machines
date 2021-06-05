@@ -9,33 +9,37 @@ import {
 } from '../../components/UI/Content';
 import { CardGrids } from '../../components/UI/Cards';
 import { BlueContainer } from '../../components/BlueContainer';
-import { GradientContainer } from '../../components/GradientContainer';
+import {
+  GradientContainer,
+  GradientContainerCircle,
+} from '../../components/GradientContainer';
+import { CenterDiv } from '../../styles/GlobalStyles';
 
 export const Home = () => {
   return (
     <AppLayout>
       <section>
-        <article>
+        <GradientContainerCircle>
           <CardGrids>
+            <img src={chips} alt='chips' />
             <Container>
-              <img src={chips} alt='chips' />
-            </Container>
-            <Container>
-              <img src={logo} alt='maquinas inteligentes' />
-              <ContainerTitle color='var(--color-blue)'>
-                Curso de Tiny Machine learning & analisis de datos
-              </ContainerTitle>
-              <p>
-                Máquinas Inteligentes es un programa educativo, para desarrollar
-                habilidades interpretativas de lectura de información, obtenida
-                a través de los sensores en dispositivos embebidos
-                (Microcontroladores), utilizando una interfaz amigable de
-                programación que permite utilizarla sin ser un experto en
-                programación y/o matemáticas.
-              </p>
+              <CenterDiv>
+                <img src={logo} alt='maquinas inteligentes' />
+                <ContainerTitle color='var(--color-blue)'>
+                  Curso de Tiny Machine learning & analisis de datos
+                </ContainerTitle>
+                <p style={{ color: 'black', textAlign: 'center' }}>
+                  Máquinas Inteligentes es un programa educativo, para
+                  desarrollar habilidades interpretativas de lectura de
+                  información, obtenida a través de los sensores en dispositivos
+                  embebidos (Microcontroladores), utilizando una interfaz
+                  amigable de programación que permite utilizarla sin ser un
+                  experto en programación y/o matemáticas.
+                </p>
+              </CenterDiv>
             </Container>
           </CardGrids>
-        </article>
+        </GradientContainerCircle>
         <BlueContainer>
           <ContainerTitle color='var(--color-green)' size='3'>
             Objetivos

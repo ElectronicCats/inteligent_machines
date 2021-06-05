@@ -8,6 +8,16 @@ export const GradientBackground = styled(BackgroundContainer)`
   background: rgb(1, 124, 186);
   background: linear-gradient(var(--gradient));
 `;
+export const GradientBackgroundCircle = styled(BackgroundContainer)`
+  color: #fff;
+  background: rgb(0, 224, 171);
+  background: linear-gradient(
+    25deg,
+    rgba(0, 224, 171, 0.9332107843137255) 0%,
+    rgba(1, 124, 186, 0.5746673669467788) 32%,
+    rgba(255, 255, 255, 0.773546918767507) 55%
+  );
+`;
 export const GradientContainer = ({ children }) => {
   return (
     <GradientBackground>
@@ -15,7 +25,18 @@ export const GradientContainer = ({ children }) => {
     </GradientBackground>
   );
 };
+export const GradientContainerCircle = ({ children }) => {
+  return (
+    <GradientBackgroundCircle>
+      <Container>{children}</Container>
+    </GradientBackgroundCircle>
+  );
+};
 
 GradientContainer.propTypes = {
+  children: element,
+};
+
+GradientContainerCircle.propTypes = {
   children: element,
 };
