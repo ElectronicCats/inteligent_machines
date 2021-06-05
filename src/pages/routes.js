@@ -7,6 +7,7 @@ import { Demo } from './Demo';
 import { About } from './About';
 import { StartGuide } from './StartGuide';
 import { EdgeImpulse } from './EdgeImpulse';
+import { Objective } from './Objective';
 
 export const routes = [
   {
@@ -15,18 +16,18 @@ export const routes = [
     component: About,
   },
   {
+    path: '/objetivo',
+    name: 'Objetivo',
+    component: Objective,
+  },
+  {
     path: '/guia_de_arranque',
     name: 'Guia de Arranque',
     component: StartGuide,
   },
   {
-    path: '/edge_impulse',
-    name: 'Edge Impulse',
-    component: EdgeImpulse,
-  },
-  {
     path: '/curso',
-    name: 'Cursos',
+    name: 'Curso',
     component: Courses,
   },
   {
@@ -38,6 +39,11 @@ export const routes = [
     path: '/mapa-curicular',
     name: 'Mapa Curricular',
     component: Cvmap,
+  },
+  {
+    path: '/edge_impulse',
+    name: 'Edge Impulse',
+    component: EdgeImpulse,
   },
   {
     path: '/',

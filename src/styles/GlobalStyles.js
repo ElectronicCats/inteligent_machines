@@ -4,9 +4,10 @@ export const GlobalStyle = createGlobalStyle`
 :root {
     --main-bg-color: ${(props) =>
       props.theme === 'dark' ? '#1e1f20' : '#ffffff'};
-    --color-dark-blue: #22244f;
     --main-fnt-color: ${(props) =>
       props.theme === 'dark' ? '#ffffff' : 'var(--color-dark-blue)'};
+    --color-dark-blue: #22244f;
+    --color-blue: #0071b5;
     --color-darkgray: #181818;
     --color-gray: #252627;
     --color-pink: #e72479;
