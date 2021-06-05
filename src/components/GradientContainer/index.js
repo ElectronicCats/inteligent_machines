@@ -1,13 +1,9 @@
 import React from 'react';
 import { element } from 'prop-types';
 import styled from 'styled-components';
-import { Container } from '../UI/Content';
+import { Container, BackgroundContainer } from '../UI/Content';
 
-export const GradientBackground = styled.article`
-  display: flex;
-  align-items: center;
-  width: 100%;
-  min-height: 300px;
+export const GradientBackground = styled(BackgroundContainer)`
   color: #fff;
   background: rgb(1, 124, 186);
   background: linear-gradient(var(--gradient));

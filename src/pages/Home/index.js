@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo_desk.svg';
+import chips from '../../assets/devices/chips.svg';
 import { AppLayout } from '../../components/AppLayout';
 import {
   Container,
@@ -15,18 +16,25 @@ export const Home = () => {
     <AppLayout>
       <section>
         <article>
-          <Container>
-            <img src={logo} alt='maquinas inteligentes' />
-            <h3>Curso de Tiny Machine learning & analisis de datos</h3>
-            <p>
-              Máquinas Inteligentes es un programa educativo, para desarrollar
-              habilidades interpretativas de lectura de información, obtenida a
-              través de los sensores en dispositivos embebidos
-              (Microcontroladores), utilizando una interfaz amigable de
-              programación que permite utilizarla sin ser un experto en
-              programación y/o matemáticas.
-            </p>
-          </Container>
+          <CardGrids>
+            <Container>
+              <img src={chips} alt='chips' />
+            </Container>
+            <Container>
+              <img src={logo} alt='maquinas inteligentes' />
+              <ContainerTitle color='var(--color-blue)'>
+                Curso de Tiny Machine learning & analisis de datos
+              </ContainerTitle>
+              <p>
+                Máquinas Inteligentes es un programa educativo, para desarrollar
+                habilidades interpretativas de lectura de información, obtenida
+                a través de los sensores en dispositivos embebidos
+                (Microcontroladores), utilizando una interfaz amigable de
+                programación que permite utilizarla sin ser un experto en
+                programación y/o matemáticas.
+              </p>
+            </Container>
+          </CardGrids>
         </article>
         <BlueContainer>
           <ContainerTitle color='var(--color-green)' size='3'>

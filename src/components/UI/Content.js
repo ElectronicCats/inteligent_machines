@@ -5,6 +5,13 @@ export const Container = styled.section`
   margin-left: auto;
   width: 80%;
 `;
+export const BackgroundContainer = styled.article`
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 600px;
+`;
+
 export const ContainerTitle = styled.h2`
   margin: 10px;
   background-color: ${({ colorBg }) => (colorBg ? colorBg : 'transparent')};
