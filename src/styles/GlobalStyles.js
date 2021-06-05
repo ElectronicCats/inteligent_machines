@@ -12,8 +12,9 @@ export const GlobalStyle = createGlobalStyle`
     --color-gray: #252627;
     --color-pink: #e72479;
     --color-orange: #f9b03c;
+    --color-green: #00FF95;
     --highligth-darkblue: #0071b5;
-    --highligth-blue: #00FF95;
+    --highligth-blue: 'var(--color-green)';
     --highligth: ${(props) =>
       props.theme === 'dark'
         ? 'var(--highligth-blue)'

@@ -5,6 +5,8 @@ import bluback from '../../assets/main-bg.svg';
 import { Container } from '../UI/Content';
 
 export const BlueBackground = styled.div`
+  display: flex;
+  align-items: center;
   width: 100%;
   min-height: 600px;
   background-size: cover;

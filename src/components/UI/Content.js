@@ -6,18 +6,12 @@ export const Container = styled.section`
   width: 80%;
 `;
 export const ContainerTitle = styled.h2`
-  text-transform: none;
-  background-color: ${({ color }) => (color ? color : 'var(--highligth)')};
-  color: var(--main-fnt-color);
-  border-radius: 5px;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 6px;
-  padding-top: 5px;
-  display: table;
-  margin-bottom: 25px;
-  font-size: 2rem;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 8%);
+  background-color: ${({ colorBg }) => (colorBg ? colorBg : 'transparent')};
+  color: ${({ color }) => (color ? color : 'var(--main-fnt-color)')};
+  font-size: ${({ size }) => (size ? size + 'rem' : 'initial')};
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 `;
 
 export const ContalinerList = styled.ul`
@@ -30,6 +24,19 @@ export const ContalinerList = styled.ul`
       content: '•';
       font-size: 1.5em;
       color: ${({ color }) => (color ? color : 'var(--highligth)')};
+    }
+  }
+`;
+
+export const ContainerOrderList = styled.ol`
+  width: 100%;
+  list-style-position: outside;
+  & > li {
+    padding: 0 5px;
+    margin: 10px 0;
+    &::marker {
+      font-size: 1.5em;
+      color: ${({ color }) => (color ? color : 'var(--main-fnt-color)')};
     }
   }
 `;
