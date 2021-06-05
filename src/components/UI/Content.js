@@ -6,6 +6,7 @@ export const Container = styled.section`
   width: 80%;
 `;
 export const ContainerTitle = styled.h2`
+  margin: 10px;
   background-color: ${({ colorBg }) => (colorBg ? colorBg : 'transparent')};
   color: ${({ color }) => (color ? color : 'var(--main-fnt-color)')};
   font-size: ${({ size }) => (size ? size + 'rem' : 'initial')};
@@ -19,7 +20,7 @@ export const ContalinerList = styled.ul`
   list-style-position: outside;
   & > li {
     padding: 0 5px;
-    margin: 10px 0;
+    margin: 20px 0;
     &::marker {
       content: '•';
       font-size: 1.5em;
@@ -33,7 +34,7 @@ export const ContainerOrderList = styled.ol`
   list-style-position: outside;
   & > li {
     padding: 0 5px;
-    margin: 10px 0;
+    margin: 20px 0;
     &::marker {
       font-size: 1.5em;
       color: ${({ color }) => (color ? color : 'var(--main-fnt-color)')};

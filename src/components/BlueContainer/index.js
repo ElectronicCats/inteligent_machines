@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import bluback from '../../assets/main-bg.svg';
 import { Container } from '../UI/Content';
 
-export const BlueBackground = styled.div`
+export const BlueBackground = styled.article`
   display: flex;
   align-items: center;
   width: 100%;

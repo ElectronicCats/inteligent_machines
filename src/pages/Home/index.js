@@ -8,6 +8,7 @@ import {
 } from '../../components/UI/Content';
 import { CardGrids } from '../../components/UI/Cards';
 import { BlueContainer } from '../../components/BlueContainer';
+import { GradientContainer } from '../../components/GradientContainer';
 
 export const Home = () => {
   return (
@@ -28,62 +29,58 @@ export const Home = () => {
           </Container>
         </article>
         <BlueContainer>
-          <Container>
-            <ContainerTitle color='var(--color-green)' size='3'>
-              Objetivos
-            </ContainerTitle>
-            <CardGrids>
-              <ContainerOrderList type='1' color='var(--color-green)'>
-                <li>
-                  Entender el funcionamiento de la inteligencia artificial en
-                  nuestros dispositivos
-                </li>
-                <li>
-                  Conocer la Ética y responsabilidades de la inteligencia
-                  artificial
-                </li>
-                <li>
-                  Generar conciencia de la responsabilidad, limitaciones y
-                  planificación a futuro de la inteligencia artificial.
-                </li>
-                <li>
-                  Entender cómo funciona el análisis de datos en nuestra vida
-                  actual.
-                </li>
-                <li>Desarrollar una red neuronal de aprendizaje</li>
-              </ContainerOrderList>
-              <ContainerOrderList type='1' start='6' color='var(--color-green)'>
-                <li>
-                  Entender el funcionamiento de aprendizaje de dispositivos
-                  embebidos
-                </li>
-                <li>
-                  Utilizar la plataforma Edge Impulse para Machine Learning
-                </li>
-                <li>
-                  Aprender, mediante la experimentación científica sobre
-                  análisis de datos en dispositivos embebidos con múltiples
-                  sensores tales como: Giroscopio, Magnetómetro, Acelerómetro,
-                  colorimetría, temperatura, humedad y presión atmosférica.
-                </li>
-                <li>
-                  Programar dispositivos embebidos con Arduino IDE y Edge
-                  Impulse.
-                </li>
-              </ContainerOrderList>
-            </CardGrids>
-          </Container>
+          <ContainerTitle color='var(--color-green)' size='3'>
+            Objetivos
+          </ContainerTitle>
+          <CardGrids>
+            <ContainerOrderList type='1' color='var(--color-green)'>
+              <li>
+                Entender el funcionamiento de la inteligencia artificial en
+                nuestros dispositivos
+              </li>
+              <li>
+                Conocer la Ética y responsabilidades de la inteligencia
+                artificial
+              </li>
+              <li>
+                Generar conciencia de la responsabilidad, limitaciones y
+                planificación a futuro de la inteligencia artificial.
+              </li>
+              <li>
+                Entender cómo funciona el análisis de datos en nuestra vida
+                actual.
+              </li>
+              <li>Desarrollar una red neuronal de aprendizaje</li>
+            </ContainerOrderList>
+            <ContainerOrderList type='1' start='6' color='var(--color-green)'>
+              <li>
+                Entender el funcionamiento de aprendizaje de dispositivos
+                embebidos
+              </li>
+              <li>Utilizar la plataforma Edge Impulse para Machine Learning</li>
+              <li>
+                Aprender, mediante la experimentación científica sobre análisis
+                de datos en dispositivos embebidos con múltiples sensores tales
+                como: Giroscopio, Magnetómetro, Acelerómetro, colorimetría,
+                temperatura, humedad y presión atmosférica.
+              </li>
+              <li>
+                Programar dispositivos embebidos con Arduino IDE y Edge Impulse.
+              </li>
+            </ContainerOrderList>
+          </CardGrids>
         </BlueContainer>
-        <article>
-          <Container>
-            <p>
-              Nos gustaría saber en donde replicaste este curso, compartenos tu
-              experiencia junto a diferentes educadores de latinoamérica en el
-              Facebook oficial del curso. Puedes aportar con tus experiencias y
-              recomendaciones
-            </p>
-          </Container>
-        </article>
+        <GradientContainer>
+          <ContainerTitle color='white' size='2'>
+            Comunidad
+          </ContainerTitle>
+          <p>
+            Nos gustaría saber en donde replicaste este curso, compartenos tu
+            experiencia junto a diferentes educadores de latinoamérica en el
+            Facebook oficial del curso. Puedes aportar con tus experiencias y
+            recomendaciones
+          </p>
+        </GradientContainer>
       </section>
     </AppLayout>
   );

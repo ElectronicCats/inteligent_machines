@@ -12,7 +12,7 @@ export const StyledFooterLink = styled(NavLink)`
   justify-content: center;
   height: 100%;
   padding: 10px 5px;
-  margin: 0 5px;
+  margin: 10px 5px;
 
   &.${({ activeClassName }) => activeClassName} {
     color: var(--color-blue);
