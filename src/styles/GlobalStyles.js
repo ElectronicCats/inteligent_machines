@@ -104,7 +104,11 @@ export const CenterDiv = sytled.div`
   align-items: center;
   justify-content: center;
 `;
-
+export const Panel = sytled.div`
+  background-color: var(--main-bg-color);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+`;
 export const CardDiv = sytled.div`
   box-shadow: var(--shadow);
   border-radius: 8px;
