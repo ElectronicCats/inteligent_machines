@@ -32,11 +32,25 @@ export const GradientContainerCircle = ({ children }) => {
     </GradientBackgroundCircle>
   );
 };
-
+export const GradientBackgroundRound = styled(GradientBackground)`
+  border-bottom-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+`;
+export const GradientContainerRound = ({ children }) => {
+  return (
+    <GradientBackgroundRound>
+      <Container>{children}</Container>
+    </GradientBackgroundRound>
+  );
+};
 GradientContainer.propTypes = {
   children: element,
 };
 
 GradientContainerCircle.propTypes = {
+  children: element,
+};
+
+GradientContainerRound.propTypes = {
   children: element,
 };
