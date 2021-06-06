@@ -4,7 +4,6 @@ export const MainLayout = styled.main`
   margin: 0;
   padding: 0;
   height: 100vh;
-  width: 100vw;
   background-color: var(--main-bg-color);
   color: var(--main-fnt-color);
   display: grid;
