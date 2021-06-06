@@ -19,7 +19,7 @@ export const ContainerTitle = styled.h2`
   font-size: ${({ size }) => (size ? size + 'rem' : 'initial')};
   text-transform: uppercase;
   font-weight: bold;
-  text-align: center;
+  text-align: ${({ align }) => (align ? align : 'center')};
 `;
 
 export const ContalinerList = styled.ul`
@@ -47,4 +47,15 @@ export const ContainerOrderList = styled.ol`
       color: ${({ color }) => (color ? color : 'var(--main-fnt-color)')};
     }
   }
+`;
+
+export const ToogleContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--main-bg-color);
+  min-height: ${({ open }) => (open ? '200px' : '0px')};
+  width: 100%;
+  transition: all 0.3s ease-out;
+  opacity: ${({ open }) => (open ? '1' : '0')};
 `;

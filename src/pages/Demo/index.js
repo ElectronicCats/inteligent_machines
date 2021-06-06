@@ -6,6 +6,7 @@ import { ClassCard } from '../../components/ClassCard';
 import { ExplainCard } from '../../components/ExplainCard';
 import { BlueContainer } from '../../components/BlueContainer';
 import { DownLoadButton } from '../../components/Buttons';
+import { DropContent } from '../../components/DropContent';
 
 export const Demo = () => {
   return (
@@ -33,7 +34,15 @@ export const Demo = () => {
             ]}
           />
         </Container>
-
+        <DropContent title='Material' color='var(--color-pink)'>
+          <h3>Hello</h3>
+        </DropContent>
+        <DropContent title='Objetivo' color='var(--color-orange)'>
+          <h3>World</h3>
+        </DropContent>
+        <DropContent title='Procedimiento' color='var(--color-green)'>
+          <h3>!</h3>
+        </DropContent>
         <BlueContainer>
           <DownLoadButton
             pathToFile='/assets/logo_desk.png'
