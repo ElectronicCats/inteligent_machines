@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     --shadow: 0 4px 8px var(--highligth);
     --default-font: 'Acumin';
     --headers-font: 'Gotham';
-    --nav-bar-width: 110px;
+    --nav-bar-width: 100px;
     --font-size: '15px';
     --gradient: 90deg, #0071b5 0%, #00FF95 100%;
     --gradient-dark: 90deg, #0071b5 0%, #22244f 100%;

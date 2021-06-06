@@ -31,4 +31,6 @@ export const WrapperFoot = styled.footer`
 `;
 export const WrapperFootNav = styled.section`
   grid-area: footnav;
+  display: flex;
+  align-items: center;
 `;
