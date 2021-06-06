@@ -9,6 +9,7 @@ export const CardGrids = styled.div`
   );
   gap: 2rem 3rem;
   align-items: ${({ align }) => (align ? align : 'initial')};
+  justify-items: ${({ justify }) => (justify ? justify : 'initial')};
 `;
 export const Card = styled(Panel)`
   width: 300px;

@@ -49,6 +49,11 @@ export const ContainerOrderList = styled.ol`
   }
 `;
 
+export const ContainerP = styled.p`
+  margin: 20px;
+  font-size: ${({ size }) => (size ? size + 'rem' : 'initial')};
+`;
+
 export const ToogleContent = styled.div`
   display: flex;
   flex-direction: column;
