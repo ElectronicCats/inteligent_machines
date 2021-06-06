@@ -20,6 +20,7 @@ export const MainLayout = styled.main`
 export const WrapperContent = styled.section`
   grid-area: main;
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: center;
 `;
