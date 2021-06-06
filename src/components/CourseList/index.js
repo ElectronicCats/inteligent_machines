@@ -14,22 +14,28 @@ import ia_vis from '../../assets/courses/ia_vis.svg';
 
 import { ClassCard } from '../../components/ClassCard';
 import { CardGrids } from '../../components/UI/Cards';
+import { TopContainer } from '../../components/GradientContainer';
 
 export const CourseList = () => {
   return (
-    <CardGrids>
-      <ClassCard title='Introducción a IA' imgsrc={intro_ia} />
-      <ClassCard title={`Ética &\nResponsabilidades`} imgsrc={etc_resp} />
-      <ClassCard title={`Tiny Machine \nLearning`} imgsrc={tyni_mach} />
-      <ClassCard title='Nuestro Kit' imgsrc={our_kit} />
-      <ClassCard title={`Plataforma \n-Edge Impulse-`} imgsrc={platform_edge} />
-      <ClassCard title={`Programando \nNuestro Código`} imgsrc={dev_code} />
-      <ClassCard title={`Sensor de \nTemperatura`} imgsrc={temp_sens} />
-      <ClassCard title={`Sensor de \nColometría`} imgsrc={color_sens} />
-      <ClassCard title={`Sensor IMU \n9 ejes`} imgsrc={imu_sens} />
-      <ClassCard title={`Micrófono`} imgsrc={micro_phon} />
-      <ClassCard title={`Vision Artificial`} imgsrc={ia_vis} />
-      <ClassCard title={`Proyecto Final`} imgsrc={ia_vis} />
-    </CardGrids>
+    <TopContainer>
+      <CardGrids>
+        <ClassCard title='Introducción a IA' imgsrc={intro_ia} />
+        <ClassCard title={`Ética &\nResponsabilidades`} imgsrc={etc_resp} />
+        <ClassCard title={`Tiny Machine \nLearning`} imgsrc={tyni_mach} />
+        <ClassCard title='Nuestro Kit' imgsrc={our_kit} />
+        <ClassCard
+          title={`Plataforma \n-Edge Impulse-`}
+          imgsrc={platform_edge}
+        />
+        <ClassCard title={`Programando \nNuestro Código`} imgsrc={dev_code} />
+        <ClassCard title={`Sensor de \nTemperatura`} imgsrc={temp_sens} />
+        <ClassCard title={`Sensor de \nColometría`} imgsrc={color_sens} />
+        <ClassCard title={`Sensor IMU \n9 ejes`} imgsrc={imu_sens} />
+        <ClassCard title={`Micrófono`} imgsrc={micro_phon} />
+        <ClassCard title={`Vision Artificial`} imgsrc={ia_vis} />
+        <ClassCard title={`Proyecto Final`} imgsrc={ia_vis} />
+      </CardGrids>
+    </TopContainer>
   );
 };

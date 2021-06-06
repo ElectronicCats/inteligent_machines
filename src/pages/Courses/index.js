@@ -4,7 +4,7 @@ import { AppLayout } from '../../components/AppLayout';
 import devices from '../../assets/devices/curso_pcs.svg';
 import { ContainerTitle } from '../../components/UI/Content';
 import { GradientContainer } from '../../components/GradientContainer';
-import { TopContainer } from '../../components/GradientContainer';
+
 import { CenterDiv } from '../../styles/GlobalStyles';
 import { CardGrids } from '../../components/UI/Cards';
 import { CourseList } from '../../components/CourseList';
@@ -43,9 +43,7 @@ export const Courses = () => {
             </CardGrids>
           </>
         </GradientContainer>
-        <TopContainer>
-          <CourseList />
-        </TopContainer>
+        <CourseList />
       </section>
     </AppLayout>
   );
