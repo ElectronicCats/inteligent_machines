@@ -14,7 +14,7 @@ export const Card = styled.div`
   height: 300px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 50px;
+  grid-template-rows:  220px 50px;
   grid-template-areas: 'class-logo' 'class-title';
   align-items: center;
   justify-items: center;
@@ -22,13 +22,15 @@ export const Card = styled.div`
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   text-align: center;
+  white-space: pre-wrap;
 
-  & img {
-    grid-area: class-logo;
-    max-width: 80%;
-    transition: all 200ms ease-in-out;
-    &:hover {
+  &:hover img {
       transform: scale(1.15);
     }
   }
+  & img {
+    grid-area: class-logo;
+    max-width: 200px;
+    height: 150px;
+    transition: all 200ms ease-in-out;
 `;
