@@ -2,7 +2,7 @@ import React from 'react';
 
 import red_sam from '../../assets/sam/red-sam.svg';
 import { AppLayout } from '../../components/AppLayout';
-import { TopContainer } from '../../components/BlueContainer';
+import { TopContainer } from '../../components/GradientContainer';
 import { ContainerTitle } from '../../components/UI/Content';
 import { WorkshopCard } from '../../components/UI/Cards';
 import { CenterDiv } from '../../styles/GlobalStyles';

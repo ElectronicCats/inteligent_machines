@@ -43,6 +43,24 @@ export const GradientContainerRound = ({ children }) => {
     </GradientBackgroundRound>
   );
 };
+
+export const TopBackground = styled(BackgroundContainer)`
+  background: linear-gradient(to top left, white 50%, transparent 50%),
+    linear-gradient(to top right, white 50%, transparent 50%),
+    linear-gradient(90deg, #0071b5 0%, #00ff95 100%);
+`;
+export const TopContainer = ({ children }) => {
+  return (
+    <TopBackground>
+      <Container>{children}</Container>
+    </TopBackground>
+  );
+};
+
+TopContainer.propTypes = {
+  children: element,
+};
+
 GradientContainer.propTypes = {
   children: element,
 };
