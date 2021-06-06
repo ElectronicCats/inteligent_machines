@@ -14,32 +14,34 @@ export const Courses = () => {
     <AppLayout>
       <section>
         <GradientContainer>
-          <CardGrids>
-            <CenterDiv>
-              <ContainerTitle size='2' color='#fff'>
-                Curso completo
-              </ContainerTitle>
-              <p
-                style={{
-                  textAlign: 'right',
-                  lineHeight: 1.5,
-                  marginInline: '20px 40px',
-                }}
-              >
-                Este curso esta abierto para su duplicacion, es libre y
-                gratuito.
-                <br />
-                No sabes donde iniciar, te sugerimos leer nuestra{' '}
-                <em>Guia de Arranque</em>
-                <br />
-                Máquinas Inteligentes tiene el objetivo de introducirte en la ciencia de
-                datos y de desarrollar habilidades y competencias básicas para la
-                solución de problemas, creatividad, todo esto con la aplicación de
-                conceptos de electrónica, programación e inteligencia artificial
-              </p>
-            </CenterDiv>
-            <img src={devices} alt='chips' />
-          </CardGrids>
+          <>
+            <CardGrids>
+              <CenterDiv>
+                <ContainerTitle size='2' color='#fff'>
+                  Curso completo
+                </ContainerTitle>
+                <p
+                  style={{
+                    textAlign: 'right',
+                    lineHeight: 1.5,
+                    marginInline: '20px 40px',
+                  }}
+                >
+                  Este curso esta abierto para su duplicacion, es libre y
+                  gratuito.
+                  <br />
+                  No sabes donde iniciar, te sugerimos leer nuestra{' '}
+                  <em>Guia de Arranque</em>
+                  <br />
+                  Máquinas Inteligentes tiene el objetivo de introducirte en la ciencia de
+                  datos y de desarrollar habilidades y competencias básicas para la
+                  solución de problemas, creatividad, todo esto con la aplicación de
+                  conceptos de electrónica, programación e inteligencia artificial
+                </p>
+              </CenterDiv>
+              <img src={devices} alt='chips' />
+            </CardGrids>
+          </>
         </GradientContainer>
         <TopContainer>
           <CourseList />
