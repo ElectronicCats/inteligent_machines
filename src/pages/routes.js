@@ -6,7 +6,7 @@ import { NotFound } from './NotFound';
 import { Demo } from './Demo';
 import { About } from './About';
 import { StartGuide } from './StartGuide';
-import { EdgeImpulse } from './EdgeImpulse';
+// import { EdgeImpulse } from './EdgeImpulse';
 import { Objective } from './Objective';
 
 export const routes = [
@@ -40,11 +40,11 @@ export const routes = [
     name: 'Mapa Curricular',
     component: Cvmap,
   },
-  {
-    path: '/edge_impulse',
-    name: 'Edge Impulse',
-    component: EdgeImpulse,
-  },
+  // {
+  //   path: '/edge_impulse',
+  //   name: 'Edge Impulse',
+  //   component: EdgeImpulse,
+  // },
   {
     path: '/',
     name: 'Home',
