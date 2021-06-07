@@ -1,29 +1,28 @@
 import React from 'react';
 import { CardGrids } from '../UI/Cards';
-import { ContalinerList } from '../UI/Content';
+import { ContalinerList, ContainerTitle } from '../UI/Content';
 
 import { string, arrayOf } from 'prop-types';
-import styled from 'styled-components';
 
-export const Title = styled.h3`
-  font-size: 4em;
-  margin: auto;
-  font-weight: bold;
-  color: ${({ color }) => (color ? color : 'var(--highligth)')};
-`;
 export const ExplainCard = ({ title, color, bullets, descriptions }) => {
   return (
-    <CardGrids>
-      <Title color={color}>{title}</Title>
-      <div>
-        {descriptions}
-        <ContalinerList color={color}>
-          {bullets.map((text, i) => {
-            return <li key={`${title} bullet ${i}`}>{text}</li>;
-          })}
-        </ContalinerList>
-      </div>
-    </CardGrids>
+    <article style={{ margin: '20px' }}>
+      <CardGrids>
+        <ContainerTitle size='3' color={color} aling='center'>
+          {title}
+        </ContainerTitle>
+        <div>
+          {descriptions}
+          {bullets ? (
+            <ContalinerList color={color}>
+              {bullets.map((text, i) => {
+                return <li key={`${title} bullet ${i}`}>{text}</li>;
+              })}
+            </ContalinerList>
+          ) : null}
+        </div>
+      </CardGrids>
+    </article>
   );
 };
 ExplainCard.propTypes = {

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import logo from '../../assets/logo_desk.png';
 import { AppLayout } from '../../components/AppLayout';
 import { Container, ContainerTitle } from '../../components/UI/Content';
@@ -7,6 +8,7 @@ import { ExplainCard } from '../../components/ExplainCard';
 import { BlueContainer } from '../../components/BlueContainer';
 import { DownLoadButton } from '../../components/Buttons';
 import { DropContent } from '../../components/DropContent';
+import { Course } from '../../components/Course';
 
 export const Demo = () => {
   return (
@@ -33,6 +35,7 @@ export const Demo = () => {
               'Materiales para Cada actividad',
             ]}
           />
+          <Course />
         </Container>
         <DropContent title='Material' color='var(--color-pink)'>
           <h3>Hello</h3>
