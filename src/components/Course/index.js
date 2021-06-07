@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Tabs, TabList, Tab, TabPanel } from '@zendeskgarden/react-tabs';
 import { ThemeProvider } from '@zendeskgarden/react-theming';
-import { ExplainCard } from '../ExplainCard';
+import { Introduction } from './Introduction';
+
 import { DropContent } from '../../components/DropContent';
 import { ContainerTitle } from '../../components/UI/Content';
 import { DownLoadButton } from '../../components/Buttons';
@@ -48,52 +49,7 @@ const StyledTabsList = styled(TabList)`
   display: flex;
   justify-content: space-around;
 `;
-const Introduction = () => {
-  return (
-    <TabPanel item='tab-1'>
-      <ExplainCard
-        title='OBJETIVO'
-        color='var(--color-blue)'
-        descriptions={`
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Suspendisse vel vehicula leo. Etiam rhoncus et erat id sagittis.
-        Donec placerat tempus facilisis. Aenean sollicitudin commodo leo,
-        ac feugiat lorem tincidunt nec. Proin dictum risus vel nisl blandit,
-        id tincidunt turpis tristique. Donec sollicitudin scelerisque lorem, quis`}
-      />
-      <ExplainCard
-        title={`APRENDIZAJE ESPERADO`}
-        color='var(--color-blue)'
-        descriptions={`
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Suspendisse vel vehicula leo. Etiam rhoncus et erat id sagittis.
-        Donec placerat tempus facilisis. Aenean sollicitudin commodo leo,
-        ac feugiat lorem tincidunt nec. Proin dictum risus vel nisl blandit,
-        id tincidunt turpis tristique. Donec sollicitudin scelerisque lorem, quis`}
-      />
-      <ExplainCard
-        title={`COMPETENCIA QUE \nSE FAVORECE`}
-        color='var(--color-blue)'
-        descriptions={`
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Suspendisse vel vehicula leo. Etiam rhoncus et erat id sagittis.
-        Donec placerat tempus facilisis. Aenean sollicitudin commodo leo,
-        ac feugiat lorem tincidunt nec. Proin dictum risus vel nisl blandit,
-        id tincidunt turpis tristique. Donec sollicitudin scelerisque lorem, quis`}
-      />
-      <ExplainCard
-        title={`CONTENIDOS \nTEMÁTICOS`}
-        color='var(--color-blue)'
-        descriptions={`
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Suspendisse vel vehicula leo. Etiam rhoncus et erat id sagittis.
-        Donec placerat tempus facilisis. Aenean sollicitudin commodo leo,
-        ac feugiat lorem tincidunt nec. Proin dictum risus vel nisl blandit,
-        id tincidunt turpis tristique. Donec sollicitudin scelerisque lorem, quis`}
-      />
-    </TabPanel>
-  );
-};
+
 const CourseClass = () => {
   return (
     <TabPanel item='tab-2'>
