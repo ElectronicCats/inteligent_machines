@@ -1,7 +1,8 @@
 import React from 'react';
-import { ExplainCard } from '../ExplainCard';
 import { TabPanel } from '@zendeskgarden/react-tabs';
 import { arrayOf, shape, string } from 'prop-types';
+
+import { ExplainCard } from '../ExplainCard';
 
 export const Introduction = ({ introClass }) => {
   return (
