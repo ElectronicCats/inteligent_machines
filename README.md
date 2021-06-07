@@ -1,9 +1,9 @@
-![CI](https://github.com/wolftrax5/inteligent_machines/workflows/CI/badge.svg)
+[![CD](https://github.com/ElectronicCats/inteligent_machines/actions/workflows/cd.yml/badge.svg)](https://github.com/ElectronicCats/inteligent_machines/actions/workflows/cd.yml)
 
 
-# Getting Started with Create React App
+# Maquinas Inteligentes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
@@ -35,3 +35,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 you can set the env var creating a .env file
 Remember set yours envs in your .github/workflow from your repoistories secrests.
+
