@@ -36,3 +36,15 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 you can set the env var creating a .env file
 Remember set yours envs in your .github/workflow from your repoistories secrests.
 
+### Maintainer
+
+<a href="https://github.com/sponsors/ElectronicCats">
+  <img src="https://electroniccats.com/wp-content/uploads/2020/07/Badge_GHS.png" height="104" />
+</a>
+
+Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
+
+### License
+
+GPL-3.0 License
+
