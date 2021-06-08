@@ -27,8 +27,8 @@ Para disfrutar la version completa entra a [http://maquinasinteligentes.org/](ht
 ### Comunidad
 Nos gustaría saber en donde replicaste este curso, compartenos tu experiencia junto a diferentes educadores de latinoamérica en el Facebook oficial del curso. Puedes aportar con tus experiencias y recomendaciones.
 
-### Deseas reportar un error o bug en la pagina
-Abre un issue en este repositorio, bievenidos los pullrequest
+## Deseas reportar un error o bug en la pagina
+Abre un issue en este repositorio, todas las contribuciones son bienvenidos o pullrequest
 
 ## Build project Manual
 
