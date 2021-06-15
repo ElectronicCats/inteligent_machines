@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from '../../assets/logo_desk.svg';
@@ -11,8 +11,14 @@ import {
   IconLink,
 } from '../UI/Header';
 import { IconFaceBgColor, IconYoutubeBgColor } from '../UI/Icons';
+import { useOnClickOutside } from '../../hooks/useOutSideClick';
+import { Menu } from '../Menu';
+import { Burger } from '../Burger';
 
 export const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  const node = useRef();
+  useOnClickOutside(node, () => setOpen(false));
   return (
     <HeaderContainer>
       <Link to='/'>
@@ -45,6 +51,10 @@ export const Navbar = () => {
           <IconYoutubeBgColor />
         </IconLink>
       </HeaderLinks>
+      <div ref={node} style={{ display: 'flex', justifyContent: 'flex-end' }}>
+        <Menu open={open} setOpen={setOpen} />
+        <Burger open={open} setOpen={setOpen} />
+      </div>
     </HeaderContainer>
   );
 };

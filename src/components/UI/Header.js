@@ -77,14 +77,13 @@ export const StyledBurger = styled.button`
   @media ${device.laptop} {
     display: none;
   }
-  position: absolute;
-  top: 5%;
-  right: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-self: center;
   width: 2rem;
   height: 2rem;
+  margin: 20px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -124,12 +123,11 @@ export const StyledMenu = styled.div`
   flex-direction: column;
   justify-content: center;
   background: var(--main-bg-color);
-  height: 200px;
-  width: 100vw;
-  text-align: left;
-  position: absolute;
-  bottom: 100%;
-  right: 0;
-  transform: ${({ open }) => (open ? 'translateY(100%)' : 'translateY(0)')};
+  transform: ${({ open }) => (open ? 'translateY(100vh)' : 'translateY(0)')};
   transition: transform 0.3s ease-in-out;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: -100vh;
+  left: 0;
 `;
