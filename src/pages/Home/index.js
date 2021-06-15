@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/logo_desk.svg';
 import chips from '../../assets/devices/chips.svg';
+import samKit from '../../assets/sam/sam-kit.svg';
 import { AppLayout } from '../../components/AppLayout';
 import {
   Container,
@@ -89,6 +90,13 @@ export const Home = () => {
             </CardGrids>
           </>
         </BlueContainer>
+        <Container>
+          <img
+            src={samKit}
+            alt='sam & kit'
+            style={{ width: '100%', height: '500px', margin: '20px 0' }}
+          />
+        </Container>
         <GradientContainer>
           <>
             <ContainerTitle color='white' size='2'>
