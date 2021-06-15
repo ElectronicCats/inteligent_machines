@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import { Tabs, TabList, Tab, TabPanel } from '@zendeskgarden/react-tabs';
 import { ThemeProvider } from '@zendeskgarden/react-theming';
 import { Introduction } from './Introduction';
-
+import { CourseClass } from './CourseClass';
 import { DropContent } from '../../components/DropContent';
 import { ContainerTitle } from '../../components/UI/Content';
 import { DownLoadButton } from '../../components/Buttons';
-import { CardGrids } from '../../components/UI/Cards';
+
 import { Table } from '../../components/Tables';
 // eslint-disable-next-line
 const TABS = [
@@ -50,32 +50,6 @@ const StyledTabsList = styled(TabList)`
   justify-content: space-around;
 `;
 
-const CourseClass = () => {
-  return (
-    <TabPanel item='tab-2'>
-      <CardGrids>
-        <ContainerTitle size='3' color='var(--color-green)'>
-          CONTENIDO DE CLASE
-        </ContainerTitle>
-        <DownLoadButton
-          pathToFile='/assets/logo_desk.png'
-          downloadName='lodo_inteligent'
-          bgColor='var(--color-green)'
-          label='Nombre del archivo a descargar'
-        />
-      </CardGrids>
-      <DropContent title='Clase 1' color='var(--color-green)'>
-        <h3>Hello</h3>
-      </DropContent>
-      <DropContent title='Clase 2' color='var(--color-green)'>
-        <h3>World</h3>
-      </DropContent>
-      <DropContent title='Clase 3' color='var(--color-green)'>
-        <h3>World</h3>
-      </DropContent>
-    </TabPanel>
-  );
-};
 const Practice = () => {
   return (
     <TabPanel item='tab-4'>

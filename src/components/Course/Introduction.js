@@ -1,18 +1,20 @@
 import React from 'react';
-import { ExplainCard } from '../ExplainCard';
 import { TabPanel } from '@zendeskgarden/react-tabs';
 import { arrayOf, shape, string } from 'prop-types';
+
+import { ExplainCard } from '../ExplainCard';
 
 export const Introduction = ({ introClass }) => {
   return (
     <TabPanel item='tab-1'>
-      {introClass.map(({ title, description }) => {
+      {introClass.map(({ title, description, bullets }) => {
         return (
           <ExplainCard
             key={title}
             title={title}
             color='var(--color-blue)'
             descriptions={description}
+            bullets={bullets}
           />
         );
       })}
@@ -28,6 +30,7 @@ Introduction.defaultProps = {
         Donec placerat tempus facilisis. Aenean sollicitudin commodo leo,
         ac feugiat lorem tincidunt nec. Proin dictum risus vel nisl blandit,
         id tincidunt turpis tristique. Donec sollicitudin scelerisque lorem.`,
+      bullets: ['lalaalla', 'Arduino 1'],
     },
     {
       title: 'APRENDIZAJE ESPERADO',
@@ -44,6 +47,7 @@ Introduction.defaultProps = {
         Donec placerat tempus facilisis. Aenean sollicitudin commodo leo,
         ac feugiat lorem tincidunt nec. Proin dictum risus vel nisl blandit,
         id tincidunt turpis tristique. Donec sollicitudin scelerisque lorem.`,
+      bullets: ['lalaalla', 'Arduino 1'],
     },
     {
       title: `CONTENIDOS \nTEMÁTICOS`,
