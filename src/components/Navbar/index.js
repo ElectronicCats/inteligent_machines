@@ -44,10 +44,16 @@ export const Navbar = () => {
               {route.name}
             </StyledLink>
           ))}
-        <IconLink href='link' target='_black'>
+        <IconLink
+          href='https://www.facebook.com/electroniccats'
+          target='_black'
+        >
           <IconFaceBgColor />
         </IconLink>
-        <IconLink href='link' target='_black'>
+        <IconLink
+          href='https://www.youtube.com/channel/UCA9pODMFvrLEAB9vYWiLebg'
+          target='_black'
+        >
           <IconYoutubeBgColor />
         </IconLink>
       </HeaderLinks>
