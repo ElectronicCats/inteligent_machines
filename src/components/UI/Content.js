@@ -16,7 +16,7 @@ export const ContainerTitle = styled.h2`
   margin: 10px;
   background-color: ${({ colorBg }) => (colorBg ? colorBg : 'transparent')};
   color: ${({ color }) => (color ? color : 'var(--main-fnt-color)')};
-  font-size: ${({ size }) => (size ? size + 'rem' : 'initial')};
+  font-size: ${({ size }) => (size ? size + 'em' : 'initial')};
   text-transform: uppercase;
   font-weight: bold;
   text-align: ${({ align }) => (align ? align : 'center')};
