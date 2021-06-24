@@ -24,11 +24,11 @@ export const GlobalStyle = createGlobalStyle`
     --default-font: 'Acumin';
     --headers-font: 'Gotham';
     --nav-bar-width: 100px;
-    --font-size: 15px;
+    --font-size: 12px;
     --gradient: 90deg, #0071b5 0%, #00FF95 100%;
     --gradient-dark: 90deg, #0071b5 0%, #22244f 100%;
-    @media ${device.mobileL} {
-      --font-size: 12px;
+    @media screen and ${device.laptop} {
+    --font-size: 18px;
     }
   }
 
