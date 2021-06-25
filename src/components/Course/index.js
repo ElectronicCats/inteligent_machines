@@ -5,7 +5,7 @@ import { ThemeProvider } from '@zendeskgarden/react-theming';
 import { Introduction } from './Introduction';
 import { CourseClass } from './CourseClass';
 import { Resourses } from './Resourses';
-import { DropContent } from '../../components/DropContent';
+import { Practice } from './Practice';
 import { ContainerTitle } from '../../components/UI/Content';
 
 import { Table } from '../../components/Tables';
@@ -49,29 +49,6 @@ const StyledTabsList = styled(TabList)`
   display: flex;
   justify-content: space-around;
 `;
-
-const Practice = () => {
-  return (
-    <TabPanel item='tab-4'>
-      <ContainerTitle size='2' align='left' color='var(--color-pink)'>
-        PRÁCTICA
-      </ContainerTitle>
-      <ContainerTitle size='1.3' align='left' color='var(--color-pink)'>
-        TIEMPO ESTIMADO <i style={{ fontWeight: '200' }}>00:00 MINUTOS</i>
-      </ContainerTitle>
-
-      <DropContent title='Material' color='var(--color-pink)'>
-        <h3>Hello</h3>
-      </DropContent>
-      <DropContent title='Objetivo' color='var(--color-pink)'>
-        <h3>World</h3>
-      </DropContent>
-      <DropContent title='Procedimiento' color='var(--color-pink)'>
-        <h3>World</h3>
-      </DropContent>
-    </TabPanel>
-  );
-};
 
 const Plan = () => {
   const columns = React.useMemo(

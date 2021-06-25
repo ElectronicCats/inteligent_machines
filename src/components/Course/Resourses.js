@@ -7,7 +7,7 @@ import { ContainerTitle } from '../UI/Content';
 import samResourse from '../../assets/sam/resourse-sam.svg';
 import { FlexImages } from '../Devices';
 
-export const Resourses = ({ mainLink, bgColor, links }) => {
+export const Resourses = ({ mainLink, color, links }) => {
   return (
     <TabPanel item='tab-3'>
       <section
@@ -20,7 +20,7 @@ export const Resourses = ({ mainLink, bgColor, links }) => {
         <DownLoadButton
           pathToFile={mainLink.pathToFile}
           downloadName={mainLink.downloadName}
-          bgColor={bgColor}
+          bgColor={color}
           label={mainLink.label}
         />
         <div style={{ display: 'flex' }}>
@@ -35,7 +35,7 @@ export const Resourses = ({ mainLink, bgColor, links }) => {
             {links.map(({ label, pathToFile, downloadName }) => {
               return (
                 <a key={label} href={pathToFile} download={downloadName}>
-                  <ContainerTitle color={bgColor} size={3}>
+                  <ContainerTitle color={color} size={3}>
                     {label}
                   </ContainerTitle>
                 </a>
@@ -67,7 +67,7 @@ Resourses.defaultProps = {
       label: 'Link a Video de Complemento',
     },
   ],
-  bgColor: 'var(--color-orange)',
+  color: 'var(--color-orange)',
 };
 
 Resourses.propTypes = {
@@ -77,5 +77,5 @@ Resourses.propTypes = {
     label: string.isRequired,
   }),
   links: arrayOf(object),
-  bgColor: string,
+  color: string,
 };
