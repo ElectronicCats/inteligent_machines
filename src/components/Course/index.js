@@ -4,9 +4,9 @@ import { Tabs, TabList, Tab, TabPanel } from '@zendeskgarden/react-tabs';
 import { ThemeProvider } from '@zendeskgarden/react-theming';
 import { Introduction } from './Introduction';
 import { CourseClass } from './CourseClass';
+import { Resourses } from './Resourses';
 import { DropContent } from '../../components/DropContent';
 import { ContainerTitle } from '../../components/UI/Content';
-import { DownLoadButton } from '../../components/Buttons';
 
 import { Table } from '../../components/Tables';
 // eslint-disable-next-line
@@ -72,18 +72,7 @@ const Practice = () => {
     </TabPanel>
   );
 };
-const Resourses = () => {
-  return (
-    <TabPanel item='tab-3'>
-      <DownLoadButton
-        pathToFile='/assets/logo_desk.png'
-        downloadName='lodo_inteligent'
-        bgColor='var(--color-orange)'
-        label='Nombre del archivo a descargar'
-      />
-    </TabPanel>
-  );
-};
+
 const Plan = () => {
   const columns = React.useMemo(
     () => [

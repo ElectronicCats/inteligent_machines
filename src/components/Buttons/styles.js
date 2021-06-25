@@ -6,13 +6,13 @@ export const DownloadBtn = styled.a`
   justify-content: space-around;
   font-weight: bold;
   width: 400px;
-  height: 50px;
+  height: 60px;
   margin: 10px;
   background-color: ${({ bgColor }) =>
     bgColor ? bgColor : 'var(--highligth)'};
   border: none;
-  border-radius: 25px;
-  padding: 12px 30px;
+  border-radius: 30px;
+  padding: 20px 30px;
   cursor: pointer;
 
   span {
@@ -24,12 +24,9 @@ export const DownloadBtn = styled.a`
     width: 2rem;
     border-radius: 50%;
     font-size: 1.5rem;
-    .external {
-      background-color: whitesmoke;
-      mix-blend-mode: difference;
-    }
     .internal {
-      background-color: whitesmoke;
+      background-color: ${({ bgColor }) =>
+        bgColor ? bgColor : 'var(--highligth)'};
     }
   }
 `;
