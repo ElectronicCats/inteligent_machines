@@ -1,5 +1,20 @@
 import styled from 'styled-components';
 
+export const RoundLink = styled.a`
+  font-weight: bold;
+  min-width: 150px;
+  height: 60px;
+  margin: 10px;
+  background-color: ${({ bgColor }) =>
+    bgColor ? bgColor : 'var(--highligth)'};
+  border: none;
+  border-radius: 30px;
+  padding: 20px 30px;
+  cursor: pointer;
+  color: ${({ color }) => (color ? color : 'var(--main-fnt-color)')};
+  text-align: center;
+`;
+
 export const DownloadBtn = styled.a`
   display: inline-flex;
   align-items: center;

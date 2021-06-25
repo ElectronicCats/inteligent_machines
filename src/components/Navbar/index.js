@@ -46,13 +46,13 @@ export const Navbar = () => {
           ))}
         <IconLink
           href='https://www.facebook.com/electroniccats'
-          target='_black'
+          target='_blank'
         >
           <IconFaceBgColor />
         </IconLink>
         <IconLink
           href='https://www.youtube.com/channel/UCA9pODMFvrLEAB9vYWiLebg'
-          target='_black'
+          target='_blank'
         >
           <IconYoutubeBgColor />
         </IconLink>
