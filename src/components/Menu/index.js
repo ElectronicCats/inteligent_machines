@@ -1,28 +1,28 @@
 import React from 'react';
 import { StyledMenu } from '../UI/Header';
 import { bool } from 'prop-types';
-
+import { routes } from '../../pages/routes';
+import { StyledLink } from '../UI/Header';
 export const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
-      <a href='/'>
-        <span role='img' aria-label='about us'>
-          &#x1f481;&#x1f3fb;&#x200d;&#x2642;&#xfe0f;
-        </span>
-        About us
-      </a>
-      <a href='/'>
-        <span role='img' aria-label='price'>
-          &#x1f4b8;
-        </span>
-        Pricing
-      </a>
-      <a href='/'>
-        <span role='img' aria-label='contact'>
-          &#x1f4e9;
-        </span>
-        Contact
-      </a>
+      {routes
+        // ignoring the default path & home
+        .filter(
+          (route) =>
+            route.path !== '/' && route.path !== '*' && route.path !== '/demo'
+        )
+        .map((route) => (
+          <StyledLink
+            key={route.path}
+            data-link='nav-link'
+            to={route.path}
+            exact
+            activeClassName='current'
+          >
+            {route.name}
+          </StyledLink>
+        ))}
     </StyledMenu>
   );
 };

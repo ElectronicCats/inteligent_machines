@@ -6,12 +6,17 @@ import { string, arrayOf } from 'prop-types';
 
 export const ExplainCard = ({ title, color, bullets, descriptions }) => {
   return (
-    <article style={{ margin: '20px' }}>
+    <article style={{ margin: '20px', maxWidth: '770px' }}>
       <CardGrids>
-        <ContainerTitle size='3' color={color} aling='center'>
+        <ContainerTitle
+          size='3'
+          color={color}
+          aling='center'
+          style={{ alignSelf: 'center' }}
+        >
           {title}
         </ContainerTitle>
-        <div>
+        <div style={{ alignSelf: 'center' }}>
           {descriptions}
           {bullets ? (
             <ContalinerList color={color}>

@@ -11,5 +11,4 @@ export const IconYoutubeBgColor = styled(ImYoutube)`
 
 export const IconDownload = styled(HiDownload)`
   color: white;
-  mix-blend-mode: difference;
 `;
