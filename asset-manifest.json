@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/inteligent_machines/static/js/main.52078b83.chunk.js",
-    "main.js.map": "/inteligent_machines/static/js/main.52078b83.chunk.js.map",
+    "main.js": "/inteligent_machines/static/js/main.88c2e960.chunk.js",
+    "main.js.map": "/inteligent_machines/static/js/main.88c2e960.chunk.js.map",
     "runtime-main.js": "/inteligent_machines/static/js/runtime-main.1383654a.js",
     "runtime-main.js.map": "/inteligent_machines/static/js/runtime-main.1383654a.js.map",
-    "static/js/2.8402e596.chunk.js": "/inteligent_machines/static/js/2.8402e596.chunk.js",
-    "static/js/2.8402e596.chunk.js.map": "/inteligent_machines/static/js/2.8402e596.chunk.js.map",
+    "static/js/2.ffe91314.chunk.js": "/inteligent_machines/static/js/2.ffe91314.chunk.js",
+    "static/js/2.ffe91314.chunk.js.map": "/inteligent_machines/static/js/2.ffe91314.chunk.js.map",
     "static/js/3.1a8edf38.chunk.js": "/inteligent_machines/static/js/3.1a8edf38.chunk.js",
     "static/js/3.1a8edf38.chunk.js.map": "/inteligent_machines/static/js/3.1a8edf38.chunk.js.map",
     "index.html": "/inteligent_machines/index.html",
-    "static/js/2.8402e596.chunk.js.LICENSE.txt": "/inteligent_machines/static/js/2.8402e596.chunk.js.LICENSE.txt",
+    "static/js/2.ffe91314.chunk.js.LICENSE.txt": "/inteligent_machines/static/js/2.ffe91314.chunk.js.LICENSE.txt",
     "static/media/Acumin-BdPro.9fbc064b.otf": "/inteligent_machines/static/media/Acumin-BdPro.9fbc064b.otf",
     "static/media/Acumin-RPro.0ff8c5d6.otf": "/inteligent_machines/static/media/Acumin-RPro.0ff8c5d6.otf",
     "static/media/Gotham-Book.b6e803be.otf": "/inteligent_machines/static/media/Gotham-Book.b6e803be.otf",
@@ -18,9 +18,15 @@
     "static/media/Gotham-Thin.65551b0f.otf": "/inteligent_machines/static/media/Gotham-Thin.65551b0f.otf",
     "static/media/chips.fd458d9f.svg": "/inteligent_machines/static/media/chips.fd458d9f.svg",
     "static/media/color_sens.45e8f845.svg": "/inteligent_machines/static/media/color_sens.45e8f845.svg",
+    "static/media/curso_final.b11a22c6.svg": "/inteligent_machines/static/media/curso_final.b11a22c6.svg",
     "static/media/curso_pcs.ee6bfd25.svg": "/inteligent_machines/static/media/curso_pcs.ee6bfd25.svg",
     "static/media/dev_code.5b2fb66f.svg": "/inteligent_machines/static/media/dev_code.5b2fb66f.svg",
     "static/media/etc_resp.2cbf048c.svg": "/inteligent_machines/static/media/etc_resp.2cbf048c.svg",
+    "static/media/guia-cel.48c7d620.svg": "/inteligent_machines/static/media/guia-cel.48c7d620.svg",
+    "static/media/guia-ipod.5cbecbd1.svg": "/inteligent_machines/static/media/guia-ipod.5cbecbd1.svg",
+    "static/media/guia-usb.6d25d20f.svg": "/inteligent_machines/static/media/guia-usb.6d25d20f.svg",
+    "static/media/guía-audifonos.f4bd2e75.svg": "/inteligent_machines/static/media/guía-audifonos.f4bd2e75.svg",
+    "static/media/guía-tablet.11dac889.svg": "/inteligent_machines/static/media/guía-tablet.11dac889.svg",
     "static/media/ia_vis.72bb6f1e.svg": "/inteligent_machines/static/media/ia_vis.72bb6f1e.svg",
     "static/media/imu_sens.f004984f.svg": "/inteligent_machines/static/media/imu_sens.f004984f.svg",
     "static/media/intro_ia.d9768c33.svg": "/inteligent_machines/static/media/intro_ia.d9768c33.svg",
@@ -36,12 +42,15 @@
     "static/media/our_kit.f48d52cb.svg": "/inteligent_machines/static/media/our_kit.f48d52cb.svg",
     "static/media/platform_edge.2501e750.svg": "/inteligent_machines/static/media/platform_edge.2501e750.svg",
     "static/media/red-sam.b1d40cdf.svg": "/inteligent_machines/static/media/red-sam.b1d40cdf.svg",
+    "static/media/resourse-sam.ea3b7b1a.svg": "/inteligent_machines/static/media/resourse-sam.ea3b7b1a.svg",
+    "static/media/sam-kit.406707df.svg": "/inteligent_machines/static/media/sam-kit.406707df.svg",
+    "static/media/sam-stand.f6a86a97.svg": "/inteligent_machines/static/media/sam-stand.f6a86a97.svg",
     "static/media/temp_sens.f32faba6.svg": "/inteligent_machines/static/media/temp_sens.f32faba6.svg",
     "static/media/tyni_mach.41eac143.svg": "/inteligent_machines/static/media/tyni_mach.41eac143.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1383654a.js",
-    "static/js/2.8402e596.chunk.js",
-    "static/js/main.52078b83.chunk.js"
+    "static/js/2.ffe91314.chunk.js",
+    "static/js/main.88c2e960.chunk.js"
   ]
 }
