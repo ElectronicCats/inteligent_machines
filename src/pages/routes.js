@@ -8,8 +8,13 @@ import { About } from './About';
 import { StartGuide } from './StartGuide';
 // import { EdgeImpulse } from './EdgeImpulse';
 import { Objective } from './Objective';
+import { CoursesDetails } from './CoursesDetails';
 
 export const routes = [
+  {
+    path: '/class/:classId',
+    component: CoursesDetails,
+  },
   {
     path: '/nosotros',
     name: 'Nosotros',
