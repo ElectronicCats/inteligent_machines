@@ -19,7 +19,7 @@ export const DropContent = ({ title, color, children }) => {
         {title} {`(${open ? '-' : '+'})`}
       </ContainerTitle>
       <ToogleContent open={open}>
-        <Container>{children}</Container>
+        <Container>{open ? children : null}</Container>
       </ToogleContent>
     </article>
   );

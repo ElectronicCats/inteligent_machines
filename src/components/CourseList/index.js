@@ -11,6 +11,7 @@ import color_sens from '../../assets/courses/color_sens.svg';
 import imu_sens from '../../assets/courses/imu_sens.svg';
 import micro_phon from '../../assets/courses/micro_phon.svg';
 import ia_vis from '../../assets/courses/ia_vis.svg';
+import curso_final from '../../assets/courses/curso_final.svg';
 
 import { ClassCard } from '../../components/ClassCard';
 import { CardGrids } from '../../components/UI/Cards';
@@ -34,7 +35,7 @@ export const CourseList = () => {
         <ClassCard title={`Sensor IMU \n9 ejes`} imgsrc={imu_sens} />
         <ClassCard title={`Micrófono`} imgsrc={micro_phon} />
         <ClassCard title={`Vision Artificial`} imgsrc={ia_vis} />
-        <ClassCard title={`Proyecto Final`} imgsrc={ia_vis} />
+        <ClassCard title={`Proyecto Final`} imgsrc={curso_final} />
       </CardGrids>
     </TopContainer>
   );

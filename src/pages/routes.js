@@ -11,7 +11,7 @@ import { Objective } from './Objective';
 
 export const routes = [
   {
-    path: '/nosotors',
+    path: '/nosotros',
     name: 'Nosotros',
     component: About,
   },

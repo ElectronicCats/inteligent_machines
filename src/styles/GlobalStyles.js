@@ -1,5 +1,5 @@
 import sytled, { createGlobalStyle } from 'styled-components';
-
+import { device } from './queries';
 export const GlobalStyle = createGlobalStyle`
 :root {
     --main-bg-color: ${(props) =>
@@ -24,9 +24,12 @@ export const GlobalStyle = createGlobalStyle`
     --default-font: 'Acumin';
     --headers-font: 'Gotham';
     --nav-bar-width: 100px;
-    --font-size: '15px';
+    --font-size: 12px;
     --gradient: 90deg, #0071b5 0%, #00FF95 100%;
     --gradient-dark: 90deg, #0071b5 0%, #22244f 100%;
+    @media screen and ${device.laptop} {
+    --font-size: 18px;
+    }
   }
 
   html {
@@ -59,6 +62,7 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        overflow-wrap: break-word;
       }
       body,
       div,
@@ -72,6 +76,7 @@ export const GlobalStyle = createGlobalStyle`
       li,
       p {
         font-family: var(--default-font), sans-serif;
+        font-size: var(--font-size);
       }
       h1,
       h2,

@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from '../../assets/logo_desk.svg';
 import chips from '../../assets/devices/chips.svg';
+import samKit from '../../assets/sam/sam-kit.svg';
 import { AppLayout } from '../../components/AppLayout';
 import {
   Container,
   ContainerTitle,
   ContainerOrderList,
+  ContainerP,
 } from '../../components/UI/Content';
 import { CardGrids } from '../../components/UI/Cards';
 import { BlueContainer } from '../../components/BlueContainer';
@@ -14,6 +16,7 @@ import {
   GradientContainerCircle,
 } from '../../components/GradientContainer';
 import { CenterDiv } from '../../styles/GlobalStyles';
+import { RoundLink } from '../../components/Buttons/styles';
 
 export const Home = () => {
   return (
@@ -89,18 +92,32 @@ export const Home = () => {
             </CardGrids>
           </>
         </BlueContainer>
+        <Container>
+          <img
+            src={samKit}
+            alt='sam & kit'
+            style={{ width: '100%', height: '500px', margin: '20px 0' }}
+          />
+        </Container>
         <GradientContainer>
-          <>
+          <CenterDiv>
             <ContainerTitle color='white' size='2'>
               Comunidad
             </ContainerTitle>
-            <p>
+            <ContainerP style={{ textAlign: 'center' }}>
               Nos gustaría saber en donde replicaste este curso, compartenos tu
               experiencia junto a diferentes educadores de latinoamérica en el
               Facebook oficial del curso. Puedes aportar con tus experiencias y
               recomendaciones
-            </p>
-          </>
+            </ContainerP>
+            <RoundLink
+              href='https://www.facebook.com/groups/1709753269220853/?ref=share'
+              target='_blank'
+              color={'var(--color-green)'}
+            >
+              UNETE
+            </RoundLink>
+          </CenterDiv>
         </GradientContainer>
       </section>
     </AppLayout>
