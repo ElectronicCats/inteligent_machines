@@ -5,8 +5,7 @@ export const RoundLink = styled.a`
   min-width: 150px;
   height: 60px;
   margin: 10px;
-  background-color: ${({ bgColor }) =>
-    bgColor ? bgColor : 'var(--highligth)'};
+  background: ${({ bgColor }) => (bgColor ? bgColor : 'var(--highligth)')};
   border: none;
   border-radius: 30px;
   padding: 20px 30px;
