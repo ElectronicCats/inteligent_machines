@@ -9,6 +9,7 @@ import {
 } from '../../components/UI/Content';
 import { CardGrids } from '../../components/UI/Cards';
 import { BlueContainer } from '../../components/BlueContainer';
+import { CenterDiv } from '../../styles/GlobalStyles';
 
 export const About = () => {
   return (
@@ -63,7 +64,20 @@ export const About = () => {
             </i>
           </ContainerP>
         </Container>
-        <BlueContainer></BlueContainer>
+        <BlueContainer>
+          <CenterDiv>
+            <iframe
+              id='my_frame'
+              title='my vid'
+              src='https://player.vimeo.com/video/522444610'
+              width='640'
+              height='564'
+              frameBorder='0'
+              allow='autoplay; fullscreen'
+              allowFullScreen
+            ></iframe>
+          </CenterDiv>
+        </BlueContainer>
       </>
     </AppLayout>
   );
