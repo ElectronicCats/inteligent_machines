@@ -15,10 +15,14 @@ export const CoursesDetails = ({
   return (
     <AppLayout>
       <Container>
-        <RoundLink bgColor={'linear-gradient(var(--gradient));'} color='white'>
-          {classId}
-        </RoundLink>
-        <ContainerTitle>{classId}</ContainerTitle>
+        <ContainerTitle>
+          <RoundLink
+            bgColor={'linear-gradient(var(--gradient));'}
+            color='white'
+          >
+            {classId}
+          </RoundLink>
+        </ContainerTitle>
         <Course />
       </Container>
     </AppLayout>
