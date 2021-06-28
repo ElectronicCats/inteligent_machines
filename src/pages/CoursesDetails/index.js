@@ -2,14 +2,13 @@ import React from 'react';
 
 import { AppLayout } from '../../components/AppLayout';
 import { RoundLink } from '../../components/Buttons/styles';
-import {
-  Container,
-  ContainerTitle,
-  ContainerP,
-} from '../../components/UI/Content';
+import { Container, ContainerTitle } from '../../components/UI/Content';
+import { Course } from '../../components/Course';
 
 export const CoursesDetails = ({
+  // eslint-disable-next-line
   match: {
+    // eslint-disable-next-line
     params: { classId },
   },
 }) => {
@@ -20,7 +19,7 @@ export const CoursesDetails = ({
           {classId}
         </RoundLink>
         <ContainerTitle>{classId}</ContainerTitle>
-        <ContainerP>DETALLES DE LA CLASE</ContainerP>
+        <Course />
       </Container>
     </AppLayout>
   );

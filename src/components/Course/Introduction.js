@@ -15,6 +15,7 @@ export const Introduction = ({ introClass }) => {
             color='var(--color-blue)'
             descriptions={description}
             bullets={bullets}
+            cardSize='300px'
           />
         );
       })}
