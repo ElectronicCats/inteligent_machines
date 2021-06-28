@@ -11,6 +11,18 @@ export const CardGrids = styled.div`
   align-items: ${({ align }) => (align ? align : 'initial')};
   justify-items: ${({ justify }) => (justify ? justify : 'initial')};
 `;
+export const SimpleCard = styled(Panel)`
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & img {
+    max-width: 100%;
+    height: 100%;
+  }
+`;
+
 export const Card = styled(Panel)`
   width: 300px;
   height: 300px;

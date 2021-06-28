@@ -9,6 +9,7 @@ import { BlueContainer } from '../../components/BlueContainer';
 import { DownLoadButton } from '../../components/Buttons';
 import { DropContent } from '../../components/DropContent';
 import { Course } from '../../components/Course';
+import { ThanksCard } from '../../components/ClassCard/ThanksCard';
 
 export const Demo = () => {
   return (
@@ -16,6 +17,13 @@ export const Demo = () => {
       <section>
         <Container>
           <ContainerTitle>Demo</ContainerTitle>
+          <ThanksCard
+            imgsrc={logo}
+            description={`­­De la manera mas cordial
+            queremos agradecer el
+            apoyo proporcionado por`}
+          />
+
           <ClassCard title='Plataforma -Edge impulse-' imgsrc={logo} />
           <ExplainCard
             title='Actividades'
