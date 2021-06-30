@@ -57,7 +57,24 @@ export const TopContainer = ({ children }) => {
   );
 };
 
+export const CrossBarBackground = styled(BackgroundContainer)`
+  background: linear-gradient(169deg, white 25%, transparent 25%),
+    linear-gradient(348deg, white 30%, transparent 30%),
+    linear-gradient(90deg, #0071b5 0%, #00ff95 100%);
+`;
+export const CrossBarContainer = ({ children }) => {
+  return (
+    <CrossBarBackground>
+      <Container>{children}</Container>
+    </CrossBarBackground>
+  );
+};
+
 TopContainer.propTypes = {
+  children: element,
+};
+
+CrossBarContainer.propTypes = {
   children: element,
 };
 
