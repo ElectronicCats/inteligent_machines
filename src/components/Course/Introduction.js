@@ -3,8 +3,9 @@ import { TabPanel } from '@zendeskgarden/react-tabs';
 import { arrayOf, shape, string } from 'prop-types';
 
 import { ExplainCard } from '../ExplainCard';
+import { CenterDiv } from '../../styles/GlobalStyles';
 
-export const Introduction = ({ introClass }) => {
+export const Introduction = ({ introClass, vimeoSrc }) => {
   return (
     <TabPanel item='tab-1'>
       {introClass.map(({ title, description, bullets }) => {
@@ -19,10 +20,23 @@ export const Introduction = ({ introClass }) => {
           />
         );
       })}
+      <CenterDiv>
+        <iframe
+          id='my_frame'
+          title='intro Video'
+          src={vimeoSrc}
+          width='640'
+          height='564'
+          frameBorder='0'
+          allow='autoplay; fullscreen'
+          allowFullScreen
+        ></iframe>
+      </CenterDiv>
     </TabPanel>
   );
 };
 Introduction.defaultProps = {
+  vimeoSrc: 'https://player.vimeo.com/video/522444610',
   introClass: [
     {
       title: 'OBJETIVO',
@@ -61,6 +75,7 @@ Introduction.defaultProps = {
   ],
 };
 Introduction.propTypes = {
+  vimeoSrc: string,
   introClass: arrayOf(
     shape({
       title: string,

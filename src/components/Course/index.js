@@ -52,7 +52,7 @@ const StyledTabsList = styled(TabList)`
 `;
 
 export const Course = ({
-  introClass,
+  introContent,
   planContent,
   contentClass,
   practiceClass,
@@ -73,7 +73,10 @@ export const Course = ({
           })}
         </StyledTabsList>
 
-        <Introduction introClass={introClass} />
+        <Introduction
+          introClass={introContent.introClass}
+          vimeoSrc={introContent.vimeoSrc}
+        />
         <CourseClass {...contentClass} />
         <Resourses {...resoursesClass} />
         <Practice {...practiceClass} />
@@ -84,33 +87,36 @@ export const Course = ({
 };
 
 Course.defaultProps = {
-  introClass: [
-    {
-      title: 'Tema nuevo',
-      description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+  introContent: {
+    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    introClass: [
+      {
+        title: 'Tema nuevo',
+        description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
         Suspendisse vel vehicula leo.`,
-      bullets: ['lalaalla', 'Arduino 1'],
-    },
-    {
-      title: 'APRENDIZAJE ESPERADO',
-      description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+        bullets: ['lalaalla', 'Arduino 1'],
+      },
+      {
+        title: 'APRENDIZAJE ESPERADO',
+        description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
         Suspendisse vel vehicula leo. Etiam `,
-    },
-    {
-      title: `COMPETENCIA QUE \nSE FAVORECE`,
-      description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+      },
+      {
+        title: `COMPETENCIA QUE \nSE FAVORECE`,
+        description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
         Suspendisse vel vehicula leo.`,
-      bullets: ['lalaalla', 'Arduino 1'],
-    },
-    {
-      title: `CONTENIDOS \nTEMÁTICOS`,
-      description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+        bullets: ['lalaalla', 'Arduino 1'],
+      },
+      {
+        title: `CONTENIDOS \nTEMÁTICOS`,
+        description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
         Suspendisse vel vehicula leo. Etiam rhoncus et erat id sagittis.
         Donec placerat tempus facilisis. Aenean sollicitudin commodo leo,
         ac feugiat lorem tincidunt nec. Proin dictum risus vel nisl blandit,
         id tincidunt turpis tristique. Donec sollicitudin scelerisque lorem.`,
-    },
-  ],
+      },
+    ],
+  },
   planContent: [
     {
       theme: 'Charla',
@@ -175,12 +181,15 @@ Course.defaultProps = {
 };
 
 Course.propTypes = {
-  introClass: arrayOf(
-    shape({
-      title: string,
-      description: string,
-    })
-  ),
+  introContent: shape({
+    vimeoSrc: string,
+    introClass: arrayOf(
+      shape({
+        title: string,
+        description: string,
+      })
+    ),
+  }),
   planContent: arrayOf(
     shape({
       theme: string,
