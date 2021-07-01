@@ -83,6 +83,97 @@ export const Course = ({
   );
 };
 
+Course.defaultProps = {
+  introClass: [
+    {
+      title: 'Tema nuevo',
+      description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse vel vehicula leo.`,
+      bullets: ['lalaalla', 'Arduino 1'],
+    },
+    {
+      title: 'APRENDIZAJE ESPERADO',
+      description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse vel vehicula leo. Etiam `,
+    },
+    {
+      title: `COMPETENCIA QUE \nSE FAVORECE`,
+      description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse vel vehicula leo.`,
+      bullets: ['lalaalla', 'Arduino 1'],
+    },
+    {
+      title: `CONTENIDOS \nTEMÁTICOS`,
+      description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse vel vehicula leo. Etiam rhoncus et erat id sagittis.
+        Donec placerat tempus facilisis. Aenean sollicitudin commodo leo,
+        ac feugiat lorem tincidunt nec. Proin dictum risus vel nisl blandit,
+        id tincidunt turpis tristique. Donec sollicitudin scelerisque lorem.`,
+    },
+  ],
+  planContent: [
+    {
+      theme: 'Charla',
+      objective: 'Hablar con el equipo',
+      activitie: 'Precentaciones',
+      material: 'Ninugno',
+      classTime: '12 min',
+    },
+    {
+      theme: 'Revisar equipo',
+      objective: 'verificar el equipo',
+      activitie: 'Entregar y abrir el equipo',
+      material: 'Ninugno',
+      classTime: '12 min',
+    },
+  ],
+  contentClass: {
+    downloadFileName: 'Nombre del archivo a descargar',
+    downloadLabel: 'logo_inteligent',
+    pathToDownloadFile: '/assets/logo_desk.png',
+    content: [
+      {
+        title: 'Clase de USO',
+        description: 'Hello',
+      },
+      {
+        title: 'Clase 2',
+        description: 'BLABLA',
+      },
+      {
+        title: 'Prueba',
+        description: 'BLABLA',
+      },
+    ],
+  },
+  practiceClass: {
+    precticeName: 'Nombre de la practica',
+    time: '01:30 HORA',
+    meterials: ['kit de arduino', 'Laptop', 'Internet', 'componentes'],
+    objective: 'Objectivo de la practica',
+    steps: 'Procedimientos de la practica',
+  },
+  resoursesClass: {
+    mainLink: {
+      pathToFile: '/assets/logo_desk.png',
+      downloadName: 'lodo_inteligent',
+      label: 'Recurso de descargar',
+    },
+    links: [
+      {
+        pathToFile: '/assets/logo_desk.png',
+        downloadName: 'lodo_inteligent',
+        label: 'Link a Lectura',
+      },
+      {
+        pathToFile: '/assets/logo_desk.png',
+        downloadName: 'lodo_inteligent',
+        label: 'Link a Video de Complemento',
+      },
+    ],
+  },
+};
+
 Course.propTypes = {
   introClass: arrayOf(
     shape({

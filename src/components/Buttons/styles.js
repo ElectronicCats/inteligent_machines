@@ -19,7 +19,6 @@ export const DownloadBtn = styled.a`
   align-items: center;
   justify-content: space-around;
   font-weight: bold;
-  width: 400px;
   height: 60px;
   margin: 10px;
   background-color: ${({ bgColor }) =>
