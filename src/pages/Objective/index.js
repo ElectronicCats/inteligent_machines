@@ -32,7 +32,7 @@ export const Objective = () => {
           <ContainerTitle size={2} align='left'>
             OBJETIVO GENERAL
           </ContainerTitle>
-          <ContainerP>
+          <ContainerP size={1.3}>
             El programa Máquinas Inteligentes se centra en la ciencia de
             inteligencia artificial (IA) y el subcampo de Machine Learning con
             el microcontrolador NRF52840 (Kit de Arduino Tiny Machine Learning)

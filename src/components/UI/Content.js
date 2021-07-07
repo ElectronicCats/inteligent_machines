@@ -51,7 +51,6 @@ export const ContainerOrderList = styled.ol`
 
 export const ContainerP = styled.p`
   margin: 20px;
-  max-width: 700px;
   font-size: ${({ size }) => (size ? size + 'rem' : 'initial')};
 `;
 
