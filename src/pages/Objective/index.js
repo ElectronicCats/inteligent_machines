@@ -2,6 +2,9 @@ import React from 'react';
 
 import { AppLayout } from '../../components/AppLayout';
 import obj_trasn from '../../assets/devices/obj_trasn.svg';
+import objetivos_cards from '../../assets/objetivos_cards.svg';
+import objetivos_grafica from '../../assets/objetivos_grafica.svg';
+import objetivos_sam from '../../assets/sam/objetivos-sam.svg';
 import { CenterDiv } from '../../styles/GlobalStyles';
 import { TopContainer } from '../../components/GradientContainer';
 import {
@@ -10,6 +13,8 @@ import {
   ContainerP,
   ContalinerList,
 } from '../../components/UI/Content';
+import { ThanksCard } from '../../components/ClassCard/ThanksCard';
+import { CardGrids } from '../../components/UI/Cards';
 
 export const Objective = () => {
   return (
@@ -79,6 +84,28 @@ export const Objective = () => {
               Programar dispositivos embebidos con Arduino IDE y Edge Impulse.
             </li>
           </ContalinerList>
+          <img src={objetivos_cards} alt='Cards' style={{ width: '100%' }} />
+          <CardGrids direction='row'>
+            <ThanksCard
+              description={`Los cientificos ganan 7 Veces mas que un ingeniero`}
+              imgsrc={objetivos_grafica}
+              title={'oportunidad de crecimiento'}
+            />
+            <CenterDiv direction='row'>
+              <img
+                src={objetivos_sam}
+                alt={'Sam objective'}
+                style={{ width: '300px' }}
+              />
+              <ContalinerList>
+                <li>Mejor Calidad de Vida</li>
+                <li>Procesos Automatizados</li>
+                <li>Seguridad Eficiente</li>
+                <li>Atencion al Cliente</li>
+                <li>Resolucion de Problemas Complejos</li>
+              </ContalinerList>
+            </CenterDiv>
+          </CardGrids>
         </Container>
       </>
     </AppLayout>
