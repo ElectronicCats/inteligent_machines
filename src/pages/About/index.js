@@ -27,40 +27,41 @@ export const About = () => {
           <CardGrids>
             <article>
               <ContainerP size='1.3'>
-                Máquinas Inteligentes es un programa educativo, para
-                deasarrollar habilidades interpretativas de lectura de
-                información, obtenida a travez de los sensores en dispostivos
-                embebidos (Microcontrolado- res), utilizando una interfaz
-                amigable de programación que permi- te utilizarla sin ser un
-                experto en programación y/o matemáticas.
+                Máquinas inteligentes es un programa educativo, para desarrollar
+                habilidades interpretativas de lectura de información, obtenida
+                a través de los sensores en dispositivos embebidos
+                (Microcontroladores), utilizando una interfaz amigable de
+                programación que permite utilizarla sin ser un experto en
+                programación o inteligencia artificial.
               </ContainerP>
               <ContainerP size='1.3'>
-                Consta de 3 Módulos cada uno de 4 a 10 clases de 10 a 50
-                minutos, donde los estudiantes aprenden a desarrollar un modelo
-                de apren- dizaje con inteligencia articial utilizando Arduino y
-                Edge Impulse como herramientas de programación.
+                Este programa consta de 12 módulos, donde los interesados
+                aprenden a desarrollar un modelo de aprendizaje con inteligencia
+                artificial utilizando a Edge Impulse y Arduino IDE como
+                herramienta para programación.
               </ContainerP>
             </article>
             <article>
               <ContainerP size='1.3'>
-                Este programa puede ser tomado por cualquier alumno y/o replica-
-                do por profesores de educación media superior en adelante que
-                busque compartir el conocimiento adquirido en este taller
-                online.
+                Este programa puede ser tomado por cualquier alumno y/o
+                replicado por profesores de educación media superior en
+                adelante, que busquen introducirse en el mundo de la
+                inteligencia artificial sin ser un experto en programación o
+                matemáticas.
               </ContainerP>
               <ContainerP size='1.3'>
-                Esperamos que quien tome este taller online se comprometan a
+                Esperamos que quien tome este taller online se comprometa a
                 compartir el conocimiento con nuevas generaciones de su plantel,
-                comunidad o colegas, para de esta manera tenga continuidad el
-                taller fomentando la curiosidad por la ciencia y tecnología.
+                comunidad o colegas, para de esta manera tener continuidad en el
+                taller fomentando la curiosidad por la ciencia y la tecnología.
               </ContainerP>
             </article>
           </CardGrids>
           <ContainerP>
             <i>
               Este taller fue posible gracias al apoyo y participación de
-              distintas organizaciones y asociacio- nes como: Kybernus, Arduino,
-              Edge Impulse y Electronic Cats.
+              distintas organizaciones y asociaciones como: Kybernus, Arduino
+              Education y Electronic Cats.
             </i>
           </ContainerP>
         </Container>
