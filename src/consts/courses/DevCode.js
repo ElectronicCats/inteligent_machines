@@ -88,7 +88,7 @@ export const DevCode = {
   },
   resoursesClass: {
     mainLink: {
-      pathToFile: 'https://www.arduino.cc/',
+      pathToFile: 'https://www.arduino.cc/', // esto es para descargar no para redirigir, por que la pagina de arduino
       downloadName: '',
       label: 'Página oficial Arduino',
     },
