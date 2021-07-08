@@ -7,6 +7,7 @@ import { DevCode } from './DevCode';
 import { Sensor_Temperatura } from './SensTemp';
 import { Sensor_Rgb } from './Rgb';
 import { Sensor_Imu } from './SensImu';
+import { Microphone } from './Microphone';
 // eslint-disable-next-line
 export default {
   intro_ia: InteligenciaArtificial,
@@ -18,4 +19,5 @@ export default {
   temp_sens: Sensor_Temperatura,
   color_sens: Sensor_Rgb,
   imu_sens: Sensor_Imu,
+  micro_phon: Microphone,
 };
