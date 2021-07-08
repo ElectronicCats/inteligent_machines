@@ -113,6 +113,7 @@ export const Home = () => {
             <CenterDiv direction='row'>
               <RoundLink
                 href='https://www.facebook.com/groups/1709753269220853/?ref=share'
+                rel='noreferrer noopener'
                 target='_blank'
                 color={'var(--color-green)'}
               >
@@ -120,6 +121,7 @@ export const Home = () => {
               </RoundLink>
               <RoundLink
                 href='https://electroniccats.com/education/course/view.php?id=13'
+                rel='noreferrer noopener'
                 target='_blank'
                 color={'white'}
                 bgColor={'var(--color-green)'}
