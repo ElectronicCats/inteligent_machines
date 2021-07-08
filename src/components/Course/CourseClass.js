@@ -10,7 +10,7 @@ export const CourseClass = ({
   downloadLabel,
   pathToDownloadFile,
   downloadFileName,
-  contentClass,
+  content,
 }) => {
   return (
     <TabPanel item='tab-2'>
@@ -26,7 +26,7 @@ export const CourseClass = ({
         />
       </CardGrids>
 
-      {contentClass.map(({ title, description }) => {
+      {content.map(({ title, description }) => {
         return (
           <DropContent key={title} title={title} color='var(--color-green)'>
             {description}
@@ -41,7 +41,7 @@ CourseClass.defaultProps = {
   downloadFileName: 'Nombre del archivo a descargar',
   downloadLabel: 'logo_inteligent',
   pathToDownloadFile: '/assets/logo_desk.png',
-  contentClass: [
+  content: [
     {
       title: 'Clase 1',
       description: <h1>Hello</h1>,
@@ -69,7 +69,7 @@ CourseClass.propTypes = {
   downloadFileName: string,
   downloadLabel: string,
   pathToDownloadFile: string,
-  contentClass: arrayOf(
+  content: arrayOf(
     shape({
       title: string,
       description: element,

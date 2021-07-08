@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import { arrayOf, shape, string, number, element } from 'prop-types';
+
 import { Tabs, TabList, Tab } from '@zendeskgarden/react-tabs';
 import { ThemeProvider } from '@zendeskgarden/react-theming';
 import { Introduction } from './Introduction';
@@ -49,7 +51,13 @@ const StyledTabsList = styled(TabList)`
   justify-content: space-around;
 `;
 
-export const Course = () => {
+export const Course = ({
+  introContent,
+  planContent,
+  contentClass,
+  practiceClass,
+  resoursesClass,
+}) => {
   const [selectedTab, setSelectedTab] = useState('tab-1');
 
   return (
@@ -65,12 +73,162 @@ export const Course = () => {
           })}
         </StyledTabsList>
 
-        <Introduction />
-        <CourseClass />
-        <Resourses />
-        <Practice />
-        <Plan />
+        <Introduction
+          introClass={introContent.introClass}
+          vimeoSrc={introContent.vimeoSrc}
+        />
+        <CourseClass {...contentClass} />
+        <Resourses {...resoursesClass} />
+        <Practice {...practiceClass} />
+        <Plan tableConent={planContent} />
       </Tabs>
     </ThemeProvider>
   );
+};
+
+Course.defaultProps = {
+  introContent: {
+    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    introClass: [
+      {
+        title: 'Tema nuevo',
+        description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse vel vehicula leo.`,
+        bullets: ['lalaalla', 'Arduino 1'],
+      },
+      {
+        title: 'APRENDIZAJE ESPERADO',
+        description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse vel vehicula leo. Etiam `,
+      },
+      {
+        title: `COMPETENCIA QUE \nSE FAVORECE`,
+        description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse vel vehicula leo.`,
+        bullets: ['lalaalla', 'Arduino 1'],
+      },
+      {
+        title: `CONTENIDOS \nTEMÁTICOS`,
+        description: `orem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse vel vehicula leo. Etiam rhoncus et erat id sagittis.
+        Donec placerat tempus facilisis. Aenean sollicitudin commodo leo,
+        ac feugiat lorem tincidunt nec. Proin dictum risus vel nisl blandit,
+        id tincidunt turpis tristique. Donec sollicitudin scelerisque lorem.`,
+      },
+    ],
+  },
+  planContent: [
+    {
+      theme: 'Charla',
+      objective: 'Hablar con el equipo',
+      activitie: 'Precentaciones',
+      material: 'Ninugno',
+      classTime: '12 min',
+    },
+    {
+      theme: 'Revisar equipo',
+      objective: 'verificar el equipo',
+      activitie: 'Entregar y abrir el equipo',
+      material: 'Ninugno',
+      classTime: '12 min',
+    },
+  ],
+  contentClass: {
+    downloadFileName: 'Nombre del archivo a descargar',
+    downloadLabel: 'logo_inteligent',
+    pathToDownloadFile: '/assets/logo_desk.png',
+    content: [
+      {
+        title: 'Clase de USO',
+        description: 'Hello',
+      },
+      {
+        title: 'Clase 2',
+        description: 'BLABLA',
+      },
+      {
+        title: 'Prueba',
+        description: 'BLABLA',
+      },
+    ],
+  },
+  practiceClass: {
+    precticeName: 'Nombre de la practica',
+    time: '01:30 HORA',
+    meterials: ['kit de arduino', 'Laptop', 'Internet', 'componentes'],
+    objective: 'Objectivo de la practica',
+    steps: 'Procedimientos de la practica',
+  },
+  resoursesClass: {
+    mainLink: {
+      pathToFile: '/assets/logo_desk.png',
+      downloadName: 'lodo_inteligent',
+      label: 'Recurso de descargar',
+    },
+    links: [
+      {
+        pathToFile: '/assets/logo_desk.png',
+        downloadName: 'lodo_inteligent',
+        label: 'Link a Lectura',
+      },
+      {
+        pathToFile: '/assets/logo_desk.png',
+        downloadName: 'lodo_inteligent',
+        label: 'Link a Video de Complemento',
+      },
+    ],
+  },
+};
+
+Course.propTypes = {
+  introContent: shape({
+    vimeoSrc: string,
+    introClass: arrayOf(
+      shape({
+        title: string,
+        description: string,
+      })
+    ),
+  }),
+  planContent: arrayOf(
+    shape({
+      theme: string,
+      objective: string,
+      activitie: string,
+      material: string,
+      classTime: string | number,
+    })
+  ),
+  contentClass: shape({
+    downloadFileName: string,
+    downloadLabel: string,
+    pathToDownloadFile: string,
+    content: arrayOf(
+      shape({
+        title: string,
+        description: element,
+      })
+    ),
+  }),
+  practiceClass: shape({
+    precticeName: string.isRequired,
+    time: string.isRequired,
+    meterials: arrayOf(string).isRequired,
+    objective: string.isRequired,
+    steps: string.isRequired,
+  }),
+  resoursesClass: shape({
+    mainLink: shape({
+      pathToFile: string.isRequired,
+      downloadName: string.isRequired,
+      label: string.isRequired,
+    }),
+    links: arrayOf(
+      shape({
+        pathToFile: string,
+        downloadName: string,
+        label: string,
+      })
+    ),
+  }),
 };

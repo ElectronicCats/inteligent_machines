@@ -8,8 +8,14 @@ import { About } from './About';
 import { StartGuide } from './StartGuide';
 // import { EdgeImpulse } from './EdgeImpulse';
 import { Objective } from './Objective';
+import { CoursesDetails } from './CoursesDetails';
+import { Thanks } from './Thanks';
 
 export const routes = [
+  {
+    path: '/class/:classId',
+    component: CoursesDetails,
+  },
   {
     path: '/nosotros',
     name: 'Nosotros',
@@ -39,6 +45,11 @@ export const routes = [
     path: '/mapa-curicular',
     name: 'Mapa Curricular',
     component: Cvmap,
+  },
+  {
+    path: '/thanks',
+    component: Thanks,
+    name: 'Agradecemos',
   },
   // {
   //   path: '/edge_impulse',

@@ -18,6 +18,15 @@
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "react/prop-types": 1,
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "import/no-anonymous-default-export": [2, {
+      "allowArray": true,
+      "allowArrowFunction": true,
+      "allowAnonymousClass": true,
+      "allowAnonymousFunction": true,
+      "allowCallExpression": true,
+      "allowLiteral": true,
+      "allowObject": true
+    }]
   }
 }

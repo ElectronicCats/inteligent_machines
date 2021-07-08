@@ -15,7 +15,7 @@ export const StartGuide = () => {
           <article>
             <img src={samStand} alt='Sam ' style={{ width: '300px' }} />
           </article>
-          <article>
+          <article style={{ maxWidth: '850px' }}>
             <ContainerP>
               Máquinas Inteligentes es un programa educativo, para desarrollar
               habilidades interpretativas de lectura de información, obtenida
@@ -39,7 +39,7 @@ export const StartGuide = () => {
           <article>
             <ImagesGrids />
           </article>
-          <article>
+          <article style={{ maxWidth: '850px' }}>
             <ExplainCard
               title='¿PARA Quién VA DIRIGIDO?'
               color='var(--color-green)'
