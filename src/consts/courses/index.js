@@ -8,6 +8,8 @@ import { Sensor_Temperatura } from './SensTemp';
 import { Sensor_Rgb } from './Rgb';
 import { Sensor_Imu } from './SensImu';
 import { Microphone } from './Microphone';
+import { VisionArtificial } from './AiVis';
+import { FinalProject } from './FinalProject';
 // eslint-disable-next-line
 export default {
   intro_ia: InteligenciaArtificial,
@@ -20,4 +22,6 @@ export default {
   color_sens: Sensor_Rgb,
   imu_sens: Sensor_Imu,
   micro_phon: Microphone,
+  ia_vis: VisionArtificial,
+  curso_final: FinalProject,
 };
