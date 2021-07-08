@@ -12,40 +12,48 @@ import ia_vis from '../../assets/courses/ia_vis.svg';
 import curso_final from '../../assets/courses/curso_final.svg';
 
 export const CURSES_CARDS = [
-  { id: 'intro_ia', couseName: 'Introducción a IA', imagePath: intro_ia },
   {
-    id: 'etc_resp',
+    id: 'introduccion_ia',
+    couseName: 'Introducción a IA',
+    imagePath: intro_ia,
+  },
+  {
+    id: 'etica_responsabilidad',
     couseName: `Ética &\nResponsabilidades`,
     imagePath: etc_resp,
   },
   {
-    id: 'tyni_mach',
+    id: 'tyni_machine_learning',
     couseName: `Tiny Machine \nLearning`,
     imagePath: tyni_mach,
   },
-  { id: 'our_kit', couseName: 'Nuestro Kit', imagePath: our_kit },
+  { id: 'nuestro_kit', couseName: 'Nuestro Kit', imagePath: our_kit },
   {
-    id: 'platform_edge',
+    id: 'platforma_edge',
     couseName: `Plataforma \n-Edge Impulse-`,
     imagePath: platform_edge,
   },
   {
-    id: 'dev_code',
+    id: 'programando_codigo',
     couseName: `Programando \nNuestro Código`,
     imagePath: dev_code,
   },
   {
-    id: 'temp_sens',
+    id: 'sensor_temperatura',
     couseName: `Sensor de \nTemperatura`,
     imagePath: temp_sens,
   },
   {
-    id: 'color_sens',
+    id: 'sensor_color',
     couseName: `Sensor de \nColometría`,
     imagePath: color_sens,
   },
-  { id: 'imu_sens', couseName: `Sensor IMU \n9 ejes`, imagePath: imu_sens },
-  { id: 'micro_phon', couseName: `Micrófono`, imagePath: micro_phon },
-  { id: 'ia_vis', couseName: `Vision Artificial`, imagePath: ia_vis },
+  { id: 'sensor_imu', couseName: `Sensor IMU \n9 ejes`, imagePath: imu_sens },
+  { id: 'microfono', couseName: `Micrófono`, imagePath: micro_phon },
+  {
+    id: 'vision_artificial',
+    couseName: `Vision Artificial`,
+    imagePath: ia_vis,
+  },
   { id: 'curso_final', couseName: `Proyecto Final`, imagePath: curso_final },
 ];

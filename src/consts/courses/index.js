@@ -12,16 +12,16 @@ import { VisionArtificial } from './AiVis';
 import { FinalProject } from './FinalProject';
 // eslint-disable-next-line
 export default {
-  intro_ia: InteligenciaArtificial,
-  etc_resp: Etica_Resp,
-  tyni_mach: Machine_learning,
-  our_kit: NuestroKit,
-  platform_edge: EdgeImpulse,
-  dev_code: DevCode,
-  temp_sens: Sensor_Temperatura,
-  color_sens: Sensor_Rgb,
-  imu_sens: Sensor_Imu,
-  micro_phon: Microphone,
-  ia_vis: VisionArtificial,
+  introduccion_ia: InteligenciaArtificial,
+  etica_responsabilidad: Etica_Resp,
+  tyni_machine_learning: Machine_learning,
+  nuestro_kit: NuestroKit,
+  platforma_edge: EdgeImpulse,
+  programando_codigo: DevCode,
+  sensor_temperatura: Sensor_Temperatura,
+  sensor_color: Sensor_Rgb,
+  sensor_imu: Sensor_Imu,
+  microfono: Microphone,
+  vision_artificial: VisionArtificial,
   curso_final: FinalProject,
 };
