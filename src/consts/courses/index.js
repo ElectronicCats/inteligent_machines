@@ -5,6 +5,7 @@ import { NuestroKit } from './Kit';
 import { EdgeImpulse } from './EdgeImp';
 import { DevCode } from './DevCode';
 import { Sensor_Temperatura } from './SensTemp';
+import { Sensor_Rgb } from './Rgb';
 // eslint-disable-next-line
 export default {
   intro_ia: InteligenciaArtificial,
@@ -14,4 +15,5 @@ export default {
   platform_edge: EdgeImpulse,
   dev_code: DevCode,
   temp_sens: Sensor_Temperatura,
+  color_sens: Sensor_Rgb,
 };
