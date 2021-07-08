@@ -2,7 +2,7 @@ import React from 'react';
 import { arrayOf, shape, string } from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import { CURSES_CARDS } from './utils';
+import { CURSES_CARDS } from '../../consts/courses/CardList';
 import { ClassCard } from '../../components/ClassCard';
 import { CardGrids } from '../../components/UI/Cards';
 import { TopContainer } from '../../components/GradientContainer';
