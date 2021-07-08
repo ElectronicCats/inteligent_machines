@@ -15,9 +15,27 @@ export const Partners = () => {
     <Container>
       <h4 style={{ fontWeight: 'bold', textAlign: 'center' }}>Con Apoyo de:</h4>
       <CardGrids align='end' cardSize='200px'>
-        <PartnerLogo src={EC_logo} alt='Electronic cats' />
-        <PartnerLogo src={KY_logo} alt='Kybernus' />
-        <PartnerLogo src={AR_logo} alt='Arduino education' />
+        <a
+          href='https://electroniccats.com/'
+          target='_blank'
+          rel='author noreferrer'
+        >
+          <PartnerLogo src={EC_logo} alt='Electronic cats' />
+        </a>
+        <a
+          href='https://centroricardobsalinaspliego.org/kybernus/'
+          target='_blank'
+          rel='external noreferrer'
+        >
+          <PartnerLogo src={KY_logo} alt='Kybernus' />
+        </a>
+        <a
+          href='https://www.arduino.cc/'
+          target='_blank'
+          rel='external noreferrer'
+        >
+          <PartnerLogo src={AR_logo} alt='Arduino education' />
+        </a>
       </CardGrids>
     </Container>
   );

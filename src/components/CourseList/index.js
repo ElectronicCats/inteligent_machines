@@ -1,42 +1,37 @@
 import React from 'react';
+import { arrayOf, shape, string } from 'prop-types';
+import { Link } from 'react-router-dom';
 
-import intro_ia from '../../assets/courses/intro_ia.svg';
-import etc_resp from '../../assets/courses/etc_resp.svg';
-import tyni_mach from '../../assets/courses/tyni_mach.svg';
-import our_kit from '../../assets/courses/our_kit.svg';
-import platform_edge from '../../assets/courses/platform_edge.svg';
-import dev_code from '../../assets/courses/dev_code.svg';
-import temp_sens from '../../assets/courses/temp_sens.svg';
-import color_sens from '../../assets/courses/color_sens.svg';
-import imu_sens from '../../assets/courses/imu_sens.svg';
-import micro_phon from '../../assets/courses/micro_phon.svg';
-import ia_vis from '../../assets/courses/ia_vis.svg';
-import curso_final from '../../assets/courses/curso_final.svg';
-
+import { CURSES_CARDS } from '../../consts/courses/CardList';
 import { ClassCard } from '../../components/ClassCard';
 import { CardGrids } from '../../components/UI/Cards';
 import { TopContainer } from '../../components/GradientContainer';
 
-export const CourseList = () => {
+export const CourseList = ({ coursesCards }) => {
   return (
     <TopContainer>
       <CardGrids>
-        <ClassCard title='Introducción a IA' imgsrc={intro_ia} />
-        <ClassCard title={`Ética &\nResponsabilidades`} imgsrc={etc_resp} />
-        <ClassCard title={`Tiny Machine \nLearning`} imgsrc={tyni_mach} />
-        <ClassCard title='Nuestro Kit' imgsrc={our_kit} />
-        <ClassCard
-          title={`Plataforma \n-Edge Impulse-`}
-          imgsrc={platform_edge}
-        />
-        <ClassCard title={`Programando \nNuestro Código`} imgsrc={dev_code} />
-        <ClassCard title={`Sensor de \nTemperatura`} imgsrc={temp_sens} />
-        <ClassCard title={`Sensor de \nColometría`} imgsrc={color_sens} />
-        <ClassCard title={`Sensor IMU \n9 ejes`} imgsrc={imu_sens} />
-        <ClassCard title={`Micrófono`} imgsrc={micro_phon} />
-        <ClassCard title={`Vision Artificial`} imgsrc={ia_vis} />
-        <ClassCard title={`Proyecto Final`} imgsrc={curso_final} />
+        {coursesCards.map((card) => {
+          return (
+            <Link key={card.id} to={`/class/${card.id}`}>
+              <ClassCard title={card.couseName} imgsrc={card.imagePath} />
+            </Link>
+          );
+        })}
       </CardGrids>
     </TopContainer>
   );
+};
+
+CourseList.defaultProps = {
+  coursesCards: CURSES_CARDS,
+};
+CourseList.propTypes = {
+  coursesCards: arrayOf(
+    shape({
+      id: string,
+      couseName: string,
+      imagePath: string,
+    })
+  ),
 };

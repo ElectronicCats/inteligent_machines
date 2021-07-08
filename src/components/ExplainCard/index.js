@@ -4,10 +4,16 @@ import { ContalinerList, ContainerTitle } from '../UI/Content';
 
 import { string, arrayOf } from 'prop-types';
 
-export const ExplainCard = ({ title, color, bullets, descriptions }) => {
+export const ExplainCard = ({
+  title,
+  color,
+  bullets,
+  descriptions,
+  cardSize,
+}) => {
   return (
-    <article style={{ margin: '20px', maxWidth: '770px' }}>
-      <CardGrids>
+    <article style={{ margin: '20px' }}>
+      <CardGrids cardSize={cardSize}>
         <ContainerTitle
           size='3'
           color={color}
@@ -35,4 +41,5 @@ ExplainCard.propTypes = {
   descriptions: string,
   bullets: arrayOf(string),
   color: string,
+  cardSize: string,
 };

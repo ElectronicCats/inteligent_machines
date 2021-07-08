@@ -1,33 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import { AppLayout } from '../../components/AppLayout';
 import samStand from '../../assets/sam/sam-stand.svg';
-import guiaCel from '../../assets/devices/guia-cel.svg';
-import guiaIpod from '../../assets/devices/guia-ipod.svg';
-import guiaUsb from '../../assets/devices/guia-usb.svg';
-import guiaAudi from '../../assets/devices/guía-audifonos.svg';
-import guiaTab from '../../assets/devices/guía-tablet.svg';
 import { CenterDiv } from '../../styles/GlobalStyles';
-import { CardGrids } from '../../components/UI/Cards';
 import { ContainerP } from '../../components/UI/Content';
 import { ExplainCard } from '../../components/ExplainCard';
-
-export const StyledDevice = styled.img`
-  width: 200px;
-  height: 150px;
-`;
-export const ImagesGrids = () => {
-  return (
-    <CardGrids align='center' justify='center'>
-      <StyledDevice src={guiaCel} alt='device-cel' />
-      <StyledDevice src={guiaIpod} alt='device-ipod' />
-      <StyledDevice src={guiaUsb} alt='device-usb' />
-      <StyledDevice src={guiaAudi} alt='device-audi' />
-      <StyledDevice src={guiaTab} alt='device-tab' />
-    </CardGrids>
-  );
-};
+import { ImagesGrids } from '../../components/Devices';
 
 export const StartGuide = () => {
   return (
@@ -37,7 +15,7 @@ export const StartGuide = () => {
           <article>
             <img src={samStand} alt='Sam ' style={{ width: '300px' }} />
           </article>
-          <article>
+          <article style={{ maxWidth: '850px' }}>
             <ContainerP>
               Máquinas Inteligentes es un programa educativo, para desarrollar
               habilidades interpretativas de lectura de información, obtenida
@@ -61,7 +39,7 @@ export const StartGuide = () => {
           <article>
             <ImagesGrids />
           </article>
-          <article>
+          <article style={{ maxWidth: '850px' }}>
             <ExplainCard
               title='¿PARA Quién VA DIRIGIDO?'
               color='var(--color-green)'

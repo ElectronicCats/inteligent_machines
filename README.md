@@ -68,7 +68,9 @@ Remember set yours envs in your .github/workflow from your repoistories secrests
 </a>
 
 Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
+## Add new Class
 
+To add a new Class in the landing page, need add the card information in `src\consts\courses\CardList.js` & mede match the Id of card and the exported data from `src\consts\courses\index.js` the follow the current structure for data.
 ## License
 
 GPL-3.0 License

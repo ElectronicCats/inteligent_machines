@@ -7,6 +7,7 @@ import {
   Container,
   ContainerTitle,
   ContainerOrderList,
+  ContainerP,
 } from '../../components/UI/Content';
 import { CardGrids } from '../../components/UI/Cards';
 import { BlueContainer } from '../../components/BlueContainer';
@@ -15,6 +16,7 @@ import {
   GradientContainerCircle,
 } from '../../components/GradientContainer';
 import { CenterDiv } from '../../styles/GlobalStyles';
+import { RoundLink } from '../../components/Buttons/styles';
 
 export const Home = () => {
   return (
@@ -28,7 +30,7 @@ export const Home = () => {
                 <CenterDiv>
                   <img src={logo} alt='maquinas inteligentes' />
                   <ContainerTitle color='var(--color-blue)'>
-                    Curso de Tiny Machine learning & analisis de datos
+                    Curso de Tiny Machine Learning y Análisis de datos
                   </ContainerTitle>
                   <p style={{ color: 'black', textAlign: 'center' }}>
                     Máquinas Inteligentes es un programa educativo, para
@@ -52,11 +54,11 @@ export const Home = () => {
               <ContainerOrderList type='1' color='var(--color-green)'>
                 <li>
                   Entender el funcionamiento de la inteligencia artificial en
-                  nuestros dispositivos
+                  nuestros dispositivos.
                 </li>
                 <li>
                   Conocer la Ética y responsabilidades de la inteligencia
-                  artificial
+                  artificial.
                 </li>
                 <li>
                   Generar conciencia de la responsabilidad, limitaciones y
@@ -66,15 +68,15 @@ export const Home = () => {
                   Entender cómo funciona el análisis de datos en nuestra vida
                   actual.
                 </li>
-                <li>Desarrollar una red neuronal de aprendizaje</li>
+                <li>Desarrollar una red neuronal de aprendizaje.</li>
               </ContainerOrderList>
               <ContainerOrderList type='1' start='6' color='var(--color-green)'>
                 <li>
                   Entender el funcionamiento de aprendizaje de dispositivos
-                  embebidos
+                  embebidos.
                 </li>
                 <li>
-                  Utilizar la plataforma Edge Impulse para Machine Learning
+                  Utilizar la plataforma Edge Impulse para Machine Learning.
                 </li>
                 <li>
                   Aprender, mediante la experimentación científica sobre
@@ -98,17 +100,34 @@ export const Home = () => {
           />
         </Container>
         <GradientContainer>
-          <>
+          <CenterDiv>
             <ContainerTitle color='white' size='2'>
               Comunidad
             </ContainerTitle>
-            <p>
+            <ContainerP style={{ textAlign: 'center' }}>
               Nos gustaría saber en donde replicaste este curso, compartenos tu
               experiencia junto a diferentes educadores de latinoamérica en el
               Facebook oficial del curso. Puedes aportar con tus experiencias y
-              recomendaciones
-            </p>
-          </>
+              recomendaciones.
+            </ContainerP>
+            <CenterDiv direction='row'>
+              <RoundLink
+                href='https://www.facebook.com/groups/1709753269220853/?ref=share'
+                target='_blank'
+                color={'var(--color-green)'}
+              >
+                UNETE
+              </RoundLink>
+              <RoundLink
+                href='https://electroniccats.com/education/course/view.php?id=13'
+                target='_blank'
+                color={'white'}
+                bgColor={'var(--color-green)'}
+              >
+                FAQ
+              </RoundLink>
+            </CenterDiv>
+          </CenterDiv>
         </GradientContainer>
       </section>
     </AppLayout>
