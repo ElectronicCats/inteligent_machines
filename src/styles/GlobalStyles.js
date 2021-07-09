@@ -120,10 +120,13 @@ export const GlobalStyle = createGlobalStyle`
 
 export const CenterDiv = sytled.div`
   display: flex;
-  flex-direction: ${(props) => (props.direction ? props.direction : 'column')};
   align-items: center;
   justify-content: center;
-`;
+  flex-direction: ${(props) => (props.direction ? props.direction : 'column')};
+  @media ${device.mobileL},${device.mobileM},${device.mobileS} {
+    flex-direction: column;
+  }
+  `;
 export const Panel = sytled.div`
   background-color: var(--main-bg-color);
   border-radius: 15px;

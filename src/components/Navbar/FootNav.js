@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import { routes } from '../../pages/routes';
 import { Container } from '../UI/Content';
-import { CenterDiv } from '../../styles/GlobalStyles';
+// import { CenterDiv } from '../../styles/GlobalStyles';
 
 export const StyledFooterLink = styled(NavLink)`
   display: inline-flex;
@@ -24,7 +24,7 @@ export const StyledFooterLink = styled(NavLink)`
 export const FootNav = () => {
   return (
     <Container>
-      <CenterDiv direction='row'>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
         {routes
           // ignoring the default path & home
           .filter(
@@ -41,7 +41,7 @@ export const FootNav = () => {
               {route.name}
             </StyledFooterLink>
           ))}
-      </CenterDiv>
+      </div>
     </Container>
   );
 };

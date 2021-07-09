@@ -14,7 +14,7 @@ import { CenterDiv } from '../../styles/GlobalStyles';
 export const About = () => {
   return (
     <AppLayout>
-      <>
+      <section>
         <Container>
           <CardGrids align='center' justify='center' cardSize='350px'>
             <ContainerTitle size='5'>Nosotros</ContainerTitle>
@@ -71,15 +71,19 @@ export const About = () => {
               id='my_frame'
               title='my vid'
               src='https://player.vimeo.com/video/522444610'
-              width='640'
-              height='564'
               frameBorder='0'
               allow='autoplay; fullscreen'
               allowFullScreen
+              style={{
+                width: '100%',
+                minWidth: '340px',
+                maxWidth: '640px',
+                height: '564px',
+              }}
             ></iframe>
           </CenterDiv>
         </BlueContainer>
-      </>
+      </section>
     </AppLayout>
   );
 };

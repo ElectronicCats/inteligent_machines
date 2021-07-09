@@ -19,7 +19,7 @@ import { CardGrids } from '../../components/UI/Cards';
 export const Objective = () => {
   return (
     <AppLayout>
-      <>
+      <section>
         <TopContainer>
           <CenterDiv direction='row'>
             <ContainerTitle size={4} color='#fff'>
@@ -84,14 +84,18 @@ export const Objective = () => {
               Programar dispositivos embebidos con Arduino IDE y Edge Impulse.
             </li>
           </ContalinerList>
-          <img src={objetivos_cards} alt='Cards' style={{ width: '100%' }} />
+          <img
+            src={objetivos_cards}
+            alt='Cards'
+            style={{ width: '100%', minWidth: '340px', maxWidth: '640px' }}
+          />
           <CardGrids direction='row'>
             <ThanksCard
               description={`Los cientificos ganan 7 Veces mas que un ingeniero`}
               imgsrc={objetivos_grafica}
               title={'oportunidad de crecimiento'}
             />
-            <CenterDiv direction='row'>
+            <CardGrids direction='row'>
               <img
                 src={objetivos_sam}
                 alt={'Sam objective'}
@@ -104,10 +108,10 @@ export const Objective = () => {
                 <li>Atencion al Cliente</li>
                 <li>Resolucion de Problemas Complejos</li>
               </ContalinerList>
-            </CenterDiv>
+            </CardGrids>
           </CardGrids>
         </Container>
-      </>
+      </section>
     </AppLayout>
   );
 };

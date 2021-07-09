@@ -20,7 +20,7 @@ export const Thanks = () => {
           <img
             src={thanks_laptop}
             alt='thanks laptop'
-            style={{ width: '600px' }}
+            style={{ width: '100%', minWidth: '340px', maxWidth: '640px' }}
           />
         </CenterDiv>
       </CrossBarContainer>
