@@ -14,19 +14,10 @@ export const RoundLink = styled.a`
   text-align: center;
 `;
 
-export const DownloadBtn = styled.a`
+export const DownloadBtn = styled(RoundLink)`
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
-  font-weight: bold;
-  height: 60px;
-  margin: 10px;
-  background-color: ${({ bgColor }) =>
-    bgColor ? bgColor : 'var(--highligth)'};
-  border: none;
-  border-radius: 30px;
-  padding: 20px 30px;
-  cursor: pointer;
 
   span {
     color: whitesmoke;
@@ -42,4 +33,18 @@ export const DownloadBtn = styled.a`
         bgColor ? bgColor : 'var(--highligth)'};
     }
   }
+`;
+export const RoundButton = styled.button`
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  height: 60px;
+  margin: 10px;
+  background: ${({ bgColor }) => (bgColor ? bgColor : 'var(--highligth)')};
+  color: ${({ color }) => (color ? color : 'var(--main-fnt-color)')};
+  border: none;
+  border-radius: 30px;
+  padding: 20px 30px;
+  cursor: pointer;
 `;

@@ -87,7 +87,7 @@ export const Objective = () => {
           <img
             src={objetivos_cards}
             alt='Cards'
-            style={{ width: '100%', minWidth: '340px', maxWidth: '640px' }}
+            style={{ width: '80%', minWidth: '340px' }}
           />
           <CardGrids direction='row'>
             <ThanksCard
@@ -96,11 +96,6 @@ export const Objective = () => {
               title={'oportunidad de crecimiento'}
             />
             <CardGrids direction='row'>
-              <img
-                src={objetivos_sam}
-                alt={'Sam objective'}
-                style={{ width: '300px' }}
-              />
               <ContalinerList>
                 <li>Mejor Calidad de Vida</li>
                 <li>Procesos Automatizados</li>
@@ -108,6 +103,11 @@ export const Objective = () => {
                 <li>Atencion al Cliente</li>
                 <li>Resolucion de Problemas Complejos</li>
               </ContalinerList>
+              <img
+                src={objetivos_sam}
+                alt={'Sam objective'}
+                style={{ width: '300px' }}
+              />
             </CardGrids>
           </CardGrids>
         </Container>

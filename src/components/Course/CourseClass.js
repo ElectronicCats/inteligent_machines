@@ -26,13 +26,33 @@ export const CourseClass = ({
         />
       </CardGrids>
 
-      {content.map(({ title, description }) => {
-        return (
-          <DropContent key={title} title={title} color='var(--color-green)'>
-            {description}
-          </DropContent>
-        );
-      })}
+      {content.map(
+        ({
+          title,
+          description,
+          videoClass = 'https://player.vimeo.com/video/522444610',
+        }) => {
+          return (
+            <DropContent key={title} title={title} color='var(--color-green)'>
+              {description}
+              <iframe
+                id={`my_frame ${title}`}
+                title={`my video ${title}`}
+                src={videoClass}
+                frameBorder='0'
+                allow='autoplay; fullscreen'
+                allowFullScreen
+                style={{
+                  width: '100%',
+                  minWidth: '340px',
+                  maxWidth: '640px',
+                  height: '564px',
+                }}
+              ></iframe>
+            </DropContent>
+          );
+        }
+      )}
     </TabPanel>
   );
 };
@@ -73,6 +93,7 @@ CourseClass.propTypes = {
     shape({
       title: string,
       description: element,
+      videoClass: string,
     })
   ),
 };
