@@ -30,6 +30,7 @@ export const WrapperFoot = styled.footer`
   grid-area: footer;
 `;
 export const WrapperFootNav = styled.section`
+  overflow: scroll;
   grid-area: footnav;
   display: flex;
   align-items: center;

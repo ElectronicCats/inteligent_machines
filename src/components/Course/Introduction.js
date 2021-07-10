@@ -25,11 +25,15 @@ export const Introduction = ({ introClass, vimeoSrc }) => {
           id='my_frame'
           title='intro Video'
           src={vimeoSrc}
-          width='640'
-          height='564'
           frameBorder='0'
           allow='autoplay; fullscreen'
           allowFullScreen
+          style={{
+            width: '100%',
+            minWidth: '340px',
+            maxWidth: '640px',
+            height: '564px',
+          }}
         ></iframe>
       </CenterDiv>
     </TabPanel>

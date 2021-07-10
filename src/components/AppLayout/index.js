@@ -34,18 +34,16 @@ export const StyledFooterLink = styled(NavLink)`
 export const AppLayout = ({ children }) => {
   return (
     <MainLayout>
-      <>
-        <WrapperNav>
-          <Navbar />
-        </WrapperNav>
-        <WrapperContent>{children}</WrapperContent>
-        <WrapperFootNav>
-          <FootNav />
-        </WrapperFootNav>
-        <WrapperFoot>
-          <Partners />
-        </WrapperFoot>
-      </>
+      <WrapperNav>
+        <Navbar />
+      </WrapperNav>
+      <WrapperContent>{children}</WrapperContent>
+      <WrapperFootNav>
+        <FootNav />
+      </WrapperFootNav>
+      <WrapperFoot>
+        <Partners />
+      </WrapperFoot>
     </MainLayout>
   );
 };

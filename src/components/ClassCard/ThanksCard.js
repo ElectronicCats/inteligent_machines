@@ -16,7 +16,7 @@ export const ThanksCard = ({ description, imgsrc, title, addCard = true }) => {
         <img src={imgsrc} alt={title} />
       )}
 
-      <ContainerP style={{ width: '150px' }}>{description}</ContainerP>
+      <ContainerP style={{ maxWidth: '150px' }}>{description}</ContainerP>
     </CenterDiv>
   );
 };
