@@ -22,7 +22,11 @@ export const useFormTextField = (initialValue = '', validate = () => '') => {
     },
     [validate]
   );
-  return { value, onChange, error };
+  const resetValues = () => {
+    setValue('');
+    setError('');
+  };
+  return { value, onChange, error, resetValues };
 };
 export const useFormFileField = () => {
   const [value, setValue] = useState();

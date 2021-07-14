@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import emailjs from 'emailjs-com';
 
 import { AppLayout } from '../../components/AppLayout';
 import {
@@ -15,6 +16,10 @@ import { CardGrids } from '../../components/UI/Cards';
 import { ActionButton } from '../../components/Buttons';
 import { CenterDiv } from '../../styles/GlobalStyles';
 import samResourse from '../../assets/sam/resourse-sam.svg';
+
+const USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
+const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE;
+const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
 
 export const emailValidation = (values) => {
   let error = null;
@@ -33,12 +38,37 @@ export const Demo = () => {
   const celField = useFormTextField('');
   const messageField = useFormTextField('');
 
+  useEffect(() => {
+    emailjs.init(USER_ID);
+  }, []);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (emailField.error) {
       return;
     }
-    console.log(preparData());
+
+    emailjs
+      .send(SERVICE_ID, TEMPLATE_ID, preparData())
+      .then(
+        function (response) {
+          console.log('SUCCESS!', response.status, response.text);
+        },
+        function (error) {
+          console.log('FAILED...SEND EMAIL', error);
+        }
+      )
+      .then(() => {
+        ResetData();
+      });
+  };
+
+  const ResetData = () => {
+    emailField.resetValues();
+    nameField.resetValues();
+    lastNameField.resetValues();
+    celField.resetValues();
+    messageField.resetValues();
   };
 
   const preparData = () => {
@@ -51,6 +81,7 @@ export const Demo = () => {
     };
     return Data;
   };
+
   return (
     <AppLayout>
       <HalfContainer>
