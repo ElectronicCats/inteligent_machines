@@ -9,6 +9,7 @@ export const TextInput = ({
   logical,
   placeholder,
   errorMessage,
+  ...props
 }) => {
   return (
     <InputContainer>
@@ -19,6 +20,7 @@ export const TextInput = ({
         id={id}
         {...logical}
         placeholder={placeholder}
+        {...props}
       />
       <SpanError>{errorMessage}</SpanError>
     </InputContainer>

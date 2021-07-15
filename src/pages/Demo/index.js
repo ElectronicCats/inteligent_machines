@@ -21,6 +21,13 @@ const USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
 const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE;
 const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
 
+export const requiredValidation = (values) => {
+  let error = null;
+  if (!values) {
+    error = 'NECESITAMOS ESTE CAMPO';
+  }
+  return error;
+};
 export const emailValidation = (values) => {
   let error = null;
   if (!values) {
@@ -33,10 +40,10 @@ export const emailValidation = (values) => {
 
 export const Demo = () => {
   const emailField = useFormTextField('', emailValidation);
-  const nameField = useFormTextField('');
+  const nameField = useFormTextField('', requiredValidation);
   const lastNameField = useFormTextField('');
   const celField = useFormTextField('');
-  const messageField = useFormTextField('');
+  const messageField = useFormTextField('', requiredValidation);
 
   useEffect(() => {
     emailjs.init(USER_ID);
@@ -44,7 +51,8 @@ export const Demo = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (emailField.error) {
+    if (emailField.error || nameField.error || messageField.error) {
+      ResetData();
       return;
     }
 
@@ -103,18 +111,21 @@ export const Demo = () => {
                     logical={nameField}
                     type={'text'}
                     id={'SU_name'}
+                    required
                   />
                   <TextInput
                     label='Apellido'
                     logical={lastNameField}
                     type={'text'}
                     id={'SU_lastname'}
+                    required
                   />
                   <TextInput
                     label='Telefono Celular'
                     logical={celField}
                     type={'text'}
                     id={'SU_cel'}
+                    required
                   />
                   <TextInput
                     errorMessage={emailField.error}
@@ -122,12 +133,14 @@ export const Demo = () => {
                     logical={emailField}
                     type={'email'}
                     id={'SU_email'}
+                    required
                   />
                 </CardGrids>
                 <TextArea
                   id={'SU_message'}
                   label='Mensaje'
                   logical={messageField}
+                  required
                 />
                 <CenterDiv>
                   <ActionButton
@@ -141,14 +154,48 @@ export const Demo = () => {
             </Container>
           </Panel>
           <CardGrids>
-            <ContainerP>
-              Deseas,apoyar este proyecto para crear mejor contenido,
-              actualizaciones y que llegue a mas personas
-              <ActionButton bgColor={'var(--color-orange);'}>
-                Boton de paypal
-              </ActionButton>
-            </ContainerP>
-            <img src={samResourse} alt='Sam ' style={{ width: '300px' }} />
+            <div>
+              <ContainerP size='1.5'>
+                Deseas,apoyar este proyecto para crear mejor contenido,
+                actualizaciones y que llegue a mas personas
+              </ContainerP>
+              <form
+                action='https://www.paypal.com/donate'
+                method='post'
+                target='_top'
+              >
+                <input
+                  type='hidden'
+                  name='hosted_button_id'
+                  value='X29Y7VGRDU2KJ'
+                />
+                <input
+                  type='image'
+                  src='https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif'
+                  border='0'
+                  name='submit'
+                  title='PayPal - The safer, easier way to pay online!'
+                  alt='Donate with PayPal button'
+                />
+                <img
+                  alt=''
+                  border='0'
+                  src='https://www.paypal.com/es_MX/i/scr/pixel.gif'
+                  width='1'
+                  height='1'
+                />
+              </form>
+            </div>
+            <img
+              src={samResourse}
+              alt='Sam '
+              style={{
+                width: '300px',
+                position: 'relative',
+                left: '100px',
+                bottom: '100px',
+              }}
+            />
           </CardGrids>
         </>
       </HalfContainer>
