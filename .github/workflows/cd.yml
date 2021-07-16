@@ -10,6 +10,9 @@ on:
     types: [published]
 env:
   REACT_APP_VERSION: ${{ secrets.REACT_APP_VERSION }}
+  REACT_APP_EMAILJS_USER_ID: ${{ secrets.REACT_APP_EMAILJS_USER_ID }}
+  REACT_APP_EMAILJS_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_TEMPLATE }}
+  REACT_APP_EMAILJS_SERVICE_ID: ${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }}
 jobs:
   build:
     runs-on: ubuntu-latest

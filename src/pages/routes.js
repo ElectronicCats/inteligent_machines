@@ -3,7 +3,7 @@ import { Courses } from './Courses';
 import { Cvmap } from './Cvmap';
 import { Workshops } from './Workshops';
 import { NotFound } from './NotFound';
-import { Demo } from './Demo';
+import { ContactUs } from './ContactUs';
 import { About } from './About';
 import { StartGuide } from './StartGuide';
 // import { EdgeImpulse } from './EdgeImpulse';
@@ -47,6 +47,11 @@ export const routes = [
     component: Cvmap,
   },
   {
+    path: '/contacto',
+    component: ContactUs,
+    name: 'Contacto',
+  },
+  {
     path: '/thanks',
     component: Thanks,
     name: 'Agradecemos',
@@ -60,10 +65,6 @@ export const routes = [
     path: '/',
     name: 'Home',
     component: Home,
-  },
-  {
-    path: '/demo',
-    component: Demo,
   },
   {
     path: '*',
