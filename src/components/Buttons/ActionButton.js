@@ -8,6 +8,7 @@ export const ActionButton = ({
   color,
   onAction,
   buttonType = 'submit',
+  ...props
 }) => {
   return (
     <RoundButton
@@ -15,6 +16,7 @@ export const ActionButton = ({
       color={color}
       type={buttonType}
       onClick={onAction}
+      {...props}
     >
       {children}
     </RoundButton>

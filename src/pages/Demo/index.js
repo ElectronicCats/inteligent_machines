@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import emailjs from 'emailjs-com';
+import React from 'react';
 
 import { AppLayout } from '../../components/AppLayout';
 import {
@@ -16,10 +15,7 @@ import { CardGrids } from '../../components/UI/Cards';
 import { ActionButton } from '../../components/Buttons';
 import { CenterDiv } from '../../styles/GlobalStyles';
 import samResourse from '../../assets/sam/resourse-sam.svg';
-
-const USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
-const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE;
-const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+import { useEmail } from '../../hooks/useEmail';
 
 export const requiredValidation = (values) => {
   let error = null;
@@ -44,10 +40,7 @@ export const Demo = () => {
   const lastNameField = useFormTextField('');
   const celField = useFormTextField('');
   const messageField = useFormTextField('', requiredValidation);
-
-  useEffect(() => {
-    emailjs.init(USER_ID);
-  }, []);
+  const { messageStatus, messageLoadin, sendEmail } = useEmail();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -55,20 +48,7 @@ export const Demo = () => {
       ResetData();
       return;
     }
-
-    emailjs
-      .send(SERVICE_ID, TEMPLATE_ID, preparData())
-      .then(
-        function (response) {
-          console.log('SUCCESS!', response.status, response.text);
-        },
-        function (error) {
-          console.log('FAILED...SEND EMAIL', error);
-        }
-      )
-      .then(() => {
-        ResetData();
-      });
+    sendEmail(preparData(), ResetData);
   };
 
   const ResetData = () => {
@@ -143,11 +123,13 @@ export const Demo = () => {
                   required
                 />
                 <CenterDiv>
+                  <span>{messageStatus.message}</span>
                   <ActionButton
                     color='white'
                     bgColor={'linear-gradient(var(--gradient));'}
+                    disabled={messageLoadin}
                   >
-                    Enviar Mensaje
+                    {messageLoadin ? 'Enviando...' : 'Enviar Mensaje'}
                   </ActionButton>
                 </CenterDiv>
               </form>
