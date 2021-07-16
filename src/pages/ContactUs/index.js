@@ -34,7 +34,7 @@ export const emailValidation = (values) => {
   return error;
 };
 
-export const Demo = () => {
+export const ContactUs = () => {
   const emailField = useFormTextField('', emailValidation);
   const nameField = useFormTextField('', requiredValidation);
   const lastNameField = useFormTextField('');
