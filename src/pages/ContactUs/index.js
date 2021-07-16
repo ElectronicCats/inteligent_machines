@@ -16,6 +16,13 @@ import { ActionButton } from '../../components/Buttons';
 import { CenterDiv } from '../../styles/GlobalStyles';
 import samResourse from '../../assets/sam/resourse-sam.svg';
 import { useEmail } from '../../hooks/useEmail';
+import {
+  IconFaceBgColor,
+  IconYoutubeBgColor,
+  IconGithubBgColor,
+  IconInstagramColor,
+} from '../../components/UI/Icons';
+import { IconLink } from '../../components/UI/Header';
 
 export const requiredValidation = (values) => {
   let error = null;
@@ -136,7 +143,7 @@ export const ContactUs = () => {
             </Container>
           </Panel>
           <CardGrids>
-            <div>
+            <div style={{ zIndex: 10 }}>
               <ContainerP size='1.5'>
                 Deseas,apoyar este proyecto para crear mejor contenido,
                 actualizaciones y que llegue a mas personas
@@ -167,6 +174,33 @@ export const ContactUs = () => {
                   height='1'
                 />
               </form>
+              <ContainerTitle size='1.5'>
+                Siguenos en:
+                <IconLink
+                  href='https://www.facebook.com/electroniccats'
+                  target='_blank'
+                >
+                  <IconFaceBgColor />
+                </IconLink>
+                <IconLink
+                  href='https://www.youtube.com/channel/UCA9pODMFvrLEAB9vYWiLebg'
+                  target='_blank'
+                >
+                  <IconYoutubeBgColor />
+                </IconLink>
+                <IconLink
+                  href='https://github.com/ElectronicCats'
+                  target='_blank'
+                >
+                  <IconGithubBgColor />
+                </IconLink>
+                <IconLink
+                  href='https://www.instagram.com/electroniccats/'
+                  target='_blank'
+                >
+                  <IconInstagramColor />
+                </IconLink>
+              </ContainerTitle>
             </div>
             <img
               src={samResourse}
