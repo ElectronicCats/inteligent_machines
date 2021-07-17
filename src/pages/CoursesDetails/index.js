@@ -6,6 +6,7 @@ import { Container, ContainerTitle } from '../../components/UI/Content';
 import { Course } from '../../components/Course';
 import COURSES from '../../consts/courses';
 import { CourseNav } from '../../components/CourseNav';
+import { useCarrucelCourseNav } from '../../hooks/useCarrucelCourse';
 
 export const CoursesDetails = ({
   // eslint-disable-next-line
@@ -14,11 +15,17 @@ export const CoursesDetails = ({
     params: { classId },
   },
 }) => {
+  const { title, nexCoursePath, prevCoursePath } =
+    useCarrucelCourseNav(classId);
   return (
     <AppLayout>
       <Container>
         <ContainerTitle>
-          <CourseNav currentTitle={COURSES[classId].name} />
+          <CourseNav
+            currentTitle={title}
+            navNext={nexCoursePath}
+            navPrev={prevCoursePath}
+          />
         </ContainerTitle>
         <div style={{ margin: '25px 0' }}>
           <RoundLink

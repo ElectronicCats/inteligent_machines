@@ -23,14 +23,16 @@ export const ExplainCard = ({
           {title}
         </ContainerTitle>
         <div style={{ alignSelf: 'center' }}>
-          {descriptions}
-          {bullets ? (
-            <ContalinerList color={color}>
-              {bullets.map((text, i) => {
-                return <li key={`${title} bullet ${i}`}>{text}</li>;
-              })}
-            </ContalinerList>
-          ) : null}
+          <>
+            {descriptions}
+            {bullets ? (
+              <ContalinerList color={color}>
+                {bullets.map((text, i) => {
+                  return <li key={`${title} bullet ${i}`}>{text}</li>;
+                })}
+              </ContalinerList>
+            ) : null}
+          </>
         </div>
       </CardGrids>
     </article>

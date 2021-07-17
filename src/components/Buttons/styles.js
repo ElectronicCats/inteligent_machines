@@ -61,5 +61,4 @@ export const RoundSpan = styled.span`
   border: none;
   border-radius: 30px;
   padding: 20px 30px;
-  cursor: pointer;
 `;

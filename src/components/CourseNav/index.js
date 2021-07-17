@@ -21,33 +21,31 @@ export const IconStiledNav = styled(Link)`
 
 export const CourseNav = ({ currentTitle, navNext, navPrev }) => {
   return (
-    <div>
-      <RoundSpan bgColor={'linear-gradient(var(--gradient));'} color='white'>
-        {navPrev ? (
-          <IconStiledNav
-            bgColor={'var(--color-orange)'}
-            color='white'
-            size='1.5'
-            to={navPrev}
-          >
-            {'<'}
-          </IconStiledNav>
-        ) : null}
-        <ContainerTitle color={'white'} size='1.2'>
-          {currentTitle}
-        </ContainerTitle>
-        {navNext ? (
-          <IconStiledNav
-            bgColor={'var(--color-orange)'}
-            color='white'
-            size='1.5'
-            to={navNext}
-          >
-            {'>'}
-          </IconStiledNav>
-        ) : null}
-      </RoundSpan>
-    </div>
+    <RoundSpan bgColor={'linear-gradient(var(--gradient));'} color='white'>
+      {navPrev ? (
+        <IconStiledNav
+          bgColor={'var(--color-orange)'}
+          color='white'
+          size='1.5'
+          to={navPrev}
+        >
+          {'<'}
+        </IconStiledNav>
+      ) : null}
+      <ContainerTitle color={'white'} size='1.2'>
+        {currentTitle}
+      </ContainerTitle>
+      {navNext ? (
+        <IconStiledNav
+          bgColor={'var(--color-orange)'}
+          color='white'
+          size='1.5'
+          to={navNext}
+        >
+          {'>'}
+        </IconStiledNav>
+      ) : null}
+    </RoundSpan>
   );
 };
 
