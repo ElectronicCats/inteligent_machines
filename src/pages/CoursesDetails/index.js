@@ -23,6 +23,16 @@ export const CoursesDetails = ({
             {COURSES[classId].name}
           </RoundLink>
         </ContainerTitle>
+        <div style={{ margin: '25px 0' }}>
+          <RoundLink
+            bgColor={'var(--color-pink);'}
+            color='white'
+            href='https://store.arduino.cc/usa/tiny-machine-learning-kit'
+            target='_blank'
+          >
+            Adquiere tu Kit Aquí
+          </RoundLink>
+        </div>
         <Course {...COURSES[classId]} />
       </Container>
     </AppLayout>
