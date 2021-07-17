@@ -6,6 +6,7 @@ import { TopContainer } from '../../components/GradientContainer';
 import { ContainerTitle } from '../../components/UI/Content';
 import { WorkshopCard } from '../../components/UI/Cards';
 import { CenterDiv } from '../../styles/GlobalStyles';
+import { WORKSHOPS } from '../../consts/Workshops';
 
 export const Workshops = () => {
   return (
@@ -17,33 +18,12 @@ export const Workshops = () => {
             {`Red de \nTalleristas`}
           </ContainerTitle>
         </CenterDiv>
-        <WorkshopCard>
-          <img src='' alt='Logo Tallerista' />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet
-          varius pretium. Donec cursus id tortor vel scelerisque. Nunc volutpat
-          sem a erat efficitur, quis varius libero molestie. Sed posuere risus
-          efficitur semper dignissim. Aenean quis iaculis dui. Nullam sed nisl
-          at lorem euismod dapibus. Pellentesque habitant morbi tristique
-          senectus et netus et malesuada fames ac turpis egestas.
-        </WorkshopCard>
-        <WorkshopCard>
-          <img src='' alt='Logo Tallerista' />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet
-          varius pretium. Donec cursus id tortor vel scelerisque. Nunc volutpat
-          sem a erat efficitur, quis varius libero molestie. Sed posuere risus
-          efficitur semper dignissim. Aenean quis iaculis dui. Nullam sed nisl
-          at lorem euismod dapibus. Pellentesque habitant morbi tristique
-          senectus et netus et malesuada fames ac turpis egestas.
-        </WorkshopCard>
-        <WorkshopCard>
-          <img src='' alt='Logo Tallerista' />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet
-          varius pretium. Donec cursus id tortor vel scelerisque. Nunc volutpat
-          sem a erat efficitur, quis varius libero molestie. Sed posuere risus
-          efficitur semper dignissim. Aenean quis iaculis dui. Nullam sed nisl
-          at lorem euismod dapibus. Pellentesque habitant morbi tristique
-          senectus et netus et malesuada fames ac turpis egestas.
-        </WorkshopCard>
+        {WORKSHOPS.map((worker) => (
+          <WorkshopCard key={worker.id}>
+            <img src={worker.imagePath} alt={worker.title} />
+            {worker.description}
+          </WorkshopCard>
+        ))}
       </TopContainer>
     </AppLayout>
   );
