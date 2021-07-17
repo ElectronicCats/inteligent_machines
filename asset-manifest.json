@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/inteligent_machines/static/js/main.60632351.chunk.js",
-    "main.js.map": "/inteligent_machines/static/js/main.60632351.chunk.js.map",
+    "main.js": "/inteligent_machines/static/js/main.1d1f4324.chunk.js",
+    "main.js.map": "/inteligent_machines/static/js/main.1d1f4324.chunk.js.map",
     "runtime-main.js": "/inteligent_machines/static/js/runtime-main.c34537e3.js",
     "runtime-main.js.map": "/inteligent_machines/static/js/runtime-main.c34537e3.js.map",
     "static/js/2.ba5a860e.chunk.js": "/inteligent_machines/static/js/2.ba5a860e.chunk.js",
@@ -21,7 +21,9 @@
     "static/media/curso_final.b11a22c6.svg": "/inteligent_machines/static/media/curso_final.b11a22c6.svg",
     "static/media/curso_pcs.ee6bfd25.svg": "/inteligent_machines/static/media/curso_pcs.ee6bfd25.svg",
     "static/media/dev_code.5b2fb66f.svg": "/inteligent_machines/static/media/dev_code.5b2fb66f.svg",
+    "static/media/ec.250c6507.svg": "/inteligent_machines/static/media/ec.250c6507.svg",
     "static/media/etc_resp.2cbf048c.svg": "/inteligent_machines/static/media/etc_resp.2cbf048c.svg",
+    "static/media/garage.591298fb.png": "/inteligent_machines/static/media/garage.591298fb.png",
     "static/media/guia-cel.48c7d620.svg": "/inteligent_machines/static/media/guia-cel.48c7d620.svg",
     "static/media/guia-ipod.5cbecbd1.svg": "/inteligent_machines/static/media/guia-ipod.5cbecbd1.svg",
     "static/media/guia-usb.6d25d20f.svg": "/inteligent_machines/static/media/guia-usb.6d25d20f.svg",
@@ -30,6 +32,7 @@
     "static/media/ia_vis.72bb6f1e.svg": "/inteligent_machines/static/media/ia_vis.72bb6f1e.svg",
     "static/media/imu_sens.f004984f.svg": "/inteligent_machines/static/media/imu_sens.f004984f.svg",
     "static/media/intro_ia.d9768c33.svg": "/inteligent_machines/static/media/intro_ia.d9768c33.svg",
+    "static/media/inventorshouse.894f578e.svg": "/inteligent_machines/static/media/inventorshouse.894f578e.svg",
     "static/media/logo-EC.a1e74e50.svg": "/inteligent_machines/static/media/logo-EC.a1e74e50.svg",
     "static/media/logo-edu-arduino.cf909494.svg": "/inteligent_machines/static/media/logo-edu-arduino.cf909494.svg",
     "static/media/logo-kybernus.d18e92f9.svg": "/inteligent_machines/static/media/logo-kybernus.d18e92f9.svg",
@@ -47,8 +50,9 @@
     "static/media/our_kit.f48d52cb.svg": "/inteligent_machines/static/media/our_kit.f48d52cb.svg",
     "static/media/platform_edge.2501e750.svg": "/inteligent_machines/static/media/platform_edge.2501e750.svg",
     "static/media/red-sam.b1d40cdf.svg": "/inteligent_machines/static/media/red-sam.b1d40cdf.svg",
+    "static/media/redpanda.71b33001.svg": "/inteligent_machines/static/media/redpanda.71b33001.svg",
     "static/media/resourse-sam.ea3b7b1a.svg": "/inteligent_machines/static/media/resourse-sam.ea3b7b1a.svg",
-    "static/media/sam-kit.406707df.svg": "/inteligent_machines/static/media/sam-kit.406707df.svg",
+    "static/media/sam-kit.9720c916.svg": "/inteligent_machines/static/media/sam-kit.9720c916.svg",
     "static/media/sam-stand.f6a86a97.svg": "/inteligent_machines/static/media/sam-stand.f6a86a97.svg",
     "static/media/temp_sens.f32faba6.svg": "/inteligent_machines/static/media/temp_sens.f32faba6.svg",
     "static/media/thanks_laptop.dcc71a5b.svg": "/inteligent_machines/static/media/thanks_laptop.dcc71a5b.svg",
@@ -57,6 +61,6 @@
   "entrypoints": [
     "static/js/runtime-main.c34537e3.js",
     "static/js/2.ba5a860e.chunk.js",
-    "static/js/main.60632351.chunk.js"
+    "static/js/main.1d1f4324.chunk.js"
   ]
 }
