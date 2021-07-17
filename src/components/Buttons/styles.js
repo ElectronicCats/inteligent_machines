@@ -48,3 +48,18 @@ export const RoundButton = styled.button`
   padding: 20px 30px;
   cursor: pointer;
 `;
+
+export const RoundSpan = styled.span`
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  height: 60px;
+  margin: 10px;
+  background: ${({ bgColor }) => (bgColor ? bgColor : 'var(--highligth)')};
+  color: ${({ color }) => (color ? color : 'var(--main-fnt-color)')};
+  border: none;
+  border-radius: 30px;
+  padding: 20px 30px;
+  cursor: pointer;
+`;
