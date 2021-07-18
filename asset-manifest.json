@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/inteligent_machines/static/js/main.1d1f4324.chunk.js",
-    "main.js.map": "/inteligent_machines/static/js/main.1d1f4324.chunk.js.map",
+    "main.js": "/inteligent_machines/static/js/main.e7cc74c7.chunk.js",
+    "main.js.map": "/inteligent_machines/static/js/main.e7cc74c7.chunk.js.map",
     "runtime-main.js": "/inteligent_machines/static/js/runtime-main.c34537e3.js",
     "runtime-main.js.map": "/inteligent_machines/static/js/runtime-main.c34537e3.js.map",
-    "static/js/2.ba5a860e.chunk.js": "/inteligent_machines/static/js/2.ba5a860e.chunk.js",
-    "static/js/2.ba5a860e.chunk.js.map": "/inteligent_machines/static/js/2.ba5a860e.chunk.js.map",
+    "static/js/2.60b732d7.chunk.js": "/inteligent_machines/static/js/2.60b732d7.chunk.js",
+    "static/js/2.60b732d7.chunk.js.map": "/inteligent_machines/static/js/2.60b732d7.chunk.js.map",
     "static/js/3.d393f408.chunk.js": "/inteligent_machines/static/js/3.d393f408.chunk.js",
     "static/js/3.d393f408.chunk.js.map": "/inteligent_machines/static/js/3.d393f408.chunk.js.map",
     "index.html": "/inteligent_machines/index.html",
-    "static/js/2.ba5a860e.chunk.js.LICENSE.txt": "/inteligent_machines/static/js/2.ba5a860e.chunk.js.LICENSE.txt",
+    "static/js/2.60b732d7.chunk.js.LICENSE.txt": "/inteligent_machines/static/js/2.60b732d7.chunk.js.LICENSE.txt",
     "static/media/Acumin-BdPro.9fbc064b.otf": "/inteligent_machines/static/media/Acumin-BdPro.9fbc064b.otf",
     "static/media/Acumin-RPro.0ff8c5d6.otf": "/inteligent_machines/static/media/Acumin-RPro.0ff8c5d6.otf",
     "static/media/Gotham-Book.b6e803be.otf": "/inteligent_machines/static/media/Gotham-Book.b6e803be.otf",
@@ -60,7 +60,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c34537e3.js",
-    "static/js/2.ba5a860e.chunk.js",
-    "static/js/main.1d1f4324.chunk.js"
+    "static/js/2.60b732d7.chunk.js",
+    "static/js/main.e7cc74c7.chunk.js"
   ]
 }
