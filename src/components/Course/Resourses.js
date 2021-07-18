@@ -34,7 +34,11 @@ export const Resourses = ({ mainLink, color, links }) => {
           >
             {links.map(({ label, pathToFile, downloadName }) => {
               return (
-                <a key={label} href={pathToFile} download={downloadName}>
+                <a
+                  key={`${label} ${pathToFile}`}
+                  href={pathToFile}
+                  download={downloadName}
+                >
                   <ContainerTitle color={color} size={3}>
                     {label}
                   </ContainerTitle>
