@@ -1,7 +1,7 @@
 export const DevCode = {
   name: 'Programando nuestro código',
   introContent: {
-    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    vimeoSrc: 'https://vimeo.com/579486254',
     introClass: [
       {
         title: 'Objetivo',
@@ -63,6 +63,7 @@ export const DevCode = {
     pathToDownloadFile: '',
     content: [
       {
+        vimeoSrc: 'https://vimeo.com/579484299',
         title: 'Instalando Edge Impulse CLI',
         description:
           'En esta clase aprenderás a instalar correctamente Edge Impulse CLI para comunicar tu Kit con el estudio.',

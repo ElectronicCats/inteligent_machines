@@ -1,7 +1,7 @@
 export const Etica_Resp = {
   name: 'Ética y responsabilidades',
   introContent: {
-    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    vimeoSrc: 'https://vimeo.com/579467860',
     introClass: [
       {
         title: 'Objetivo',
