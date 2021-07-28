@@ -20,7 +20,9 @@ export const Workshops = () => {
         </CenterDiv>
         {WORKSHOPS.map((worker) => (
           <WorkshopCard key={worker.id}>
-            <img src={worker.imagePath} alt={worker.title} />
+            <a target='_blank' href={worker.page} rel='noreferrer'>
+              <img src={worker.imagePath} alt={worker.title} />
+            </a>
             {worker.description}
           </WorkshopCard>
         ))}
