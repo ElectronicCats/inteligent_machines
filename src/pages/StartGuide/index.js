@@ -2,7 +2,6 @@ import React from 'react';
 
 import { AppLayout } from '../../components/AppLayout';
 import samStand from '../../assets/sam/sam-stand.svg';
-import { CenterDiv } from '../../styles/GlobalStyles';
 import { ContainerP, ContaineFexDiv } from '../../components/UI/Content';
 import { ExplainCard } from '../../components/ExplainCard';
 import { ImagesGrids } from '../../components/Devices';
