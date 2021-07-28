@@ -4,7 +4,10 @@ import { ThemeProvider } from './contexts/theme-context';
 import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 
-console.log(process.env.REACT_APP_VERSION);
+console.log(
+  `%c ${process.env.REACT_APP_VERSION}`,
+  'font-size:10px; font-weight: bold; background:#00FF95; color:#0071b5;'
+);
 
 ReactDOM.render(
   <React.StrictMode>

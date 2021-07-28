@@ -1,7 +1,7 @@
 export const Sensor_Temperatura = {
   name: 'Sensor de temperatura',
   introContent: {
-    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    vimeoSrc: 'https://vimeo.com/579490011',
     introClass: [
       {
         title: 'Objetivo',

@@ -1,7 +1,7 @@
 export const InteligenciaArtificial = {
   name: 'Inteligencia Artificial',
   introContent: {
-    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    vimeoSrc: 'https://player.vimeo.com/video/579452513',
     introClass: [
       {
         title: 'Objetivo',
@@ -84,24 +84,22 @@ export const InteligenciaArtificial = {
     pathToDownloadFile: '',
     content: [
       {
+        videoClass: 'https://player.vimeo.com/video/579449665',
         title: 'Introducción a Máquinas Inteligentes',
         description:
           'En esta clase conocerás la estructura del programa Máquinas Inteligentes.',
       },
       {
-        title: '¿Qué es Inteligencia Artificial?',
+        videoClass: 'https://player.vimeo.com/video/579451859',
+        title: 'Introducción a Inteligencia Artificial?',
         description:
           'En esta clase comprenderás los conceptos básicos sobre Inteligencia Artificial.',
       },
       {
-        title: 'Subcampos de ciencia de la computación',
+        videoClass: 'https://player.vimeo.com/video/579450320',
+        title: '¿Qué es IA?',
         description:
           'En esta clase aprenderás en cual subcampo se encuentra Machine Learning.',
-      },
-      {
-        title: 'Historia de la IA',
-        description:
-          'En esta clase conocerás el origen de la Inteligencia Artificial y toda su evolución hasta el día de hoy.',
       },
     ],
   },

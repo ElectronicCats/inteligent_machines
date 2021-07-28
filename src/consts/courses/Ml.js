@@ -1,7 +1,7 @@
 export const Machine_learning = {
   name: 'Machine Learning',
   introContent: {
-    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    vimeoSrc: 'https://vimeo.com/579469268',
     introClass: [
       {
         title: 'Objetivo',

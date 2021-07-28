@@ -1,7 +1,7 @@
 export const EdgeImpulse = {
   name: 'Edge Impulse',
   introContent: {
-    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    vimeoSrc: 'https://vimeo.com/579472825',
     introClass: [
       {
         title: 'Objetivo',

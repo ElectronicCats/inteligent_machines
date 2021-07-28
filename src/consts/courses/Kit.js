@@ -1,7 +1,7 @@
 export const NuestroKit = {
   name: 'Nuestro Kit',
   introContent: {
-    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    vimeoSrc: 'https://vimeo.com/579471181',
     introClass: [
       {
         title: 'Objetivo',
