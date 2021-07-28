@@ -11,6 +11,7 @@ export const WORKSHOPS = [
       caracterizados por trabajar siempre con pasión por el desarrollo de dispositivos electrónicos,
       buscando contribuir al bienestar de nuestros consumidores ofreciendo calidad productos adecuados a sus necesidades.`,
     imagePath: electronic,
+    page: 'https://electroniccats.com/',
   },
   {
     id: 'inventor_house',
@@ -19,6 +20,7 @@ export const WORKSHOPS = [
     y conocimiento que a través de la cultura de innovación, puedan generar diversos proyectos.
     "Es posible lo imposible, basta con pedir ayuda a las personas adecuadas"`,
     imagePath: inventors,
+    page: 'http://theinventorhouse.org/',
   },
   {
     id: 'garage_hub',
@@ -28,13 +30,15 @@ export const WORKSHOPS = [
     Contamos con instalaciones en México y Estados Unidos, siendo una empresa binacional de gran impacto tecnológico,
     trabajamos con Instituciones Gubernamentales, Educativas y con el Sector Privado de nuestra ciudad.`,
     imagePath: garage,
+    page: 'https://elgaragehub.com/',
   },
   {
-    id: 'garage_hub',
+    id: 'red_panda',
     title: 'Red Panda',
     description: `Brindamos servicio de orientación en prácticas STEM a través del uso de herramientas, máquinas y plataformas digitales.
     ¿Qué hacemos? Compartir prácticas de proyectos educativos con el fin de fomentar el interés por las áreas STEM que promuevan la creatividad,
     curiosidad y el juicio crítico a través del uso de conceptos teóricos puestos en práctica mediante el uso de tecnologías.`,
     imagePath: redpanda,
+    page: 'https://www.facebook.com/RedPandaTec/',
   },
 ];

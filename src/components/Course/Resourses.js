@@ -39,7 +39,7 @@ export const Resourses = ({ mainLink, color, links }) => {
                   href={pathToFile}
                   download={downloadName}
                 >
-                  <ContainerTitle color={color} size={3}>
+                  <ContainerTitle color={color} size={1.5}>
                     {label}
                   </ContainerTitle>
                 </a>

@@ -50,19 +50,26 @@ export const Card = styled(Panel)`
 export const WorkshopCard = styled(Panel)`
   display: flex;
   height: 200px;
-  padding: 10px 10px 10px 60px;
+  padding: 10px 10px 10px 80px;
   position: relative;
   align-items: center;
   justify-content: center;
   margin: 20px 0;
-
-  & img {
+  & a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
+
     left: -100px;
-    background-color: var(--color-blue);
+    background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  }
+  & img {
+    width: 150px;
+    height: 150px;
   }
 `;

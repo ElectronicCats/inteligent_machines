@@ -3,7 +3,7 @@ import React from 'react';
 import { AppLayout } from '../../components/AppLayout';
 import samStand from '../../assets/sam/sam-stand.svg';
 import { CenterDiv } from '../../styles/GlobalStyles';
-import { ContainerP } from '../../components/UI/Content';
+import { ContainerP, ContaineFexDiv } from '../../components/UI/Content';
 import { ExplainCard } from '../../components/ExplainCard';
 import { ImagesGrids } from '../../components/Devices';
 
@@ -11,7 +11,7 @@ export const StartGuide = () => {
   return (
     <AppLayout>
       <>
-        <CenterDiv direction='row'>
+        <ContaineFexDiv direction='row'>
           <article>
             <img src={samStand} alt='Sam ' style={{ width: '300px' }} />
           </article>
@@ -34,8 +34,8 @@ export const StartGuide = () => {
               programación e inteligencia artificial.`}
             />
           </article>
-        </CenterDiv>
-        <CenterDiv direction='row'>
+        </ContaineFexDiv>
+        <ContaineFexDiv direction='row'>
           <article>
             <ImagesGrids />
           </article>
@@ -76,7 +76,7 @@ export const StartGuide = () => {
               ]}
             />
           </article>
-        </CenterDiv>
+        </ContaineFexDiv>
       </>
     </AppLayout>
   );

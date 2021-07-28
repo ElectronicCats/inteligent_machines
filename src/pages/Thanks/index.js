@@ -8,7 +8,7 @@ import logo_kybernus from '../../assets/logos/logo-kybernus.svg';
 import { AppLayout } from '../../components/AppLayout';
 import { CrossBarContainer } from '../../components/GradientContainer';
 import { CenterDiv } from '../../styles/GlobalStyles';
-import { Container } from '../../components/UI/Content';
+import { Container, ContainerTitle } from '../../components/UI/Content';
 import { ThanksCard } from '../../components/ClassCard/ThanksCard';
 import { CardGrids } from '../../components/UI/Cards';
 
@@ -25,31 +25,14 @@ export const Thanks = () => {
         </CenterDiv>
       </CrossBarContainer>
       <Container>
-        <CardGrids>
-          <ThanksCard
-            imgsrc={logo_arduino}
-            description={`­­De la manera mas cordial
-            queremos agradecer el
-            apoyo proporcionado por`}
-          />
-          <ThanksCard
-            imgsrc={logo_hacedores}
-            description={`­­De la manera mas cordial
-            queremos agradecer el
-            apoyo proporcionado por`}
-          />
-          <ThanksCard
-            imgsrc={logo_ilce}
-            description={`­­De la manera mas cordial
-            queremos agradecer el
-            apoyo proporcionado por`}
-          />
-          <ThanksCard
-            imgsrc={logo_kybernus}
-            description={`­­De la manera mas cordial
-            queremos agradecer el
-            apoyo proporcionado por`}
-          />
+        <ContainerTitle size='2'>
+          De la manera mas cordial queremos agradecer el apoyo proporcionado por
+        </ContainerTitle>
+        <CardGrids style={{ margin: '20px 0', gap: '2rem 1rem' }}>
+          <ThanksCard imgsrc={logo_arduino} description={''} />
+          <ThanksCard imgsrc={logo_hacedores} description={''} />
+          <ThanksCard imgsrc={logo_ilce} description={''} />
+          <ThanksCard imgsrc={logo_kybernus} description={''} />
         </CardGrids>
       </Container>
     </AppLayout>

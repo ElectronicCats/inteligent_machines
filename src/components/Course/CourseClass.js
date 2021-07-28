@@ -15,7 +15,7 @@ export const CourseClass = ({
   return (
     <TabPanel item='tab-2'>
       <CardGrids>
-        <ContainerTitle size='3' color='var(--color-green)'>
+        <ContainerTitle size='1.5' color='var(--color-green)'>
           CONTENIDO DE CLASE
         </ContainerTitle>
         <DownLoadButton
