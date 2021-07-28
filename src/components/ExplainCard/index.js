@@ -15,7 +15,7 @@ export const ExplainCard = ({
     <article style={{ margin: '20px' }}>
       <CardGrids cardSize={cardSize}>
         <ContainerTitle
-          size='3'
+          size='1.5'
           color={color}
           aling='center'
           style={{ alignSelf: 'center' }}

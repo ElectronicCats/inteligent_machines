@@ -15,10 +15,10 @@ export const Practice = ({
 }) => {
   return (
     <TabPanel item='tab-4'>
-      <ContainerTitle size='2' align='left' color={color}>
+      <ContainerTitle size='1.5' align='left' color={color}>
         {precticeName}
       </ContainerTitle>
-      <ContainerTitle size='1.3' align='left' color={color}>
+      <ContainerTitle size='1.1' align='left' color={color}>
         TIEMPO ESTIMADO <i style={{ fontWeight: '200' }}>{time}</i>
       </ContainerTitle>
       <DropContent title='Material' color={color}>

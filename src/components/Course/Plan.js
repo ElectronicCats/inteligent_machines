@@ -34,7 +34,7 @@ export const Plan = ({ tableConent }) => {
   const data = React.useMemo(() => tableConent, [tableConent]);
   return (
     <TabPanel item='tab-5'>
-      <ContainerTitle size='2' align='center' color='var(--color-purple)'>
+      <ContainerTitle size='1.5' align='center' color='var(--color-purple)'>
         ESTRUCTURA DE LA CLASE
       </ContainerTitle>
       <Table columns={columns} data={data} color='var(--color-purple)' />

@@ -12,7 +12,7 @@ export const DropContent = ({ title, color, children }) => {
       <ContainerTitle
         align='left'
         color={color}
-        size={2}
+        size={1.5}
         onClick={toggle}
         style={{ cursor: 'pointer' }}
       >
