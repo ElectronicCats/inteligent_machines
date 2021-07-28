@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.08145391.chunk.js",
-    "main.js.map": "/static/js/main.08145391.chunk.js.map",
+    "main.js": "/static/js/main.f3599ea1.chunk.js",
+    "main.js.map": "/static/js/main.f3599ea1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b238ae78.js",
     "runtime-main.js.map": "/static/js/runtime-main.b238ae78.js.map",
-    "static/js/2.91002a13.chunk.js": "/static/js/2.91002a13.chunk.js",
-    "static/js/2.91002a13.chunk.js.map": "/static/js/2.91002a13.chunk.js.map",
+    "static/js/2.e1658066.chunk.js": "/static/js/2.e1658066.chunk.js",
+    "static/js/2.e1658066.chunk.js.map": "/static/js/2.e1658066.chunk.js.map",
     "static/js/3.d393f408.chunk.js": "/static/js/3.d393f408.chunk.js",
     "static/js/3.d393f408.chunk.js.map": "/static/js/3.d393f408.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.91002a13.chunk.js.LICENSE.txt": "/static/js/2.91002a13.chunk.js.LICENSE.txt",
+    "static/js/2.e1658066.chunk.js.LICENSE.txt": "/static/js/2.e1658066.chunk.js.LICENSE.txt",
     "static/media/Acumin-BdPro.9fbc064b.otf": "/static/media/Acumin-BdPro.9fbc064b.otf",
     "static/media/Acumin-RPro.0ff8c5d6.otf": "/static/media/Acumin-RPro.0ff8c5d6.otf",
     "static/media/Gotham-Book.b6e803be.otf": "/static/media/Gotham-Book.b6e803be.otf",
@@ -36,10 +36,10 @@
     "static/media/logo-EC.a1e74e50.svg": "/static/media/logo-EC.a1e74e50.svg",
     "static/media/logo-edu-arduino.cf909494.svg": "/static/media/logo-edu-arduino.cf909494.svg",
     "static/media/logo-kybernus.d18e92f9.svg": "/static/media/logo-kybernus.d18e92f9.svg",
-    "static/media/logo_arduino.a1dc41f4.svg": "/static/media/logo_arduino.a1dc41f4.svg",
+    "static/media/logo_arduino.41d5f395.svg": "/static/media/logo_arduino.41d5f395.svg",
     "static/media/logo_desk.773b3c63.svg": "/static/media/logo_desk.773b3c63.svg",
     "static/media/logo_hacedores.30f9fb2b.svg": "/static/media/logo_hacedores.30f9fb2b.svg",
-    "static/media/logo_ilce.fb1be5ab.svg": "/static/media/logo_ilce.fb1be5ab.svg",
+    "static/media/logo_ilce.3438e483.svg": "/static/media/logo_ilce.3438e483.svg",
     "static/media/logo_microchip.c08934d2.svg": "/static/media/logo_microchip.c08934d2.svg",
     "static/media/main-bg.53c7e01d.svg": "/static/media/main-bg.53c7e01d.svg",
     "static/media/micro_phon.e890a47b.svg": "/static/media/micro_phon.e890a47b.svg",
@@ -60,7 +60,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b238ae78.js",
-    "static/js/2.91002a13.chunk.js",
-    "static/js/main.08145391.chunk.js"
+    "static/js/2.e1658066.chunk.js",
+    "static/js/main.f3599ea1.chunk.js"
   ]
 }
