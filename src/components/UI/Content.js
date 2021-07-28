@@ -64,3 +64,10 @@ export const ToogleContent = styled.div`
   transition: all 0.3s ease-out;
   opacity: ${({ open }) => (open ? '1' : '0')};
 `;
+
+export const ContaineFexDiv = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: ${(props) => (props.direction ? props.direction : 'column')};
+`;
