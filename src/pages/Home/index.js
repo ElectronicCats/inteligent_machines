@@ -120,13 +120,13 @@ export const Home = () => {
                 UNETE
               </RoundLink>
               <RoundLink
-                href='https://electroniccats.com/education/course/view.php?id=13'
+                href='https://github.com/ElectronicCats/inteligent_machines/issues'
                 rel='noreferrer noopener'
                 target='_blank'
                 color={'white'}
                 bgColor={'var(--color-green)'}
               >
-                FAQ
+                ISSUES
               </RoundLink>
             </CenterDiv>
           </CenterDiv>
