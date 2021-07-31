@@ -81,7 +81,8 @@ export const InteligenciaArtificial = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_1',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: '',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_1/clase1_inteligencia_artificial.pdf',
     content: [
       {
         videoClass: 'https://player.vimeo.com/video/579449665',
@@ -104,37 +105,44 @@ export const InteligenciaArtificial = {
     ],
   },
   practiceClass: {
-    precticeName: '',
+    precticeName: 'Conceptos de repaso Modulo 1',
     time: '01:30 HORA',
-    meterials: ['kit de arduino', 'Laptop', 'Internet', 'componentes'],
-    objective: 'Objectivo de la practica',
-    steps: 'Procedimientos de la practica',
+    meterials: ['Archivo de Contenido para Modulo 1', 'Libreta', 'Lápiz'],
+    objective: 'Comprender los conceptos básicos sobre Inteligencia Artificial',
+    steps:
+      'Para reforzar lo aprendido en las clases es importante que realices el siguiente cuestionario de repaso       ¿Qué es Inteligencia artificial?           ¿Cuál es la diferencia entre la inteligencia humana y la artificial?                 Menciona los subcampos de inteligencia artificial                ¿Que debe de cuidar un desarrollador de inteligencia artificial al realizar sus modelos de aprendizaje?                   Es momento de comenzar a Identificar alguna problemática en tu hogar, colonia, escuela o alguno de los lugares frecuentes. Identifica cual de estos problemas puede ser solucionado desarrollando algún proyecto con Inteligencia Artificial. Se sugiere que durante todo este curso trabajes con esta idea para que al finalizar la lleves a cabo y puedas compartirla con la comunidad de Máquinas Inteligentes, sí en el transcurso prefieres cambiar de proyecto puedes hacerlo.                   Problemática a resolver:                   Ideas para resolver la problemática:                  Puntos claves del problema:                   Datos a analizar:',
   },
   resoursesClass: {
     mainLink: {
       pathToFile:
-        'https://www.oracle.com/mx/artificial-intelligence/what-is-ai/',
-      downloadName: '',
-      label: 'Link a lectura',
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_1/ejercicios_modulo1.pdf',
+      downloadName: 'ejercicios_modulo_1',
+      label: 'Práctica 1',
     },
     links: [
       {
         pathToFile:
           'https://www.xataka.com/robotica-e-ia/que-inteligencia-artificial',
         downloadName: '',
-        label: 'Link a lectura',
+        label: 'Inteligencia Artificial',
       },
       {
         pathToFile:
           'https://www.delltechnologies.com/es-es/blog/4-maneras-inteligencia-artificial-revolucionando-educacion/',
         downloadName: '',
-        label: 'Link a lectura',
+        label: '4 maneras de la IA revolucionando a la educación',
       },
       {
         pathToFile:
           'https://www.fundacionbankinter.org/blog/noticia/akademia/-que-esta-aportando-la-inteligencia-artificial-al-mundo-de-la-educacion-',
         downloadName: '',
-        label: 'Link a lectura',
+        label: 'Aportes de IA en la educación',
+      },
+      {
+        pathToFile:
+          'https://www.oracle.com/mx/artificial-intelligence/what-is-ai/',
+        downloadName: '',
+        label: '¿Qué es la IA?',
       },
     ],
   },
