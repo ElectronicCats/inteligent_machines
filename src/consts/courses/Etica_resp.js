@@ -106,7 +106,8 @@ export const Etica_Resp = {
   },
   resoursesClass: {
     mainLink: {
-      pathToFile:'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_2/ejercicios_modulo2.pdf',
+      pathToFile:
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_2/ejercicios_modulo2.pdf',
       downloadName: 'ejercicios_modulo_2',
       label: 'Práctica 2',
     },
