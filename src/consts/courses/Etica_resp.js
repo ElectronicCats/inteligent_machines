@@ -1,7 +1,7 @@
 export const Etica_Resp = {
   name: 'Ética y responsabilidades',
   introContent: {
-    vimeoSrc: 'https://vimeo.com/579467860',
+    vimeoSrc: 'https://player.vimeo.com/video/579467860',
     introClass: [
       {
         title: 'Objetivo',
@@ -84,67 +84,63 @@ export const Etica_Resp = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_2',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: '',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_2/modulo2_etica_responsabilidades_de_ia.pdf',
     content: [
       {
+        videoClass: 'https://player.vimeo.com/video/581279931',
         title: 'Límites éticos y responsabilidades de la IA',
         description:
           'En esta clase conocerás cuales son los límites éticos y las responsabilidades que tiene la tecnología de Inteligencia Artificial con la responsabilidad',
       },
-      {
-        title: 'Los 4 puntos a discusión de la IA',
-        description:
-          'En esta clase aprenderás cuales son los 4 puntos críticos de la inteligencia artificial, que están a discusión por organizaciones que están regulando esta tecnología.',
-      },
-      {
-        title: 'Organizaciones que regulan la IA en el mundo',
-        description:
-          'En esta clase aprenderás cuales son las organizaciones encargadas de regular la tecnología de Inteligencia Artificial',
-      },
-      {
-        title: 'IA para todos',
-        description:
-          'En esta clase conocerás porque la inteligencia artificial se encontrará en cada aspecto de nuestra vida en los próximos años.',
-      },
     ],
   },
   practiceClass: {
-    precticeName: '',
-    time: '',
-    meterials: [''],
-    objective: '',
-    steps: '',
+    precticeName: 'Conceptos de repaso Modulo 2',
+    time: '01:30 HORA',
+    meterials: ['Archivo de Contenido para Modulo 2', 'Libreta', 'Lápiz'],
+    objective:
+      'Comprender y analizar cuales son los puntos éticos que debe de reforzar la IA antes de realizar un proyecto',
+    steps:
+      'Descargar el material del Modulo 2 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {
       pathToFile:
-        'https://es.unesco.org/themes/tic-educacion/inteligencia-artificial',
-      downloadName: '',
-      label: 'Link a lectura',
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_2/ejercicios_modulo2.pdf',
+      downloadName: 'ejercicios_modulo_2',
+      label: 'Práctica 2',
     },
     links: [
       {
+        pathToFile:
+          'https://es.unesco.org/themes/tic-educacion/inteligencia-artificial',
+        downloadName: '',
+        label: 'La Inteligencia Artificial en la Educación',
+      },
+      {
         pathToFile: 'https://www.moralmachine.net/hl/es',
         downloadName: '',
-        label: 'Link a lectura',
+        label: 'Máquina Moral Plataforma de perspectiva',
       },
       {
         pathToFile:
           'https://tec.mx/es/noticias/guadalajara/investigacion/inteligencia-artificial-y-etica-tec-y-jalisco-las-impulsan-en',
         downloadName: '',
-        label: 'Link a lectura',
+        label: 'Inteligencia artificial y ética',
       },
       {
         pathToFile:
           'https://www.thinkingheads.com/latam/tendencia-global/robotica-inteligencia-artificial-etica-debate/',
         downloadName: '',
-        label: 'Link a lectura',
+        label: 'Debate sobre IA',
       },
       {
         pathToFile:
           'https://opendialogueonai.com/wp-content/uploads/2020/07/ES_Delib.pdf',
         downloadName: '',
-        label: 'Link a lectura',
+        label:
+          'Pensar la inteligencia artificial responsable: una guía de deliberación',
       },
     ],
   },

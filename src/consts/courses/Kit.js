@@ -1,7 +1,7 @@
 export const NuestroKit = {
   name: 'Nuestro Kit',
   introContent: {
-    vimeoSrc: 'https://vimeo.com/579471181',
+    vimeoSrc: 'https://player.vimeo.com/video/583026107',
     introClass: [
       {
         title: 'Objetivo',
@@ -67,44 +67,55 @@ export const NuestroKit = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_4',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: '',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_4/modulo4_nuestro_kit.pdf',
     content: [
       {
-        title: 'Machine Learning',
+        videoClass: 'https://player.vimeo.com/video/583005910',
+        title: 'Conociendo el Kit Tiny Machine Learning',
         description:
-          'En esta clase conocerás los conceptos básicos del subcampo de Machine Learning.',
+          'En esta clase conocerás cada componente que integra el Kit de tiny Machine Learning y el tipo de sensor integrado a la tarjeta',
       },
       {
-        title: 'Tiny Machine Learning',
+        videoClass: 'https://player.vimeo.com/video/583021936',
+        title:
+          'Instalando Arduino IDE y el paquete de la tarjeta Nano 33 BLE Sense',
         description:
-          'En esta clase aprenderás los puntos fuertes de Machine Learning en dispositivos embebidos',
+          'En esta clase aprenderás a instalar correctamente Arduino IDE y el paquete de la tarjeta Nano 33 BLE Sense',
       },
       {
-        title: 'Análisis de datos',
+        videoClass: '',
+        title: 'Mi primer ejemplo',
         description:
-          'En esta clase aprenderás los diferentes tipos de datos que se manejan en los dispositivos embebidos, características de la recolección de datos y estrategias para el análisis de datos',
-      },
-      {
-        title: 'Perceptron',
-        description:
-          'En esta clase conocerás que es un perceptrón de manera breve y aprenderás la estructura de funcionamiento con un ejemplo sencillo.',
+          'En esta clase aprenderás a cargar el primer ejemplo en tu tarjeta Nano 33 BLE Sense',
       },
     ],
   },
   practiceClass: {
-    precticeName: '',
-    time: '',
-    meterials: [''],
+    precticeName: 'Conceptos de repaso Modulo 4',
+    time: '02:30 HORA',
+    meterials: [
+      'Arduino Kit Tiny Machine Learning',
+      'Archivo de Contenido para Modulo 4',
+      'Libreta',
+      'Lápiz',
+    ],
     objective: '',
     steps: '',
   },
   resoursesClass: {
     mainLink: {
-      pathToFile: 'https://www.arduino.cc/',
-      downloadName: '',
-      label: 'Página oficial Arduino',
+      pathToFile:
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_4/ejercicios_modulo4.pdf',
+      downloadName: 'ejercicios_modulo_4',
+      label: 'Práctica 4',
     },
     links: [
+      {
+        pathToFile: 'https://www.arduino.cc/',
+        downloadName: '',
+        label: 'Página Arduino Oficial',
+      },
       {
         pathToFile: 'https://store.arduino.cc/usa/tiny-machine-learning-kit',
         downloadName: '',
