@@ -157,9 +157,9 @@ export const Machine_learning = {
   },
   resoursesClass: {
     mainLink: {
-      pathToFile: 'ejercicios_modulo_3',
+      pathToFile: 'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_3/ejercicios_modulo3.pdf',
       downloadName:
-        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_3/ejercicios_modulo3.pdf',
+        'ejercicios_modulo_3',
       label: 'Práctica 3',
     },
     links: [
