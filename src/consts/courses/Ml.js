@@ -1,7 +1,7 @@
 export const Machine_learning = {
   name: 'Machine Learning',
   introContent: {
-    vimeoSrc: 'https://vimeo.com/579469268',
+    vimeoSrc: 'https://player.vimeo.com/video/581350611',
     introClass: [
       {
         title: 'Objetivo',
@@ -122,7 +122,8 @@ export const Machine_learning = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_3',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: '',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_3/modulo3_machine_learning_analisis_de_datos.pdf',
     content: [
       {
         title: 'Machine Learning',
@@ -147,39 +148,46 @@ export const Machine_learning = {
     ],
   },
   practiceClass: {
-    precticeName: '',
-    time: '',
-    meterials: [''],
-    objective: '',
-    steps: '',
+    precticeName: 'Conceptos de repaso Modulo 3',
+    time: '01:30 HORA',
+    meterials: ['Archivo de Contenido para Modulo 3', 'Libreta', 'Lápiz'],
+    objective: 'Comprender los conceptos básicos sobre Inteligencia Artificial',
+    steps:
+      'Descargar el material del Modulo 3 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {
-      pathToFile:
-        'https://www.bbva.com/es/machine-learning-que-es-y-como-funciona/',
-      downloadName: '',
-      label: 'Link a lectura',
+      pathToFile: 'ejercicios_modulo_3',
+      downloadName:
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_3/ejercicios_modulo3.pdf',
+      label: 'Práctica 3',
     },
     links: [
       {
+        pathToFile:
+          'https://www.bbva.com/es/machine-learning-que-es-y-como-funciona/',
+        downloadName: '',
+        label: 'Machine Learning ¿Qué es? ¿Comó funciona?',
+      },
+      {
         pathToFile: 'https://www.ibm.com/mx-es/analytics/machine-learning',
         downloadName: '',
-        label: 'Link a lectura',
+        label: 'Machine Learning',
       },
       {
         pathToFile: 'https://www.aprendemachinelearning.com/',
         downloadName: '',
-        label: 'Link a lectura',
+        label: 'Aprende Machine Learning',
       },
       {
         pathToFile: 'https://www.tinyml.org/',
         downloadName: '',
-        label: 'Link a lectura',
+        label: 'Tiny Machine Learning',
       },
       {
         pathToFile: 'https://www.arm.com/blogs/blueprint/tinyml',
         downloadName: '',
-        label: 'Link a lectura',
+        label: 'ARM Tiny Machine Learning',
       },
     ],
   },
