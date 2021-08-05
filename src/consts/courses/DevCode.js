@@ -60,7 +60,8 @@ export const DevCode = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_6',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: 'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_6/modulo6_programando_nuestro_codigo.pdf',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_6/modulo6_programando_nuestro_codigo.pdf',
     content: [
       {
         vimeoSrc: 'https://player.vimeo.com/video/579484299',

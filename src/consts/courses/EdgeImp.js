@@ -68,7 +68,8 @@ export const EdgeImpulse = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_5',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: 'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_5/modulo5_edge_impulse.pdf',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_5/modulo5_edge_impulse.pdf',
     content: [
       {
         title: 'Edge Impulse',
@@ -95,13 +96,21 @@ export const EdgeImpulse = {
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 5',
     time: '02:30 HORA',
-    meterials: ['Usuario a Edge Impulse','Smart Phone','Archivo de Contenido para Modulo 5','Libreta', 'Lápiz'],
+    meterials: [
+      'Usuario a Edge Impulse',
+      'Smart Phone',
+      'Archivo de Contenido para Modulo 5',
+      'Libreta',
+      'Lápiz',
+    ],
     objective: 'Reforzar lo aprendido en las clases del módulo',
-    steps: 'Descargar el material del Modulo 5, contestar las preguntas de refuerzo de lección y desarrollar la práctica propuesta',
+    steps:
+      'Descargar el material del Modulo 5, contestar las preguntas de refuerzo de lección y desarrollar la práctica propuesta',
   },
   resoursesClass: {
     mainLink: {
-      pathToFile: 'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_5/ejercicios_modulo5.pdf',
+      pathToFile:
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_5/ejercicios_modulo5.pdf',
       downloadName: 'ejercicios_modulo_5',
       label: 'Práctica 5',
     },
@@ -117,8 +126,7 @@ export const EdgeImpulse = {
         label: 'Ejemplo usando Edge Impulse',
       },
       {
-        pathToFile:
-          'https://docs.edgeimpulse.com/docs',
+        pathToFile: 'https://docs.edgeimpulse.com/docs',
         downloadName: '',
         label: 'Manual de uso Edge Impulse (inglés)',
       },
