@@ -1,7 +1,7 @@
 export const Sensor_Temperatura = {
   name: 'Sensor de temperatura',
   introContent: {
-    vimeoSrc: 'https://vimeo.com/579490011',
+    vimeoSrc: 'https://player.vimeo.com/video/579490011',
     introClass: [
       {
         title: 'Objetivo',
@@ -69,7 +69,8 @@ export const Sensor_Temperatura = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_7',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: '',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_7/modulo7_sensor_temperatura.pdf',
     content: [
       {
         title: 'Lectura del sensor de temperatura',
@@ -89,20 +90,32 @@ export const Sensor_Temperatura = {
     ],
   },
   practiceClass: {
-    precticeName: '',
-    time: '',
-    meterials: [''],
-    objective: '',
-    steps: '',
+    precticeName: 'Conceptos de repaso Modulo 7',
+    time: '03:30 HORA',
+    meterials: [
+      'Archivo de Contenido para Modulo 7',
+      'Kit Tiny Machine Learning',
+      'Edge Impulse Estudio',
+    ],
+    objective:
+      'Comprender como funciona el sensor de temperatura al programar con Arduino IDE y su libreria',
+    steps:
+      'Descargar el material del Modulo 7 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {
       pathToFile:
-        'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/tree/main/Modulo_7',
       downloadName: '',
-      label: 'Lectura formato CSV',
+      label: 'Carpeta del módulo 7',
     },
     links: [
+      {
+        pathToFile:
+          'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
+        downloadName: '',
+        label: 'Video estructura de un programa en Arduino',
+      },
       {
         pathToFile: 'https://www.youtube.com/watch?v=2v8U9fc2Z9k',
         downloadName: '',
@@ -111,7 +124,7 @@ export const Sensor_Temperatura = {
       {
         pathToFile: 'https://www.picuino.com/es/arduprog/sensor-temp.html',
         downloadName: '',
-        label: 'Lectura Sensor de temperatura',
+        label: 'Lectura como funciona un Sensor de temperatura',
       },
     ],
   },

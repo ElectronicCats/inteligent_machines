@@ -49,6 +49,7 @@ export const Cvmap = () => {
         upper:
           'Inteligencia Artificial, Campos de IA, Ejemplos de IA en la actualidad, Valores y Etica de IA, Responsabilidades de IA y El futuro de IA',
         themes: 'Desarrollo de pensamiento computacional',
+        materia: 'Ciencias de la computación y Programación',
       },
       {
         session: 'Límites éticos y responsabilidades de IA',
@@ -61,6 +62,8 @@ export const Cvmap = () => {
         upper:
           'Límites Éticos de IA, Casos de mal desarrollo de IA y IA en la Educación',
         themes: 'Desarrollo humano',
+        materia:
+          'Civica y ética, Historia del desarrollo humano y la tecnología',
       },
       {
         session: 'Machine Learning',
@@ -74,6 +77,7 @@ export const Cvmap = () => {
           'Machine Learning, Algoritmos, Red Neuronal Artificial, Como aprende el ser humano y Análisis de datos',
         themes:
           'Inteligencia Artificial, Análisis de datos, Selección de datos, Reconocimiento de patrones y Aplicación de modelos predictivos',
+        materia: 'Programación, Análisis de datos y Matemáticas',
       },
       {
         session: 'Nuestro Kit',
@@ -86,6 +90,7 @@ export const Cvmap = () => {
         upper:
           'Electrónica, tarjetas de desarrollo, Arduino y microcontroladores',
         themes: 'Arduino, microcontroladores y electrónica',
+        materia: 'Electrónica, Sistemas embebidos y Programación ',
       },
       {
         session: 'Edge Impulse',
@@ -99,6 +104,8 @@ export const Cvmap = () => {
           'Programación visual, análisis de adquisición de datos, análisis de gráficas de estadística y aplicación de filtros',
         themes:
           'Uso de herramientas de explotación de datos , análisis de gráficas, probabilidad y estadística, reconocimiento de patrones, configuración matemática y análisis estadístico, implementación de interfaces de programación',
+        materia:
+          'Programación, Análisis de datos, Modelado Mátematico, Probabilidad y Estadística',
       },
       {
         session: 'Programando nuestro código',
@@ -112,6 +119,8 @@ export const Cvmap = () => {
           'Programación de microcontroladores, entradas y salidas, analógicas y digitales, instalación de librerías, comunicación de tarjeta de desarrollo',
         themes:
           'Microcontroladores, electrónica, programación C y lectura de hoja de datos de componentes electrónicos',
+        materia:
+          'Programación, Análisis de datos, Electronica y Sistemas Embebidos',
       },
       {
         session: 'Sensor de temperatur, humedad y sensor de presión',
@@ -124,6 +133,8 @@ export const Cvmap = () => {
         upper:
           'Adquisión de datos de sensor analogico atravez de comunicación I2C',
         themes: 'Selección de datos ',
+        materia:
+          'Programación, Análisis de datos, Electronica, Modelado Mátematico, Probabilidad y Estadística y Sistemas Embebidos',
       },
       {
         session: 'Sensor de Luz, Color y Aproximación',
@@ -136,6 +147,8 @@ export const Cvmap = () => {
         upper:
           'Adquisión de datos de sensor analogico atravez de comunicación I2C',
         themes: 'Selección de datos ',
+        materia:
+          'Programación, Análisis de datos, Electronica, Modelado Mátematico, Probabilidad y Estadística y Sistemas Embebidos',
       },
       {
         session: 'Sensor IMU',
@@ -148,6 +161,8 @@ export const Cvmap = () => {
         upper:
           'Adquisición de datos de sensor analogico de 3 ejes a través de comunicación I2C',
         themes: 'Selección de datos',
+        materia:
+          'Programación, Análisis de datos, Electronica, Modelado Mátematico, Probabilidad y Estadística y Sistemas Embebidos',
       },
       {
         session: 'Micrófono',
@@ -159,6 +174,8 @@ export const Cvmap = () => {
           'Utiliza e incorpora nociones de electrónica y Tiny ML a proyectos complejos.',
         upper: 'Adquisición de datos de sensor ',
         themes: 'Selección de datos ',
+        materia:
+          'Programación, Análisis de datos, Electronica, Modelado Mátematico, Probabilidad y Estadística y Sistemas Embebidos',
       },
       {
         session: 'Visión artificial',
@@ -170,6 +187,8 @@ export const Cvmap = () => {
           'Utiliza e incorpora aprendizaje de visión artificial  en proyectos simples.',
         upper: 'Adquisición de datos por cámara.',
         themes: 'Selección de datos ',
+        materia:
+          'Programación, Análisis de datos, Electronica, Modelado Mátematico, Probabilidad, Visión Artificial y Estadística y Sistemas Embebidos',
       },
       {
         session: 'Prácticas',
@@ -193,6 +212,7 @@ export const Cvmap = () => {
         upper:
           'Trabajo en equipo, pensamiento crítico, planificación, programación, innovación, electrónica.',
         themes: '',
+        materia: 'Desarrollo de proyectos',
       },
     ],
     []

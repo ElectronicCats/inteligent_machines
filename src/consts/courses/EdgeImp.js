@@ -1,7 +1,7 @@
 export const EdgeImpulse = {
   name: 'Edge Impulse',
   introContent: {
-    vimeoSrc: 'https://vimeo.com/579472825',
+    vimeoSrc: 'https://player.vimeo.com/video/583044059',
     introClass: [
       {
         title: 'Objetivo',
@@ -68,7 +68,8 @@ export const EdgeImpulse = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_5',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: '',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_5/modulo5_edge_impulse.pdf',
     content: [
       {
         title: 'Edge Impulse',
@@ -93,34 +94,41 @@ export const EdgeImpulse = {
     ],
   },
   practiceClass: {
-    precticeName: '',
-    time: '',
-    meterials: [''],
-    objective: '',
-    steps: '',
+    precticeName: 'Conceptos de repaso Modulo 5',
+    time: '02:30 HORA',
+    meterials: [
+      'Usuario a Edge Impulse',
+      'Smart Phone',
+      'Archivo de Contenido para Modulo 5',
+      'Libreta',
+      'Lápiz',
+    ],
+    objective: 'Reforzar lo aprendido en las clases del módulo',
+    steps:
+      'Descargar el material del Modulo 5, contestar las preguntas de refuerzo de lección y desarrollar la práctica propuesta',
   },
   resoursesClass: {
     mainLink: {
-      pathToFile: 'https://www.arduino.cc/',
-      downloadName: '',
-      label: 'Página oficial Arduino',
+      pathToFile:
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_5/ejercicios_modulo5.pdf',
+      downloadName: 'ejercicios_modulo_5',
+      label: 'Práctica 5',
     },
     links: [
       {
-        pathToFile: 'https://store.arduino.cc/usa/tiny-machine-learning-kit',
+        pathToFile: 'https://www.edgeimpulse.com/',
         downloadName: '',
-        label: 'Página del Kit oficial',
+        label: 'Página oficial Edge Impulse',
       },
       {
-        pathToFile: 'https://store.arduino.cc/usa/nano-33-ble-sense',
+        pathToFile: 'https://www.youtube.com/watch?v=JrpTmHGJ97A',
         downloadName: '',
-        label: 'Página de la tarjeta de desarrollo Arduino',
+        label: 'Ejemplo usando Edge Impulse',
       },
       {
-        pathToFile:
-          'https://www.youtube.com/watch?v=eBVvD85Ml2c&list=PLkjnQ3NFTPnY1eNyLDGi547gkVui1vyn2',
+        pathToFile: 'https://docs.edgeimpulse.com/docs',
         downloadName: '',
-        label: 'Videos curso de programación con Arduino',
+        label: 'Manual de uso Edge Impulse (inglés)',
       },
     ],
   },
