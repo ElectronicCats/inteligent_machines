@@ -84,7 +84,7 @@ export const NuestroKit = {
           'En esta clase aprenderás a instalar correctamente Arduino IDE y el paquete de la tarjeta Nano 33 BLE Sense',
       },
       {
-        videoClass: '',
+        videoClass: 'https://player.vimeo.com/video/583021936',
         title: 'Mi primer ejemplo',
         description:
           'En esta clase aprenderás a cargar el primer ejemplo en tu tarjeta Nano 33 BLE Sense',

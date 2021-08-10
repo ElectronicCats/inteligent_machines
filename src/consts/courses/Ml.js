@@ -129,21 +129,25 @@ export const Machine_learning = {
         title: 'Machine Learning',
         description:
           'En esta clase conocerás los conceptos básicos del subcampo de Machine Learning.',
+        videoClass: 'https://player.vimeo.com/video/585137845',
       },
       {
         title: 'Tiny Machine Learning',
         description:
           'En esta clase aprenderás los puntos fuertes de Machine Learning en dispositivos embebidos',
+        videoClass: 'https://player.vimeo.com/video/585137845',
       },
       {
         title: 'Análisis de datos',
         description:
           'En esta clase aprenderás los diferentes tipos de datos que se manejan en los dispositivos embebidos, características de la recolección de datos y estrategias para el análisis de datos',
+        videoClass: 'https://player.vimeo.com/video/585137845',
       },
       {
         title: 'Perceptron',
         description:
           'En esta clase conocerás que es un perceptrón de manera breve y aprenderás la estructura de funcionamiento con un ejemplo sencillo.',
+        videoClass: 'https://player.vimeo.com/video/585137845',
       },
     ],
   },

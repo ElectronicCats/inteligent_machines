@@ -70,7 +70,7 @@ export const About = () => {
             <iframe
               id='my_frame'
               title='my vid'
-              src='https://player.vimeo.com/video/522444610'
+              src='https://player.vimeo.com/video/583649919'
               frameBorder='0'
               allow='autoplay; fullscreen'
               allowFullScreen

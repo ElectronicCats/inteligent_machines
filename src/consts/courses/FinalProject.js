@@ -2,7 +2,7 @@ export const FinalProject = {
   // Completar toda la informacion.
   name: 'Proyecto Final',
   introContent: {
-    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    vimeoSrc: 'https://player.vimeo.com/video/581311411',
     introClass: [
       {
         title: 'Objetivo',
@@ -57,33 +57,56 @@ export const FinalProject = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_12',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: '',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_12/formato_proyecto%20final.pdf',
     content: [
       {
+        videoClass: 'https://player.vimeo.com/video/581310554',
         title: 'Mi proyecto final',
+        description:
+          'En esta clase se explicará en qué consiste el desarrollo de tu proyecto final, se explicará cada una de las partes que debe de contener la estructura del documento del proyecto.',
+      },
+      {
+        videoClass: 'https://player.vimeo.com/video/581310554',
+        title: 'Otto Cat',
         description:
           'En esta clase se explicará en qué consiste el desarrollo de tu proyecto final, se explicará cada una de las partes que debe de contener la estructura del documento del proyecto.',
       },
     ],
   },
   practiceClass: {
-    precticeName: '',
-    time: '',
-    meterials: [''],
-    objective: '',
-    steps: '',
+    precticeName: 'Proyecto final Módulo 12',
+    time: '06:00 HORA',
+    meterials: [
+      'Archivo de Contenido para Modulo 12',
+      'Kit Tiny Machine Learning',
+      'Teachable Machine',
+      'Edge Impulse',
+      'Arduino IDE',
+    ],
+    objective:
+      'Desarrollar un proyecto final utilizando lo aprendido en Máquinas Inteligentes',
+    steps:
+      'Descargar el material del Modulo 12 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {
-      pathToFile: '',
-      downloadName: '',
-      label: '',
+      pathToFile:
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_12/formato_proyecto%20final.pdf',
+      downloadName: 'practica_modulo12',
+      label: 'Práctica Modulo 12',
     },
     links: [
       {
-        pathToFile: '',
+        pathToFile:
+          'https://www.randstad.es/tendencias360/desarrollo-de-proyectos/',
         downloadName: '',
-        label: '',
+        label: 'Conceptos básicos para el desarrollo de proyectos',
+      },
+      {
+        pathToFile: 'http://dicyg.fi-c.unam.mx:8080/lalo/aed/fases',
+        downloadName: '',
+        label: 'Conceptos básicos para el desarrollo de proyectos de software',
       },
     ],
   },
