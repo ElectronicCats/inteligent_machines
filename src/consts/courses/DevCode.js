@@ -70,13 +70,13 @@ export const DevCode = {
           'En esta clase aprenderás a instalar correctamente Edge Impulse CLI para comunicar tu Kit con el estudio.',
       },
       {
-        vimeoSrc: '',
+        vimeoSrc: 'https://player.vimeo.com/video/579484299',
         title: 'Nuestro primer programa con el Kit en Arduino IDE',
         description:
           'En esta clase aprenderás a desarrollar el código para enviar la información de los sensores de la tarjeta Nano 33 BLE Sense a Edge Impulse Studio en el formato correcto.',
       },
       {
-        vimeoSrc: '',
+        vimeoSrc: 'https://player.vimeo.com/video/579484299',
         title: 'Enviando nuestra información a Edge Impulse',
         description:
           'En esta clase comprenderás la manera de enviar la información a Edge Impulse Studio de la tarjeta Nano 33 BLE Sense.',

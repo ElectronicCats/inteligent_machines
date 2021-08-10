@@ -69,7 +69,8 @@ export const Microphone = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_10',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: '',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_10/modulo10_microfono.pdf',
     content: [
       {
         title: 'Lectura del micrófono',
@@ -89,20 +90,32 @@ export const Microphone = {
     ],
   },
   practiceClass: {
-    precticeName: '',
-    time: '',
-    meterials: [''],
-    objective: '',
-    steps: '',
+    precticeName: 'Conceptos de repaso Modulo 10',
+    time: '03:30 HORA',
+    meterials: [
+      'Archivo de Contenido para Modulo 10',
+      'Kit Tiny Machine Learning',
+      'Edge Impulse',
+    ],
+    objective:
+      'Comprender el funcionamiento de microfono integrado en la tarjeta Nano 33 BLE Sense utilizando la libreria PDM',
+    steps:
+      'Descargar el material del Modulo 10 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {
       pathToFile:
-        'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/tree/main/Modulo_10',
       downloadName: '',
-      label: 'Lectura formato CSV',
+      label: 'Carpeta del módulo 10',
     },
     links: [
+      {
+        pathToFile:
+          'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
+        downloadName: '',
+        label: 'Lectura formato CSV',
+      },
       {
         pathToFile: 'https://www.youtube.com/watch?v=2v8U9fc2Z9k',
         downloadName: '',

@@ -1,7 +1,7 @@
 export const VisionArtificial = {
   name: 'Visión Artificial',
   introContent: {
-    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    vimeoSrc: 'https://player.vimeo.com/video/583131776',
     introClass: [
       {
         title: 'Objetivo',
@@ -69,19 +69,23 @@ export const VisionArtificial = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_11',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: '',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_11/modulo11_visi%C3%B3n_artificial.pdf',
     content: [
       {
+        videoClass: 'https://player.vimeo.com/video/583127902',
         title: 'Introducción al procesamiento de imágenes',
         description:
           'En esta clase aprenderás los conceptos básicos sobre procesamiento de miagenes para visión artificial.',
       },
       {
+        videoClass: 'https://player.vimeo.com/video/583127902',
         title: 'Mi primer ejemplo con Teachable Machine',
         description:
           'En esta clase aprenderás a utilizar la plataforma Teachable Machine para aprendizaje automático de imágenes',
       },
       {
+        videoClass: 'https://player.vimeo.com/video/583127902',
         title: 'Exportando proyecto a Arduino IDE',
         description:
           'En esta clase desarrollarás el código para realizar un proyecto de visión artificial tomando como base el aprendizaje de la plataforma Teachable Machine.',
@@ -89,19 +93,31 @@ export const VisionArtificial = {
     ],
   },
   practiceClass: {
-    precticeName: '',
-    time: '',
-    meterials: [''],
-    objective: '',
-    steps: '',
+    precticeName: 'Conceptos de repaso Modulo 11',
+    time: '03:30 HORA',
+    meterials: [
+      'Archivo de Contenido para Modulo 11',
+      'Kit Tiny Machine Learning',
+      'Teachable Machine',
+    ],
+    objective:
+      'Comprender el funcionamiento del módulo cámara con la tarjeta Nano 33 BLE Sense utilizando Teachable Machine',
+    steps:
+      'Descargar el material del Modulo 11 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {
-      pathToFile: 'https://teachablemachine.withgoogle.com/',
+      pathToFile:
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/tree/main/Modulo_11',
       downloadName: '',
-      label: 'Página Teachable Machine',
+      label: 'Carpeta Módulo 11',
     },
     links: [
+      {
+        pathToFile: 'https://teachablemachine.withgoogle.com/',
+        downloadName: '',
+        label: 'Teachable Machine página principal',
+      },
       {
         pathToFile: '',
         downloadName: '',
