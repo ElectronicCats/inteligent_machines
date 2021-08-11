@@ -1,7 +1,7 @@
 export const Sensor_Imu = {
   name: 'Sensor IMU',
   introContent: {
-    vimeoSrc: 'https://player.vimeo.com/video/522444610',
+    vimeoSrc: 'https://player.vimeo.com/video/585842999',
     introClass: [
       {
         title: 'Objetivo',
@@ -69,7 +69,7 @@ export const Sensor_Imu = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_9',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: '',
+    pathToDownloadFile: 'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_9/modulo9_%20sensor_IMU.pdf',
     content: [
       {
         title: 'Lectura del sensor IMU',
@@ -89,20 +89,27 @@ export const Sensor_Imu = {
     ],
   },
   practiceClass: {
-    precticeName: '',
-    time: '',
-    meterials: [''],
-    objective: '',
-    steps: '',
+    precticeName: 'Conceptos de repaso Modulo 9',
+    time: '03:30 HORA',
+    meterials: [ 'Archivo de Contenido para Modulo 9', 'Kit Tiny Machine Learning', 'Edge Impulse Estudio'],
+    objective:
+      'Comprender como funciona el sensor de movimiento inercial al programar con Arduino IDE y su libreria',
+    steps:
+      'Descarga el material del Modulo 9 y completa la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {
       pathToFile:
-        'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
+        'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/tree/main/Modulo_9',
       downloadName: '',
-      label: 'Lectura formato CSV',
+      label: 'Carpeta de Módulo 9',
     },
     links: [
+      {
+        pathToFile: 'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
+        downloadName: '',
+        label: 'Lectura formato CSV',
+      },
       {
         pathToFile: 'https://www.youtube.com/watch?v=2v8U9fc2Z9k',
         downloadName: '',
