@@ -69,7 +69,8 @@ export const Sensor_Imu = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_9',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: 'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_9/modulo9_%20sensor_IMU.pdf',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_9/modulo9_%20sensor_IMU.pdf',
     content: [
       {
         title: 'Lectura del sensor IMU',
@@ -91,7 +92,11 @@ export const Sensor_Imu = {
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 9',
     time: '03:30 HORA',
-    meterials: [ 'Archivo de Contenido para Modulo 9', 'Kit Tiny Machine Learning', 'Edge Impulse Estudio'],
+    meterials: [
+      'Archivo de Contenido para Modulo 9',
+      'Kit Tiny Machine Learning',
+      'Edge Impulse Estudio',
+    ],
     objective:
       'Comprender como funciona el sensor de movimiento inercial al programar con Arduino IDE y su libreria',
     steps:
@@ -106,7 +111,8 @@ export const Sensor_Imu = {
     },
     links: [
       {
-        pathToFile: 'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
+        pathToFile:
+          'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
         downloadName: '',
         label: 'Lectura formato CSV',
       },

@@ -69,7 +69,8 @@ export const Sensor_Rgb = {
   contentClass: {
     downloadFileName: 'Contenido_Módulo_8',
     downloadLabel: 'Descarga el material para impartir esta clase',
-    pathToDownloadFile: 'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_8/modulo8_sensor_rgb.pdf',
+    pathToDownloadFile:
+      'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_8/modulo8_sensor_rgb.pdf',
     content: [
       {
         title: 'Lectura del sensor RGB',
@@ -91,7 +92,11 @@ export const Sensor_Rgb = {
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 8',
     time: '03:30 HORA',
-    meterials: [ 'Archivo de Contenido para Modulo 8', 'Kit Tiny Machine Learning', 'Edge Impulse Estudio'],
+    meterials: [
+      'Archivo de Contenido para Modulo 8',
+      'Kit Tiny Machine Learning',
+      'Edge Impulse Estudio',
+    ],
     objective:
       'Comprender como funciona el sensor RGB y detector de gestos al programar con Arduino IDE y su libreria',
     steps:
@@ -106,7 +111,8 @@ export const Sensor_Rgb = {
     },
     links: [
       {
-        pathToFile: 'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
+        pathToFile:
+          'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
         downloadName: '',
         label: 'Lectura formato CSV',
       },
