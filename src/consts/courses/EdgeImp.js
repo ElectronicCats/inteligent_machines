@@ -72,21 +72,25 @@ export const EdgeImpulse = {
       'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_5/modulo5_edge_impulse.pdf',
     content: [
       {
+        videoClass: 'https://player.vimeo.com/video/583574793',
         title: 'Edge Impulse',
         description:
           'En esta clase conocerás la plataforma de Edge Impulse y su funcionamiento',
       },
       {
+        videoClass: 'https://player.vimeo.com/video/583997048',
         title: 'Funciones Básicas',
         description:
           'En esta clase aprenderás cada una de las funciones en edge impulse, bloques de aprendizaje y parámetros para realizar un impulso de aprendizaje. ',
       },
       {
+        videoClass: 'https://player.vimeo.com/video/583997048',
         title: 'Conectando un dispositivo',
         description:
           'En esta clase aprenderás a conectar un smartphone con Edge Impulse e identificar cuáles otros dispositivos son compatibles con la plataforma.',
       },
       {
+        videoClass: 'https://player.vimeo.com/video/583997048',
         title: 'Creando mi primer impulso',
         description:
           'En esta clase aprenderás a crear tu primer impulso con Edge Impulse utilizando el micrófono o acelerómetro integrados en tu Smartphone.',
