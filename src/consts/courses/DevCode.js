@@ -45,7 +45,7 @@ export const DevCode = {
       activitie: `El instructor realizará el primer ejemplo explicando al grupo la manera correcta en la que debe de mandarse la información de los sensores a Edge Impulse.
      Práctica: El alumno desarrollará el código para leer la información de algún sensor diferente al del ejemplo.,
       material: 'Kit Tiny Machine Learning, Computadora y Conexión a internet`,
-      classTime: '40 min',
+      classTime: '30 min',
     },
     {
       theme: 'Enviando nuestra información a Edge Impulse',
@@ -84,11 +84,14 @@ export const DevCode = {
     ],
   },
   practiceClass: {
-    precticeName: '',
-    time: '',
-    meterials: [''],
-    objective: '',
-    steps: '',
+    precticeName: 'Conceptos de repaso modulo 6',
+    time: '02:00 HORA',
+    meterials: ['Arduino Kit Tiny Machine Learning',
+    'Archivo de Contenido para Modulo 6',
+    'Edge Impulse Estudio',
+  ],
+    objective: 'Realizar de manera correcta la instalación de dependencias para enviar la información',
+    steps: 'Descarga de material del módulo 6 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {

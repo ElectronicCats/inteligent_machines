@@ -91,7 +91,7 @@ export const Sensor_Imu = {
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 9',
-    time: '03:30 HORA',
+    time: '02:30 HORA',
     meterials: [
       'Archivo de Contenido para Modulo 9',
       'Kit Tiny Machine Learning',

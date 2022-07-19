@@ -91,7 +91,7 @@ export const Sensor_Rgb = {
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 8',
-    time: '03:30 HORA',
+    time: '02:30 HORA',
     meterials: [
       'Archivo de Contenido para Modulo 8',
       'Kit Tiny Machine Learning',

@@ -94,7 +94,7 @@ export const VisionArtificial = {
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 11',
-    time: '03:30 HORA',
+    time: '02:30 HORA',
     meterials: [
       'Archivo de Contenido para Modulo 11',
       'Kit Tiny Machine Learning',

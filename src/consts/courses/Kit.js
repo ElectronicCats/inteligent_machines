@@ -61,7 +61,7 @@ export const NuestroKit = {
       activitie:
         'El alumno desarrollará el código para mostrar en el monitor serie el valor del sensor propuesto por el instructor.',
       material: 'Arduino IDE, Computadora y Kit Arduino Tiny Machine Learning',
-      classTime: '15 min',
+      classTime: '60 min',
     },
   ],
   contentClass: {
@@ -100,8 +100,8 @@ export const NuestroKit = {
       'Libreta',
       'Lápiz',
     ],
-    objective: '',
-    steps: '',
+    objective: 'Conocer la tarjeta de desarrollo Arduino Nano 33 BLE sense ',
+    steps: 'Descarga el material del Módulo 4 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {

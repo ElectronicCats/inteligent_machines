@@ -141,7 +141,7 @@ export const Machine_learning = {
         title: 'Análisis de datos',
         description:
           'En esta clase aprenderás los diferentes tipos de datos que se manejan en los dispositivos embebidos, características de la recolección de datos y estrategias para el análisis de datos',
-        videoClass: 'https://player.vimeo.com/video/585137845',
+        videoClass: 'https://player.vimeo.com/585845088',
       },
       {
         title: 'Perceptron',

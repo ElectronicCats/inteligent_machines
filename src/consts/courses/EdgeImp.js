@@ -33,8 +33,8 @@ export const EdgeImpulse = {
       objective: 'Conocer la plataforma de entrenamiento de datos Edge Impulse',
       activitie:
         'El instructor mostrará al grupo el funcionamiento de la plataforma Edge Impulse y cada una de las funciones de entrenamiento.',
-      material: 'Computadora, proyector y apuntador',
-      classTime: '30 min',
+      material: 'Computadora, proyector, apuntador y conexión a internet',
+      classTime: '20 min',
     },
     {
       theme: 'Funciones básicas',
@@ -50,8 +50,8 @@ export const EdgeImpulse = {
       objective:
         'Conectar un smartphone con la plataforma para realizar el primer proyecto.',
       activitie:
-        'El instructor enseñará al alumno la correcta instalación del software Arduino IDE y la tarjeta Nano 33 BLE Sense.',
-      material: 'Arduino IDE, Computadora y Kit Arduino Tiny Machine Learning',
+        'El grupo seguirá los pasos para conectar un smarphone con la plataforma de Edge Impulse y conocerá cuáles otros dispositivos se pueden conectar.',
+      material: 'Computadora, proyector, apuntador, conexión a internet y smortphone con aplicación de lectua de código QR.',
       classTime: '20 min',
     },
     {
