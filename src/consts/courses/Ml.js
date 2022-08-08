@@ -6,7 +6,7 @@ export const Machine_learning = {
       {
         title: 'Objetivo',
         description:
-          'Conocer el subcampo de la inteligencia artificial “Machine learning”, entender los principios básicos de funcionamiento y las clasificaciones. Entender que es Tiny Machine Learning y porque se aplica en dispositivos embebidos y la importancia de conocer los diferentes tipos de datos que se pueden adquirir con el Kit de este programa educativo.',
+          'Conocer el subcampo de la inteligencia artificial “Machine learning”, entender los principios básicos de funcionamiento y las clasificaciones. Entender qué es Tiny Machine Learning y por qué se aplica en dispositivos embebidos y la importancia de conocer los diferentes tipos de datos que se pueden adquirir con el Kit de este programa educativo.',
         bullets: [],
       },
       {
@@ -23,14 +23,14 @@ export const Machine_learning = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Machine Learning, Tiny Machine Learning, dispositivos embebidos, Dato analógico, dato digital y análisis de datos.',
+          'Machine Learning, Tiny Machine Learning, dispositivos embebidos, dato analógico, dato digital y análisis de datos.',
       },
     ],
   },
   planContent: [
     {
       theme: '¿Qué es Machine Learning?',
-      objective: 'Entender como funciona esta tecnologia.',
+      objective: 'Entender cómo funciona esta tecnologia.',
       activitie: 'Expositiva',
       material: 'Proyector, computadora y señalador',
       classTime: '15 min',
@@ -72,10 +72,10 @@ export const Machine_learning = {
     {
       theme: 'Análisis de datos',
       objective:
-        'Saber que es el análisis de datos y porque juega un papel fundamental en la IA.',
+        'Saber qué es el análisis de datos y por qué juega un papel fundamental en la IA.',
       activitie:
         'Observar los dispositivos electrónicos que se tienen alrededor y analizar el tipo de información que envía y las magnitudes físicas que se pueden medir del mundo real.',
-      material: '',
+      material: 'Proyector, computadora, señalador',
       classTime: '30 min',
     },
     {
@@ -116,6 +116,7 @@ export const Machine_learning = {
       objective: 'Concluir sobre Tiny ML y el análisis de datos.',
       activitie:
         'Resolver dudas del módulo y realizar la práctica del material de la clase.',
+      material: 'Proyector, computadora, señalador'
       classTime: '30 min',
     },
   ],
@@ -153,11 +154,11 @@ export const Machine_learning = {
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 3',
-    time: '01:30 HORA',
+    time: '03:55 HORA',
     meterials: ['Archivo de Contenido para Modulo 3', 'Libreta', 'Lápiz'],
     objective: 'Comprender los conceptos básicos sobre Inteligencia Artificial',
     steps:
-      'Descargar el material del Modulo 3 y completar la información con relación a tu proyecto',
+      'Descargar el material del Módulo 3 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {

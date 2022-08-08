@@ -23,7 +23,7 @@ export const NuestroKit = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Microcontroladores, Arduino, Programación en C, lectura de hoja de datos.',
+          'Microcontroladores, Arduino, programación en C, lectura de hoja de datos.',
       },
     ],
   },
@@ -93,7 +93,7 @@ export const NuestroKit = {
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 4',
-    time: '02:30 HORA',
+    time: '02:20 HORA',
     meterials: [
       'Arduino Kit Tiny Machine Learning',
       'Archivo de Contenido para Modulo 4',
