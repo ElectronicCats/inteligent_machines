@@ -6,7 +6,7 @@ export const DevCode = {
       {
         title: 'Objetivo',
         description:
-          'Realizar de manera correcta la instalación de dependencias para enviar la información de la tarjeta Nano 33 BLE Sense a Edge Impulse Studio para realizar la clasificación de los datos.',
+          'Realizar de manera correcta la instalación de dependencias para enviar la información de la tarjeta Nano 33 BLE Sense a Edge Impulse Studio y, con ello, realizar la clasificación de los datos.',
         bullets: [],
       },
       {
@@ -35,7 +35,7 @@ export const DevCode = {
       activitie:
         'El instructor enseñará la correcta instalación de las dependencias para comunicar la tarjeta Nano 33 BLE Sense con Edge Impulse Studio.',
       material:
-        'Proyector, Computadora, Software descargado:, Node.js, Arduino CLI, Python 3, Edge CLI y Conexión a internet',
+        'Proyector, computadora, software descargado:, Node.js, Arduino CLI, Python 3, Edge CLI y conexión a internet',
       classTime: '30 min',
     },
     {
@@ -44,7 +44,7 @@ export const DevCode = {
         'Comprender el formato que recibe Edge Impulse y realizar el primer ejemplo con el grupo.',
       activitie: `El instructor realizará el primer ejemplo explicando al grupo la manera correcta en la que debe de mandarse la información de los sensores a Edge Impulse.
      Práctica: El alumno desarrollará el código para leer la información de algún sensor diferente al del ejemplo.,
-      material: 'Kit Tiny Machine Learning, Computadora y Conexión a internet`,
+      material: 'Kit Tiny Machine Learning, computadora y conexión a internet`,
       classTime: '30 min',
     },
     {
@@ -53,7 +53,7 @@ export const DevCode = {
         'Enviar la información recolectada a través de los sensores del kit a Edge Impulse para registrar la información y posteriormente hacer un Impulso.',
       activitie:
         'El instructor realizará el primer ejemplo explicando al grupo la manera correcta en la que debe Impulse. Práctica: El alumno realizará la recolección de información y la clasificará.',
-      material: 'Kit Tiny Machine Learning, Computadora y Conexión a internet',
+      material: 'Kit Tiny Machine Learning, computadora y conexión a internet',
       classTime: '60 min',
     },
   ],
@@ -85,7 +85,7 @@ export const DevCode = {
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso modulo 6',
-    time: '02:00 HORA',
+    time: '02:10 HORA',
     meterials: ['Arduino Kit Tiny Machine Learning',
     'Archivo de Contenido para Modulo 6',
     'Edge Impulse Estudio',

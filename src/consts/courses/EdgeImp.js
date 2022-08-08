@@ -23,7 +23,7 @@ export const EdgeImpulse = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Machine Learning, Red Neuronal, Aprendizaje reforzado, Edge Impulse, Filtro de datos, Clasificación de datos, Análisis de datos.',
+          'Machine Learning, red neuronal, aprendizaje reforzado, Edge Impulse, filtro de datos, clasificación de datos, análisis de datos.',
       },
     ],
   },
@@ -109,7 +109,7 @@ export const EdgeImpulse = {
     ],
     objective: 'Reforzar lo aprendido en las clases del módulo',
     steps:
-      'Descargar el material del Modulo 5, contestar las preguntas de refuerzo de lección y desarrollar la práctica propuesta',
+      'Descargar el material del módulo 5, contestar las preguntas de refuerzo de lección y desarrollar la práctica propuesta',
   },
   resoursesClass: {
     mainLink: {
