@@ -12,7 +12,7 @@ export const Sensor_Temperatura = {
       {
         title: 'Aprendizaje esperado',
         description:
-          'Programará de manera correcta la lectura del sensor de temperatura en la tarjeta de desarrollo utilizando Arduino IDE, Generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
+          'Programará de manera correcta la lectura del sensor de temperatura en la tarjeta de desarrollo utilizando Arduino IDE. Generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
       },
       {
         title: 'Competencia que favorece',
@@ -23,7 +23,7 @@ export const Sensor_Temperatura = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Arduino IDE, Microcontroladores, Sensores, Comunicación I2C, Edge Impulse, Analisis de datos.',
+          'Arduino IDE, microcontroladores, sensores, comunicación I2C, Edge Impulse, análisis de datos.',
       },
     ],
   },
@@ -62,7 +62,7 @@ export const Sensor_Temperatura = {
       activitie:
         'Los alumnos realizarán los ejercicios propuestos en el documento en contenido descargable.',
       material:
-        'Kit Machine Learning, Computadora, Edge Impulse y Conexión a internet',
+        'Kit Machine Learning, computadora, Edge Impulse y conexión a internet',
       classTime: '60 min',
     },
   ],
@@ -91,7 +91,7 @@ export const Sensor_Temperatura = {
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 7',
-    time: '03:30 HORA',
+    time: '02:30 HORA',
     meterials: [
       'Archivo de Contenido para Modulo 7',
       'Kit Tiny Machine Learning',

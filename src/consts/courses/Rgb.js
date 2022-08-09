@@ -23,7 +23,7 @@ export const Sensor_Rgb = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Arduino IDE, Microcontroladores, Sensores, Comunicación I2C, Edge Impulse, Análisis de datos, sensor RGB',
+          'Arduino IDE, microcontroladores, sensores, comunicación I2C, Edge Impulse, análisis de datos, sensor RGB',
       },
     ],
   },
