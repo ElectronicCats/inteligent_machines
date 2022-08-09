@@ -12,7 +12,7 @@ export const Microphone = {
       {
         title: 'Aprendizaje esperado',
         description:
-          'Programará de manera correcta la lectura de los datos del micrófono que está integrado en la tarjeta de desarrollo utilizando Arduino IDE, Generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
+          'Programará de manera correcta la lectura de los datos del micrófono que está integrado en la tarjeta de desarrollo utilizando Arduino IDE, generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
       },
       {
         title: 'Competencia que favorece',
@@ -23,7 +23,7 @@ export const Microphone = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Arduino IDE, Microcontroladores, Sensores, Comunicación I2C, Edge Impulse, Análisis de datos, Micrófono',
+          'Arduino IDE, microcontroladores, sensores, comunicación I2C, Edge Impulse, análisis de datos, Micrófono',
       },
     ],
   },
