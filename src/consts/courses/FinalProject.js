@@ -61,7 +61,7 @@ export const FinalProject = {
       'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_12/formato_proyecto%20final.pdf',
     content: [
       {
-        videoClass: 'https://player.vimeo.com/video/581310554',
+        videoClass: 'https://player.vimeo.com/737967559',
         title: 'Mi proyecto final',
         description:
           'En esta clase se explicará en qué consiste el desarrollo de tu proyecto final, se explicará cada una de las partes que debe de contener la estructura del documento del proyecto.',

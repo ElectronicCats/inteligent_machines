@@ -76,16 +76,19 @@ export const Sensor_Rgb = {
         title: 'Lectura del sensor RGB',
         description:
           'En esta clase aprenderás a desarrollar el código de lectura del sensor RGB.',
+        videoClass: 'https://player.vimeo.com/737961912'
       },
       {
         title: 'Envío de información a Edge Impulse',
         description:
           'En esta clase aprenderás a enviar la información del sensor de lectura a Edge Impulse y registrarla con etiquetas.',
+          videoClass: 'https://player.vimeo.com/587604576'
       },
       {
         title: 'Creando un impulso',
         description:
           'En esta clase desarrollarás un impulso de aprendizaje automático clasificando la información del sensor en 3 categorías de datos',
+          videoClass: 'https://player.vimeo.com/737961744'
       },
     ],
   },
