@@ -23,7 +23,7 @@ export const FinalProject = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Arduino IDE, Microcontroladores, Sensores, Comunicación I2C, Edge Impulse, Análisis de datos, procesamiento de imágenes.',
+          'Arduino IDE, microcontroladores, sensores, comunicación I2C, Edge Impulse, análisis de datos, procesamiento de imágenes.',
       },
     ],
   },

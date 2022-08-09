@@ -12,7 +12,7 @@ export const Sensor_Rgb = {
       {
         title: 'Aprendizaje esperado',
         description:
-          'Programará de manera correcta la lectura del sensor RGB en la tarjeta de desarrollo utilizando Arduino IDE, Generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
+          'Programará de manera correcta la lectura del sensor RGB en la tarjeta de desarrollo utilizando Arduino IDE, generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
       },
       {
         title: 'Competencia que favorece',

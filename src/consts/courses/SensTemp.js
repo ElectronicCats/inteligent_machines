@@ -114,12 +114,6 @@ export const Sensor_Temperatura = {
     },
     links: [
       {
-        pathToFile:
-          'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
-        downloadName: '',
-        label: 'Video estructura de un programa en Arduino',
-      },
-      {
         pathToFile: 'https://www.youtube.com/watch?v=2v8U9fc2Z9k',
         downloadName: '',
         label: 'Video estructura de un programa en Arduino',
