@@ -23,7 +23,7 @@ export const NuestroKit = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Microcontroladores, Arduino, Programación en C, lectura de hoja de datos.',
+          'Microcontroladores, Arduino, programación en C, lectura de hoja de datos.',
       },
     ],
   },
@@ -61,7 +61,7 @@ export const NuestroKit = {
       activitie:
         'El alumno desarrollará el código para mostrar en el monitor serie el valor del sensor propuesto por el instructor.',
       material: 'Arduino IDE, Computadora y Kit Arduino Tiny Machine Learning',
-      classTime: '15 min',
+      classTime: '60 min',
     },
   ],
   contentClass: {
@@ -84,7 +84,7 @@ export const NuestroKit = {
           'En esta clase aprenderás a instalar correctamente Arduino IDE y el paquete de la tarjeta Nano 33 BLE Sense',
       },
       {
-        videoClass: 'https://player.vimeo.com/video/583021936',
+        videoClass: 'https://player.vimeo.com/737949739',
         title: 'Mi primer ejemplo',
         description:
           'En esta clase aprenderás a cargar el primer ejemplo en tu tarjeta Nano 33 BLE Sense',
@@ -93,15 +93,15 @@ export const NuestroKit = {
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 4',
-    time: '02:30 HORA',
+    time: '02:20 HORA',
     meterials: [
       'Arduino Kit Tiny Machine Learning',
       'Archivo de Contenido para Modulo 4',
       'Libreta',
       'Lápiz',
     ],
-    objective: '',
-    steps: '',
+    objective: 'Conocer la tarjeta de desarrollo Arduino Nano 33 BLE sense ',
+    steps: 'Descarga el material del Módulo 4 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {

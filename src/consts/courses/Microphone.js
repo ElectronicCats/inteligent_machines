@@ -12,7 +12,7 @@ export const Microphone = {
       {
         title: 'Aprendizaje esperado',
         description:
-          'Programará de manera correcta la lectura de los datos del micrófono que está integrado en la tarjeta de desarrollo utilizando Arduino IDE, Generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
+          'Programará de manera correcta la lectura de los datos del micrófono que está integrado en la tarjeta de desarrollo utilizando Arduino IDE, generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
       },
       {
         title: 'Competencia que favorece',
@@ -23,7 +23,7 @@ export const Microphone = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Arduino IDE, Microcontroladores, Sensores, Comunicación I2C, Edge Impulse, Análisis de datos, Microfono',
+          'Arduino IDE, microcontroladores, sensores, comunicación I2C, Edge Impulse, análisis de datos, Micrófono',
       },
     ],
   },
@@ -73,16 +73,19 @@ export const Microphone = {
       'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_10/modulo10_microfono.pdf',
     content: [
       {
+        videoClass: 'https://player.vimeo.com/737963596',
         title: 'Lectura del micrófono',
         description:
           'En esta clase aprenderás a desarrollar el código de lectura del sensor RGB.',
       },
       {
+        videoClass: 'https://player.vimeo.com/737963596',
         title: 'Envío de información a Edge Impulse',
         description:
           'En esta clase aprenderás a enviar la información del sensor de lectura a Edge Impulse y registrarla con etiquetas.',
       },
       {
+        videoClass: 'https://player.vimeo.com/737964692',
         title: 'Creando un impulso',
         description:
           'En esta clase desarrollarás un impulso de aprendizaje automático clasificando la información del sensor en 3 categorías de datos',
@@ -91,7 +94,7 @@ export const Microphone = {
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 10',
-    time: '03:30 HORA',
+    time: '02:30 HORA',
     meterials: [
       'Archivo de Contenido para Modulo 10',
       'Kit Tiny Machine Learning',

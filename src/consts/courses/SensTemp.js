@@ -12,7 +12,7 @@ export const Sensor_Temperatura = {
       {
         title: 'Aprendizaje esperado',
         description:
-          'Programará de manera correcta la lectura del sensor de temperatura en la tarjeta de desarrollo utilizando Arduino IDE, Generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
+          'Programará de manera correcta la lectura del sensor de temperatura en la tarjeta de desarrollo utilizando Arduino IDE. Generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
       },
       {
         title: 'Competencia que favorece',
@@ -23,7 +23,7 @@ export const Sensor_Temperatura = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Arduino IDE, Microcontroladores, Sensores, Comunicación I2C, Edge Impulse, Analisis de datos.',
+          'Arduino IDE, microcontroladores, sensores, comunicación I2C, Edge Impulse, análisis de datos.',
       },
     ],
   },
@@ -62,7 +62,7 @@ export const Sensor_Temperatura = {
       activitie:
         'Los alumnos realizarán los ejercicios propuestos en el documento en contenido descargable.',
       material:
-        'Kit Machine Learning, Computadora, Edge Impulse y Conexión a internet',
+        'Kit Machine Learning, computadora, Edge Impulse y conexión a internet',
       classTime: '60 min',
     },
   ],
@@ -76,22 +76,25 @@ export const Sensor_Temperatura = {
         title: 'Lectura del sensor de temperatura',
         description:
           'En esta clase aprenderás a desarrollar el código de lectura del sensor de temperatura.',
+        videoClass: 'https://player.vimeo.com/737959199'
       },
       {
         title: 'Envío de información a Edge Impulse',
         description:
           'En esta clase aprenderás a enviar la información del sensor de lectura a Edge Impulse y registrarla con etiquetas.',
+          videoClass: 'https://player.vimeo.com/737959286'
       },
       {
         title: 'Creando un impulso',
         description:
           'En esta clase desarrollarás un impulso de aprendizaje automático clasificando la información del sensor en 3 categorías de datos',
+          videoClass: 'https://player.vimeo.com/737959380'
       },
     ],
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 7',
-    time: '03:30 HORA',
+    time: '02:30 HORA',
     meterials: [
       'Archivo de Contenido para Modulo 7',
       'Kit Tiny Machine Learning',
@@ -110,12 +113,6 @@ export const Sensor_Temperatura = {
       label: 'Carpeta del módulo 7',
     },
     links: [
-      {
-        pathToFile:
-          'https://www.ibm.com/docs/es/elm/6.0.3?topic=files-csv-file-format-examples',
-        downloadName: '',
-        label: 'Video estructura de un programa en Arduino',
-      },
       {
         pathToFile: 'https://www.youtube.com/watch?v=2v8U9fc2Z9k',
         downloadName: '',

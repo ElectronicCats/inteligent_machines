@@ -12,7 +12,7 @@ export const Sensor_Imu = {
       {
         title: 'Aprendizaje esperado',
         description:
-          'Programará de manera correcta la lectura del sensor IMU en la tarjeta de desarrollo utilizando Arduino IDE, Generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
+          'Programará de manera correcta la lectura del sensor IMU en la tarjeta de desarrollo utilizando Arduino IDE, generará el formato de datos en CSV para enviar a Edge Impulse y crear un impulso nuevo.',
       },
       {
         title: 'Competencia que favorece',
@@ -23,7 +23,7 @@ export const Sensor_Imu = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Arduino IDE, Microcontroladores, Sensores, Comunicación I2C, Edge Impulse, Análisis de datos, sensor IMU',
+          'Arduino IDE, microcontroladores, sensores, comunicación I2C, Edge Impulse, análisis de datos, sensor IMU',
       },
     ],
   },
@@ -76,22 +76,25 @@ export const Sensor_Imu = {
         title: 'Lectura del sensor IMU',
         description:
           'En esta clase aprenderás a desarrollar el código de lectura del sensor RGB.',
+          videoClass: 'https://player.vimeo.com/737963596'
       },
       {
         title: 'Envío de información a Edge Impulse',
         description:
           'En esta clase aprenderás a enviar la información del sensor de lectura a Edge Impulse y registrarla con etiquetas.',
+        videoClass: 'https://player.vimeo.com/587604991'
       },
       {
         title: 'Creando un impulso',
         description:
           'En esta clase desarrollarás un impulso de aprendizaje automático clasificando la información del sensor en 3 categorías de datos',
+          videoClass: 'https://player.vimeo.com/737963341'
       },
     ],
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 9',
-    time: '03:30 HORA',
+    time: '02:30 HORA',
     meterials: [
       'Archivo de Contenido para Modulo 9',
       'Kit Tiny Machine Learning',

@@ -23,7 +23,7 @@ export const VisionArtificial = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Arduino IDE, Microcontroladores, Sensores, Comunicación I2C, Edge Impulse, Análisis de datos, procesamiento de imágenes.',
+          'Arduino IDE, microcontroladores, sensores, comunicación I2C, Edge Impulse, análisis de datos, procesamiento de imágenes.',
       },
     ],
   },
@@ -79,13 +79,13 @@ export const VisionArtificial = {
           'En esta clase aprenderás los conceptos básicos sobre procesamiento de miagenes para visión artificial.',
       },
       {
-        videoClass: 'https://player.vimeo.com/video/583127902',
+        videoClass: 'https://player.vimeo.com/737964692',
         title: 'Mi primer ejemplo con Teachable Machine',
         description:
           'En esta clase aprenderás a utilizar la plataforma Teachable Machine para aprendizaje automático de imágenes',
       },
       {
-        videoClass: 'https://player.vimeo.com/video/583127902',
+        videoClass: 'https://player.vimeo.com/737966137',
         title: 'Exportando proyecto a Arduino IDE',
         description:
           'En esta clase desarrollarás el código para realizar un proyecto de visión artificial tomando como base el aprendizaje de la plataforma Teachable Machine.',
@@ -94,7 +94,7 @@ export const VisionArtificial = {
   },
   practiceClass: {
     precticeName: 'Conceptos de repaso Modulo 11',
-    time: '03:30 HORA',
+    time: '02:30 HORA',
     meterials: [
       'Archivo de Contenido para Modulo 11',
       'Kit Tiny Machine Learning',

@@ -23,7 +23,7 @@ export const Etica_Resp = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Ética y responsabilidades de la IA, Organizaciones que regulan esta tecnología y riesgos de aplicar IA con datos sesgados.',
+          'Ética y responsabilidades de la IA, organizaciones que regulan esta tecnología y riesgos de aplicar IA con datos sesgados.',
       },
     ],
   },
@@ -96,13 +96,13 @@ export const Etica_Resp = {
     ],
   },
   practiceClass: {
-    precticeName: 'Conceptos de repaso Modulo 2',
-    time: '01:30 HORA',
-    meterials: ['Archivo de Contenido para Modulo 2', 'Libreta', 'Lápiz'],
+    precticeName: 'Conceptos de repaso Módulo 2',
+    time: '02:50 HORA',
+    meterials: ['Archivo de Contenido para Módulo 2', 'Libreta', 'Lápiz'],
     objective:
       'Comprender y analizar cuales son los puntos éticos que debe de reforzar la IA antes de realizar un proyecto',
     steps:
-      'Descargar el material del Modulo 2 y completar la información con relación a tu proyecto',
+      'Descargar el material del Módulo 2 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {

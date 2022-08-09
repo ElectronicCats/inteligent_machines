@@ -23,7 +23,7 @@ export const EdgeImpulse = {
       {
         title: 'Contenidos temáticos',
         description:
-          'Machine Learning, Red Neuronal, Aprendizaje reforzado, Edge Impulse, Filtro de datos, Clasificación de datos, Análisis de datos.',
+          'Machine Learning, red neuronal, aprendizaje reforzado, Edge Impulse, filtro de datos, clasificación de datos, análisis de datos.',
       },
     ],
   },
@@ -33,8 +33,8 @@ export const EdgeImpulse = {
       objective: 'Conocer la plataforma de entrenamiento de datos Edge Impulse',
       activitie:
         'El instructor mostrará al grupo el funcionamiento de la plataforma Edge Impulse y cada una de las funciones de entrenamiento.',
-      material: 'Computadora, proyector y apuntador',
-      classTime: '30 min',
+      material: 'Computadora, proyector, apuntador y conexión a internet',
+      classTime: '20 min',
     },
     {
       theme: 'Funciones básicas',
@@ -50,8 +50,8 @@ export const EdgeImpulse = {
       objective:
         'Conectar un smartphone con la plataforma para realizar el primer proyecto.',
       activitie:
-        'El instructor enseñará al alumno la correcta instalación del software Arduino IDE y la tarjeta Nano 33 BLE Sense.',
-      material: 'Arduino IDE, Computadora y Kit Arduino Tiny Machine Learning',
+        'El grupo seguirá los pasos para conectar un smarphone con la plataforma de Edge Impulse y conocerá cuáles otros dispositivos se pueden conectar.',
+      material: 'Computadora, proyector, apuntador, conexión a internet y smortphone con aplicación de lectua de código QR.',
       classTime: '20 min',
     },
     {
@@ -84,13 +84,13 @@ export const EdgeImpulse = {
           'En esta clase aprenderás cada una de las funciones en edge impulse, bloques de aprendizaje y parámetros para realizar un impulso de aprendizaje. ',
       },
       {
-        videoClass: 'https://player.vimeo.com/video/583997048',
+        videoClass: 'https://player.vimeo.com/587604338',
         title: 'Conectando un dispositivo',
         description:
           'En esta clase aprenderás a conectar un smartphone con Edge Impulse e identificar cuáles otros dispositivos son compatibles con la plataforma.',
       },
       {
-        videoClass: 'https://player.vimeo.com/video/583997048',
+        videoClass: 'https://player.vimeo.com/737953655',
         title: 'Creando mi primer impulso',
         description:
           'En esta clase aprenderás a crear tu primer impulso con Edge Impulse utilizando el micrófono o acelerómetro integrados en tu Smartphone.',
@@ -109,7 +109,7 @@ export const EdgeImpulse = {
     ],
     objective: 'Reforzar lo aprendido en las clases del módulo',
     steps:
-      'Descargar el material del Modulo 5, contestar las preguntas de refuerzo de lección y desarrollar la práctica propuesta',
+      'Descargar el material del módulo 5, contestar las preguntas de refuerzo de lección y desarrollar la práctica propuesta',
   },
   resoursesClass: {
     mainLink: {
