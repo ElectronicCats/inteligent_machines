@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.1d1e454f.chunk.js",
-    "main.js.map": "/static/js/main.1d1e454f.chunk.js.map",
+    "main.js": "/static/js/main.fb0957b9.chunk.js",
+    "main.js.map": "/static/js/main.fb0957b9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b238ae78.js",
     "runtime-main.js.map": "/static/js/runtime-main.b238ae78.js.map",
-    "static/js/2.a57ce703.chunk.js": "/static/js/2.a57ce703.chunk.js",
-    "static/js/2.a57ce703.chunk.js.map": "/static/js/2.a57ce703.chunk.js.map",
+    "static/js/2.e1658066.chunk.js": "/static/js/2.e1658066.chunk.js",
+    "static/js/2.e1658066.chunk.js.map": "/static/js/2.e1658066.chunk.js.map",
     "static/js/3.d393f408.chunk.js": "/static/js/3.d393f408.chunk.js",
     "static/js/3.d393f408.chunk.js.map": "/static/js/3.d393f408.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.a57ce703.chunk.js.LICENSE.txt": "/static/js/2.a57ce703.chunk.js.LICENSE.txt",
+    "static/js/2.e1658066.chunk.js.LICENSE.txt": "/static/js/2.e1658066.chunk.js.LICENSE.txt",
     "static/media/Acumin-BdPro.9fbc064b.otf": "/static/media/Acumin-BdPro.9fbc064b.otf",
     "static/media/Acumin-RPro.0ff8c5d6.otf": "/static/media/Acumin-RPro.0ff8c5d6.otf",
     "static/media/Gotham-Book.b6e803be.otf": "/static/media/Gotham-Book.b6e803be.otf",
@@ -60,7 +60,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b238ae78.js",
-    "static/js/2.a57ce703.chunk.js",
-    "static/js/main.1d1e454f.chunk.js"
+    "static/js/2.e1658066.chunk.js",
+    "static/js/main.fb0957b9.chunk.js"
   ]
 }
