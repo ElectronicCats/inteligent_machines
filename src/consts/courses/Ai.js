@@ -6,24 +6,24 @@ export const InteligenciaArtificial = {
       {
         title: 'Objetivo',
         description:
-          'El programa Máquinas Inteligentes se centra en la rama de inteligencia artificial (IA), Machine Learning con microcontroladores y Edge Impulse . Por lo tanto, es importante que los estudiantes entiendan las capacidades de las herramientas de IA. También es importante que los estudiantes sepan qué pueden configurar el sistema y que reconozcan qué crearán un proyecto en el programa.',
+          'El programa Máquinas Inteligentes se centra en la rama de inteligencia artificial (IA), machine learning con microcontroladores y Edge Impulse . Por lo tanto, es importante que los estudiantes entiendan las capacidades de las herramientas de IA. También es importante que los estudiantes sepan que pueden configurar el sistema y que reconozcan qué crearán un proyecto en el programa.',
         bullets: [],
       },
       {
         title: 'Aprendizaje esperado',
         description:
-          'Conocerá los conceptos relacionados con Inteligencia Artificial, la historia a través de los años y sus aplicaciones en nuestra vida cotidiana.',
+          'Conocerá los conceptos relacionados con inteligencia artificial, la historia a través de los años y sus aplicaciones en nuestra vida cotidiana.',
       },
       {
         title: 'Competencia que favorece',
         description:
-          'Analiza los cambios históricos de la Inteligencia Artificial en la vida del ser humano y cómo ha afectado su vida, comprende la diferencia entre la inteligencia humana y sus aplicaciones en la ciencia y tecnología.',
+          'Analiza los cambios históricos de la inteligencia artificial en la vida del ser humano y cómo ha afectado su vida, comprende la diferencia entre la inteligencia humana y sus aplicaciones en la ciencia y tecnología.',
         bullets: [],
       },
       {
         title: 'Contenidos temáticos',
         description:
-          '¿Qué es Inteligencia artificial?, Diferencia entre IA y IH, aplicaciones de IA, historia de la IA',
+          '¿Qué es Inteligencia artificial?, diferencia entre IA y IH, aplicaciones de IA, historia de la IA',
       },
     ],
   },
@@ -107,7 +107,7 @@ export const InteligenciaArtificial = {
   practiceClass: {
     precticeName: 'Conceptos de repaso Módulo 1',
     time: '03:00 HORA',
-    meterials: ['Archivo de Contenido para Modulo 1', 'Libreta', 'Lápiz'],
+    meterials: ['Archivo de contenido para módulo 1', 'Libreta', 'Lápiz'],
     objective: 'Comprender los conceptos básicos sobre Inteligencia Artificial',
     steps:
       'Para reforzar lo aprendido en las clases es importante que realices el siguiente cuestionario de repaso       ¿Qué es Inteligencia artificial?           ¿Cuál es la diferencia entre la inteligencia humana y la artificial?                 Menciona los subcampos de inteligencia artificial                ¿Qué debe de cuidar un desarrollador de inteligencia artificial al realizar sus modelos de aprendizaje?                   Es momento de comenzar a Identificar alguna problemática en tu hogar, colonia, escuela o alguno de los lugares frecuentes. Identifica cuál de estos problemas puede ser solucionado desarrollando algún proyecto con Inteligencia Artificial. Se sugiere que durante todo este curso trabajes con esta idea para que al finalizar la lleves a cabo y puedas compartirla con la comunidad de Máquinas Inteligentes, sí en el transcurso prefieres cambiar de proyecto puedes hacerlo.                   Problemática a resolver:                   Ideas para resolver la problemática:                  Puntos claves del problema:                   Datos a analizar:',
