@@ -43,4 +43,5 @@ jobs:
           user_name: 'wolftrax5'
           user_email: '5almero5@gmail.com'
           github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
           repository: ${{ github.repository }}
