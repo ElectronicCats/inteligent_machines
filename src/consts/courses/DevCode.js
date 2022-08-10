@@ -86,12 +86,15 @@ export const DevCode = {
   practiceClass: {
     precticeName: 'Conceptos de repaso modulo 6',
     time: '02:10 HORA',
-    meterials: ['Arduino Kit Tiny Machine Learning',
-    'Archivo de Contenido para Modulo 6',
-    'Edge Impulse Estudio',
-  ],
-    objective: 'Realizar de manera correcta la instalación de dependencias para enviar la información',
-    steps: 'Descarga de material del módulo 6 y completar la información con relación a tu proyecto',
+    meterials: [
+      'Arduino Kit Tiny Machine Learning',
+      'Archivo de Contenido para Modulo 6',
+      'Edge Impulse Estudio',
+    ],
+    objective:
+      'Realizar de manera correcta la instalación de dependencias para enviar la información',
+    steps:
+      'Descarga de material del módulo 6 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {

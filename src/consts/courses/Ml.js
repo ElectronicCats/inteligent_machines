@@ -116,7 +116,7 @@ export const Machine_learning = {
       objective: 'Concluir sobre Tiny ML y el análisis de datos.',
       activitie:
         'Resolver dudas del módulo y realizar la práctica del material de la clase.',
-      material: 'Proyector, computadora, señalador'
+      material: 'Proyector, computadora, señalador',
       classTime: '30 min',
     },
   ],

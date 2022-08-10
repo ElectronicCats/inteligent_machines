@@ -51,7 +51,8 @@ export const EdgeImpulse = {
         'Conectar un smartphone con la plataforma para realizar el primer proyecto.',
       activitie:
         'El grupo seguirá los pasos para conectar un smarphone con la plataforma de Edge Impulse y conocerá cuáles otros dispositivos se pueden conectar.',
-      material: 'Computadora, proyector, apuntador, conexión a internet y smortphone con aplicación de lectua de código QR.',
+      material:
+        'Computadora, proyector, apuntador, conexión a internet y smortphone con aplicación de lectua de código QR.',
       classTime: '20 min',
     },
     {

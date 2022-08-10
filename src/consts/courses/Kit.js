@@ -101,7 +101,8 @@ export const NuestroKit = {
       'Lápiz',
     ],
     objective: 'Conocer la tarjeta de desarrollo Arduino Nano 33 BLE sense ',
-    steps: 'Descarga el material del Módulo 4 y completar la información con relación a tu proyecto',
+    steps:
+      'Descarga el material del Módulo 4 y completar la información con relación a tu proyecto',
   },
   resoursesClass: {
     mainLink: {
