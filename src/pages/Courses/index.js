@@ -27,7 +27,7 @@ export const Courses = () => {
                     marginInline: '20px 40px',
                   }}
                 >
-                  Este curso esta abierto para su duplicacion, es libre y
+                  Este curso esta abierto para su duplicación, es libre y
                   gratuito.
                   <br />
                   No sabes donde iniciar, te sugerimos leer nuestra{' '}
