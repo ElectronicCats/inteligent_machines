@@ -200,7 +200,8 @@ export const Cvmap = () => {
           'Desarrolla la capacidad de planificar tareas, organizar el trabajo en equipo y gestionar los recursos para la generación del proyecto final.',
         upper:
           'Trabajo en equipo, pensamiento crítico, planificación, programación, innovación, electrónica.',
-        themes: 'Implementación práctica de los conocimientos adquiridos durante el curso',
+        themes:
+          'Implementación práctica de los conocimientos adquiridos durante el curso',
         materia: 'Desarrollo de proyectos',
       },
     ],

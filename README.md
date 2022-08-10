@@ -1,6 +1,5 @@
 [![CD](https://github.com/ElectronicCats/inteligent_machines/actions/workflows/cd.yml/badge.svg)](https://github.com/ElectronicCats/inteligent_machines/actions/workflows/cd.yml)
 
-
 # Maquinas Inteligentes
 
 Curso de Tiny Machine Learning y Análisis de datos
@@ -10,7 +9,6 @@ Máquinas Inteligentes es un programa educativo, para desarrollar habilidades in
 Este es el repositorio de mantenimiento de la pagina http://maquinasinteligentes.org/
 
 Para disfrutar la version completa entra a [http://maquinasinteligentes.org/](http://maquinasinteligentes.org/)
-
 
 ### Objetivos
 
@@ -25,9 +23,11 @@ Para disfrutar la version completa entra a [http://maquinasinteligentes.org/](ht
 - Programar dispositivos embebidos con Arduino IDE y Edge Impulse.
 
 ### Comunidad
+
 Nos gustaría saber en donde replicaste este curso, compartenos tu experiencia junto a diferentes educadores de latinoamérica en el Facebook oficial del curso. Puedes aportar con tus experiencias y recomendaciones.
 
 ## Deseas reportar un error o bug en la pagina
+
 Abre un issue en este repositorio, todas las contribuciones son bienvenidos o pullrequest
 
 ## Build project Manual
@@ -56,6 +56,7 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 ### Environments
 
 you can set the env var creating a .env file
@@ -85,4 +86,3 @@ and applyed into the `.gihub/workflows/cd` pipeline to applyed on the process
 ## License
 
 GPL-3.0 License
-
