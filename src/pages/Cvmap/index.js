@@ -191,17 +191,6 @@ export const Cvmap = () => {
           'Programación, Análisis de datos, Electronica, Modelado Mátematico, Probabilidad, Visión Artificial y Estadística y Sistemas Embebidos',
       },
       {
-        session: 'Prácticas',
-        objective: 'Resolver un problema implementando Tiny Machine Learning',
-        learn:
-          'Resuelve problemáticas usando los conocimientos de programación, circuitos, uso de motores, actuadores y mecanismos..',
-        visits:
-          'Resuelve problemas complejos implementando procesos tecnológicos aprendidos.',
-        upper:
-          'Trabajo en equipo, pensamiento crítico, planificación, programación, innovación, electrónica.',
-        themes: '',
-      },
-      {
         session: 'Proyecto final',
         objective:
           'Elabora un proyecto para la solución de una problemática de salud, ambiental, mecánica, alimenticia o social.',
@@ -211,7 +200,7 @@ export const Cvmap = () => {
           'Desarrolla la capacidad de planificar tareas, organizar el trabajo en equipo y gestionar los recursos para la generación del proyecto final.',
         upper:
           'Trabajo en equipo, pensamiento crítico, planificación, programación, innovación, electrónica.',
-        themes: '',
+        themes: 'Implementación práctica de los conocimientos adquiridos durante el curso',
         materia: 'Desarrollo de proyectos',
       },
     ],
@@ -223,13 +212,13 @@ export const Cvmap = () => {
       <>
         <GradientContainerRound>
           <ContainerTitle color='#fff' size='5'>
-            Mapa curicular
+            Mapa curricular
           </ContainerTitle>
           <ContainerP>
             A continuación se presenta el temario del programa Máquinas
             Inteligentes y la vinculación que tienen con las asignaturas a nivel
-            Bachillerato o Nivel Medio Superior, los contenidos temáticos, Ejes,
-            Temas, Competencias que se favorecen y Aprendizajes esperados.
+            bachillerato o nivel medio superior, los contenidos temáticos, ejes,
+            temas, competencias que se favorecen y aprendizajes esperados.
             Máquinas Inteligentes busca alinearse al currículum escolar mediante
             la construcción de modelos de Machine Learning.
           </ContainerP>
