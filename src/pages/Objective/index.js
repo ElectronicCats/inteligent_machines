@@ -41,7 +41,7 @@ export const Objective = () => {
             microcontroladores con Arduino IDE y profesores de nivel educativo
             media superior en adelante, en el mundo de Tiny Machine Learning.
             Mostrar a la próxima generación de profesionistas las aplicaciones
-            de las especialidades de Ciencia de datos e Inteligencia Artificial
+            de las especialidades de ciencia de datos e inteligencia artificial
             para fomentar alguna de las carreras relacionadas con ciencia y
             tecnología. La demanda de esta profesión en el año 2030 será
             demasiada, para países como México será difícil proveer la cantidad

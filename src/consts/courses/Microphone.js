@@ -73,19 +73,19 @@ export const Microphone = {
       'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_10/modulo10_microfono.pdf',
     content: [
       {
-        videoClass: 'https://player.vimeo.com/737963596',
+        videoClass: 'https://player.vimeo.com/video/737964523',
         title: 'Lectura del micrófono',
         description:
           'En esta clase aprenderás a desarrollar el código de lectura del sensor RGB.',
       },
       {
-        videoClass: 'https://player.vimeo.com/737963596',
+        videoClass: 'https://player.vimeo.com/video/737964618',
         title: 'Envío de información a Edge Impulse',
         description:
           'En esta clase aprenderás a enviar la información del sensor de lectura a Edge Impulse y registrarla con etiquetas.',
       },
       {
-        videoClass: 'https://player.vimeo.com/737964692',
+        videoClass: 'https://player.vimeo.com/video/737964692',
         title: 'Creando un impulso',
         description:
           'En esta clase desarrollarás un impulso de aprendizaje automático clasificando la información del sensor en 3 categorías de datos',

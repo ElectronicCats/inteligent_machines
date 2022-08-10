@@ -136,19 +136,19 @@ export const Machine_learning = {
         title: 'Tiny Machine Learning',
         description:
           'En esta clase aprenderás los puntos fuertes de Machine Learning en dispositivos embebidos',
-        videoClass: 'https://player.vimeo.com/737949357',
+        videoClass: 'https://player.vimeo.com/video/737949357',
       },
       {
         title: 'Análisis de datos',
         description:
           'En esta clase aprenderás los diferentes tipos de datos que se manejan en los dispositivos embebidos, características de la recolección de datos y estrategias para el análisis de datos',
-        videoClass: 'https://player.vimeo.com/585845088',
+        videoClass: 'https://player.vimeo.com/video/585845088',
       },
       {
         title: 'Perceptron',
         description:
           'En esta clase conocerás que es un perceptrón de manera breve y aprenderás la estructura de funcionamiento con un ejemplo sencillo.',
-        videoClass: 'https://player.vimeo.com/737949739',
+        videoClass: 'https://player.vimeo.com/video/737949739',
       },
     ],
   },

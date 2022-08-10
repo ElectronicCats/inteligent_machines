@@ -85,13 +85,13 @@ export const EdgeImpulse = {
           'En esta clase aprenderás cada una de las funciones en edge impulse, bloques de aprendizaje y parámetros para realizar un impulso de aprendizaje. ',
       },
       {
-        videoClass: 'https://player.vimeo.com/587604338',
+        videoClass: 'https://player.vimeo.com/video/587604338',
         title: 'Conectando un dispositivo',
         description:
           'En esta clase aprenderás a conectar un smartphone con Edge Impulse e identificar cuáles otros dispositivos son compatibles con la plataforma.',
       },
       {
-        videoClass: 'https://player.vimeo.com/737953655',
+        videoClass: 'https://player.vimeo.com/video/737953655',
         title: 'Creando mi primer impulso',
         description:
           'En esta clase aprenderás a crear tu primer impulso con Edge Impulse utilizando el micrófono o acelerómetro integrados en tu Smartphone.',

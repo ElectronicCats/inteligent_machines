@@ -76,19 +76,19 @@ export const Sensor_Imu = {
         title: 'Lectura del sensor IMU',
         description:
           'En esta clase aprenderás a desarrollar el código de lectura del sensor RGB.',
-        videoClass: 'https://player.vimeo.com/737963596',
+        videoClass: 'https://player.vimeo.com/video/737963596',
       },
       {
         title: 'Envío de información a Edge Impulse',
         description:
           'En esta clase aprenderás a enviar la información del sensor de lectura a Edge Impulse y registrarla con etiquetas.',
-        videoClass: 'https://player.vimeo.com/587604991',
+        videoClass: 'https://player.vimeo.com/video/587604991',
       },
       {
         title: 'Creando un impulso',
         description:
           'En esta clase desarrollarás un impulso de aprendizaje automático clasificando la información del sensor en 3 categorías de datos',
-        videoClass: 'https://player.vimeo.com/737963341',
+        videoClass: 'https://player.vimeo.com/video/737963341',
       },
     ],
   },
