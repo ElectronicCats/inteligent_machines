@@ -64,19 +64,19 @@ export const DevCode = {
       'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_6/modulo6_programando_nuestro_codigo.pdf',
     content: [
       {
-        vimeoSrc: 'https://player.vimeo.com/video/579484299',
+        videoClass: 'https://player.vimeo.com/video/579484299',
         title: 'Instalando Edge Impulse CLI',
         description:
           'En esta clase aprenderás a instalar correctamente Edge Impulse CLI para comunicar tu Kit con el estudio.',
       },
       {
-        vimeoSrc: 'https://player.vimeo.com/video/737957106',
+        videoClass: 'https://player.vimeo.com/video/737957106',
         title: 'Nuestro primer programa con el Kit en Arduino IDE',
         description:
           'En esta clase aprenderás a desarrollar el código para enviar la información de los sensores de la tarjeta Nano 33 BLE Sense a Edge Impulse Studio en el formato correcto.',
       },
       {
-        vimeoSrc: 'https://player.vimeo.com/video/737957292',
+        videoClass: 'https://player.vimeo.com/video/737957292',
         title: 'Enviando nuestra información a Edge Impulse',
         description:
           'En esta clase comprenderás la manera de enviar la información a Edge Impulse Studio de la tarjeta Nano 33 BLE Sense.',
