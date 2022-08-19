@@ -73,7 +73,7 @@ export const EdgeImpulse = {
       'https://github.com/ElectronicCats/ejemplos-maquinas-inteligentes/raw/main/Modulo_5/modulo5_edge_impulse.pdf',
     content: [
       {
-        videoClass: 'https://player.vimeo.com/video/583574793',
+        videoClass: 'https://player.vimeo.com/video/741216065',
         title: 'Edge Impulse',
         description:
           'En esta clase conocerás la plataforma de Edge Impulse y su funcionamiento',
